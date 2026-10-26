@@ -80,7 +80,7 @@ needs the zip if you want to search the corpus or add facts.
 | `src/crag/prompt.py` | The fixed prompt template | Only if we change the proposal |
 | `src/crag/generate.py` | Llama wrapper: `greedy`, `sample`, `hidden_states`, `answer` | Decoding settings, saving more layers or tokens |
 | `src/crag/score.py` | Labels an answer true / cf / both / neither; failure type | Scoring rules |
-| `src/crag/run_baseline.py` | Conditions 1 and 2. `rag(llm, fact, wording, m, ...)` already works for any m | Writing Condition 3 (loop m = 1..5) |
+| `src/crag/run_baseline.py` | Conditions 1, 2, and 3. `rag(llm, fact, wording, m, ...)` works for any m; `--conditions` picks which to run | Adding a condition |
 | `src/crag/worked_example.py` | Writes `examples/<fact>.md` for one fact | Changing what we show the TA |
 | `notebooks/demo.ipynb` | Midterm demo: corpus, retrieval, one example, baseline tables | |
 
@@ -96,6 +96,8 @@ needs the zip if you want to search the corpus or add facts.
 | Add facts | write them into `data/facts.json`, then `python -m crag.facts fill` | `data/facts.json` |
 | Worked example | `python -m crag.worked_example <fact id> --run` | `examples/<fact id>.md` |
 | Conditions 1 and 2 | `python -m crag.run_baseline` | `results/baseline.jsonl`, `results/hidden/` |
+| Condition 1 only (fast) | `python -m crag.run_baseline --conditions 1` | `results/baseline.jsonl` |
+| Condition 3 (m = 1 to 5) | `python -m crag.run_baseline --conditions 3` | `results/baseline.jsonl`, `results/hidden/` |
 
 ## Design decisions (changes from or additions to the proposal)
 
