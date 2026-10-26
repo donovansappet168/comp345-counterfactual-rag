@@ -1,0 +1,638 @@
+[
+  {
+    "id": "nafta_start",
+    "group": null,
+    "true_value": "1994",
+    "cf_value": "1996",
+    "questions": [
+      "In what year did NAFTA go into effect?",
+      "When did the North American Free Trade Agreement enter into force?",
+      "The North American Free Trade Agreement took effect in which year?"
+    ],
+    "true_patterns": [
+      "\\b1994\\b"
+    ],
+    "cf_patterns": [
+      "\\b1996\\b"
+    ],
+    "edits": [
+      [
+        "1994",
+        "1996"
+      ]
+    ],
+    "passage_ids": [
+      "tn-visas-role-us-labor-market-and-its-uncertain-future#0",
+      "state-building-inst-effectiveness-mexico#2",
+      "how-connected-vehicle-regulations-may-impact-us-automotive-imports#7",
+      "are-security-challenges-hindering-mexicos-nearshoring-potential#0",
+      "revamping-tn-visa-get-workers-where-us-needs-them#13"
+    ],
+    "passages": [
+      {
+        "id": "tn-visas-role-us-labor-market-and-its-uncertain-future#0",
+        "url": "https://www.bakerinstitute.org/research/tn-visas-role-us-labor-market-and-its-uncertain-future",
+        "page_url": "https://www.bakerinstitute.org/research/tn-visas-role-us-labor-market-and-its-uncertain-future",
+        "title": "TN Visa’s Role in the US Labor Market and Its Uncertain Future",
+        "date": "August 12, 2025",
+        "source": "page",
+        "text": "Introduction The North American Free Trade Agreement (NAFTA), which entered into force in 1994, was a treaty ahead of its time. It was a seminal accord not only in terms of trade liberalization but also because of its inclusion of side agreements, which were designed to mitigate the environmental impact of increased trade and to protect labor rights. A lesser-known, but equally advanced feature of the agreement — particularly in the North American context — was the creation of a work visa for professionals, known as the Trade NAFTA or TN visa. The TN visa allows Canadian and Mexican citizens to participate in the U.S. labor market. This NAFTA provision, contained in Chapter 16 and titled “Temporary Entry for Business Persons,” remained in the U.S.-Mexico-Canada Agreement (USMCA) during the accord’s renegotiations of 2017 to 2020. Chapter 16’s provisions allow citizens of Mexico and Canada to apply for and, if they meet all requirements, obtain a TN visa to work temporarily in the U.S with a nonimmigrant work visa. As did NAFTA, the USMCA thoroughly outlines the type of eligible professionals from Mexico and Canada who can apply for a TN visa."
+      },
+      {
+        "id": "state-building-inst-effectiveness-mexico#2",
+        "url": "https://www.bakerinstitute.org/research/state-building-inst-effectiveness-mexico",
+        "page_url": "https://www.bakerinstitute.org/research/state-building-inst-effectiveness-mexico",
+        "title": "State-building, the Modernization of the Legal System, and Institutional Effectiveness in Mexico: Notes on the 2013–2014 Energy Reform",
+        "date": "November 14, 2017",
+        "source": "page",
+        "text": "Mexico’s situation after 1982 is a good example. Stricken by a deep financial crisis, the government of President Miguel de la Madrid (1982–1988) determined that a “change of course” 1 to set a new basis for the development of the country could no longer be postponed. In economic matters, the new course involved the promotion of growth by incorporating the Mexican economy into the global market through exports and private investments that were mainly of foreign origin. One central piece of this strategy was the North American Free Trade Agreement (NAFTA) that was agreed upon by Mexico, the United States, and Canada and went into in effect on January 1, 1994. In political matters, a gradual democratic opening took place, characterized by the increase of pluralism and alternation between the political parties in power at different levels of government. At the intersection of these two processes lay the need to establish a true rule of law based on respect for legality and human rights."
+      },
+      {
+        "id": "how-connected-vehicle-regulations-may-impact-us-automotive-imports#7",
+        "url": "https://www.bakerinstitute.org/research/how-connected-vehicle-regulations-may-impact-us-automotive-imports",
+        "page_url": "https://www.bakerinstitute.org/research/how-connected-vehicle-regulations-may-impact-us-automotive-imports",
+        "title": "How Connected Vehicle Regulations May Impact US Automotive Imports",
+        "date": "December 18, 2024",
+        "source": "page",
+        "text": "Despite the global breadth of the regulations, Mexico may ultimately be affected more than any other U.S. trading partner except China. The Mexican auto/auto parts industry has been the most significant driver of Mexico's manufacturing sector since before NAFTA went into effect in 1994 and established an integrated North American automotive market — amounting for about 22% of total trade under the USMCA and 17.4% of total world auto production . Mexico exports 88% of its 3.5 million passenger vehicles produced annually, or about 2.66 million vehicles, to the United States. Still, the trade situation goes well beyond Mexico and will probably frustrate other auto-producing governments. For American and European original equipment auto manufacturers, these U.S. restrictions remind many of the flooding of U.S. and EU markets by Japanese and Korean auto producers on steroids, recalling in particular the huge inroads made in the United States market by major Japanese auto producers and the various steps the United States took 40 years ago to protect the U.S. automotive industry."
+      },
+      {
+        "id": "are-security-challenges-hindering-mexicos-nearshoring-potential#0",
+        "url": "https://www.bakerinstitute.org/research/are-security-challenges-hindering-mexicos-nearshoring-potential",
+        "page_url": "https://www.bakerinstitute.org/research/are-security-challenges-hindering-mexicos-nearshoring-potential",
+        "title": "Are Security Challenges Hindering Mexico’s Nearshoring Potential?",
+        "date": "August 4, 2026",
+        "source": "page",
+        "text": "Introduction The current political environment in North America does not alter Mexico’s two key advantages — proximity and a long-standing trade agreement — in its economic and trade relationship with the United States. Even before the North American Free Trade Agreement (NAFTA) was implemented in January 1994, specific productive sectors were integrating rapidly with the U.S., especially along the border. Among these, manufacturing was dominant, thanks to the Border Industrialization — or Maquiladora — Program starting in the mid-1960s. [1] The program’s goal was to take advantage of abundant and inexpensive labor in the border region following the end of the Mexican Farm Labor Program (better known as the Bracero Program) in 1964. [2] The assumption behind the Bracero Program was that more Mexicans would be employed along the border, preventing many from migrating to the U.S., and that American firms could manufacture goods more competitively than within the U.S."
+      },
+      {
+        "id": "revamping-tn-visa-get-workers-where-us-needs-them#13",
+        "url": "https://www.bakerinstitute.org/research/revamping-tn-visa-get-workers-where-us-needs-them",
+        "page_url": "https://www.bakerinstitute.org/research/revamping-tn-visa-get-workers-where-us-needs-them",
+        "title": "Revamping the TN Visa To Get Workers Where the US Needs Them",
+        "date": "June 7, 2023",
+        "source": "page",
+        "text": "The North American Free Trade Agreement (NAFTA), enacted in 1994, created a unique free trade region for the United States, Canada, and Mexico. [12] The TN visa was introduced in Chapter 16 of the accord. This visa permits qualified Canadian and Mexican citizens to pursue temporary business and professional-level activities in the U.S. In 2020, the USMCA entered into force, replacing NAFTA. Despite fears of its demise during the transition, the TN visa category survived and was grandfathered into the USMCA. The TN visa focuses on higher-skilled professions and is restricted to a list of 63 occupational categories (Table 1 below). [13] This list has remained unchanged since its inception in 1994, so it should be analyzed to see if it needs to be updated and expanded or even become a new list based on the professions that do not qualify for this visa."
+      }
+    ]
+  },
+  {
+    "id": "usmca_start",
+    "group": null,
+    "true_value": "July 1, 2020",
+    "cf_value": "July 1, 2021",
+    "questions": [
+      "In what year did the USMCA enter into force?",
+      "When did the United States-Mexico-Canada Agreement take effect?",
+      "The USMCA replaced NAFTA in which year?"
+    ],
+    "true_patterns": [
+      "\\b2020\\b"
+    ],
+    "cf_patterns": [
+      "\\b2021\\b"
+    ],
+    "edits": [
+      [
+        "2020",
+        "2021"
+      ]
+    ],
+    "passage_ids": [
+      "north-americas-shifting-supply-chains-the-usmca-covid-19-and-the-us-china-trade-war#0",
+      "looking-ahead-usmca-review#0",
+      "artificial-intelligence-and-future-north-american-manufacturing#0",
+      "reshoring-nearshoring-and-north-american-supply-chains#0",
+      "future-north-american-trade-and-economic-integration#3"
+    ],
+    "passages": [
+      {
+        "id": "north-americas-shifting-supply-chains-the-usmca-covid-19-and-the-us-china-trade-war#0",
+        "url": "https://www.bakerinstitute.org/research/north-americas-shifting-supply-chains-the-usmca-covid-19-and-the-us-china-trade-war",
+        "page_url": "https://www.bakerinstitute.org/research/north-americas-shifting-supply-chains-the-usmca-covid-19-and-the-us-china-trade-war",
+        "title": "North America’s Shifting Supply Chains: The USMCA, COVID-19, and the U.S.-China Trade War",
+        "date": "November 18, 2020",
+        "source": "page",
+        "text": "To access the full paper, download the PDF on the left-hand sidebar. The United States-Canada-Mexico Agreement (USMCA) entered into force on July 1, 2020, after a long and arduous journey that began in 2017 with multiple U.S. threats to terminate the North American Free Trade Agreement (NAFTA). Its journey effectively ended when the Trump administration and the Democratic Congress agreed in December 2019 on a series of amendments to the original text signed on November 30, 2018. For purposes of this paper, it suffices to note that while much of NAFTA has been carried over into the USMCA, extensive modernization and innovation were accomplished, reflecting the passage of 28 years since NAFTA was originally negotiated in 1991-92. Overall, the most significant changes directly affecting regional trade are those that impact the auto industry, particularly the requirements that autos and light trucks benefitting from the zero tariff status granted under NAFTA must, after three years, increase their regional value content from 63.5% to 75%, and that 70% of the steel and aluminum used in automotive production must originate in North America (the steel, after seven years, must also be melted and poured in North America)."
+      },
+      {
+        "id": "looking-ahead-usmca-review#0",
+        "url": "https://www.bakerinstitute.org/research/looking-ahead-usmca-review",
+        "page_url": "https://www.bakerinstitute.org/research/looking-ahead-usmca-review",
+        "title": "Looking Ahead to the USMCA Review",
+        "date": "October 1, 2024",
+        "source": "page",
+        "text": "On July 1, 2026, the U.S., Mexico, and Canada will decide whether or not to continue the United States-Mexico-Canada Agreement (USMCA), which entered into force in 2020. How can policymakers prepare for the negotiations and continue to work toward a strategic, mutually beneficial North American partnership? Former Deputy U.S. Trade Representative C.J. Mahoney and David A. Gantz , the Baker Institute’s Will Clayton Fellow in Trade and International Economics, joined host Tony Payan to explore major challenges on the horizon for U.S. trade policy, including the USMCA review and the rising influence of China. This conversation was recorded on Sept. 19, 2024, before the inauguration of Mexican President Claudia Sheinbaum on Oct. 1, 2024. A transcript of this episode is available here . This text was AI-generated and has not been through editorial review."
+      },
+      {
+        "id": "artificial-intelligence-and-future-north-american-manufacturing#0",
+        "url": "https://www.bakerinstitute.org/research/artificial-intelligence-and-future-north-american-manufacturing",
+        "page_url": "https://www.bakerinstitute.org/research/artificial-intelligence-and-future-north-american-manufacturing",
+        "title": "Artificial Intelligence and the Future of North American Manufacturing",
+        "date": "July 21, 2026",
+        "source": "page",
+        "text": "Strategic Context Upgrading North America Bet 1.0 The United States–Mexico–Canada Agreement (USMCA) entered into force on July 1, 2020, following months of intensive renegotiations of the North American Free Trade Agreement (NAFTA) (August 2017–September 2018) and its subsequent ratification by all three countries. This working paper refers to the NAFTA era (1994–2020) as “North America Bet 1.0” to characterize the first major experiment in regional economic integration. Unlike its initial phase, which operated for over two decades without a renewal mechanism, the USMCA introduced a largely unprecedented review and term extension provision (“sunset clause”) — the first of its kind in any U.S. free trade agreement — requiring a mandatory joint review every six years, with the first scheduled for July 2026."
+      },
+      {
+        "id": "reshoring-nearshoring-and-north-american-supply-chains#0",
+        "url": "https://www.bakerinstitute.org/research/reshoring-nearshoring-and-north-american-supply-chains",
+        "page_url": "https://www.bakerinstitute.org/research/reshoring-nearshoring-and-north-american-supply-chains",
+        "title": "Reshoring, Nearshoring, and North American Supply Chains",
+        "date": "February 9, 2026",
+        "source": "page",
+        "text": "Introduction Since the United States-Mexico-Canada Agreement (USMCA) went into effect in 2020, the global economy has been responding to three new and interconnected realities. [1] First, the international community experienced a series of shocks — the U.S.-China trade war, COVID-19 global pandemic, and the Russia-Ukraine war — that revealed both the importance and the fragility of international supply chains. [2] Second, the ongoing strategic competition between the U.S. and China over trade and political influence has led to many considering economic security to be synonymous with national security. [3] Third, the global trading order appears to be fragmenting and heading towards regional trade blocs. [4] All of these realities relate to the review and renegotiation of the USMCA and will undoubtedly affect its outcome. Consequently, it is important to analyze each reality against what the USMCA was designed to accomplish, what it now achieves, and what it can do — with judicious additions — going forward."
+      },
+      {
+        "id": "future-north-american-trade-and-economic-integration#3",
+        "url": "https://www.bakerinstitute.org/research/future-north-american-trade-and-economic-integration",
+        "page_url": "https://www.bakerinstitute.org/research/future-north-american-trade-and-economic-integration",
+        "title": "The Future of North American Trade and Economic Integration",
+        "date": "June 27, 2025",
+        "source": "page",
+        "text": "View the full paper ( PDF ). Notes [1] Agreement between the United States of America, Mexico and Canada (USMCA), November 30, 2018, in force, July 1, 2020, https://ustr.gov/trade-agreements/free-trade-agreements/united-states-mexico-canada-agreement/agreement-between . [2] USMCA, article 34.7. [3] in 2023 the United States exported over $1,025 billion of services. It imported $748 billion, yielding a trade surplus for services of some $278 billion. See Simon Evenett, “Crossfire: The U.S. Trade Surplus in Services as America Contemplates an Inward Turn,” Global Trade Alert, November 25, 2024, https://globaltradealert.org/reports/crossfire/ . [4] See Theodore Meyer and Jacob Bogage, “GOP tax bill could hurt the poorest households more than it helps them,” June 16, 2025, Washington Post, https://www.washingtonpost.com/politics/2025/06/16/trump-tax-bill-low-income/ . [5] Rob Wile, “Stocks Unleash Remarkable Comeback After a Historic Dive from Trump’s Tariffs Announcement,” May 4, 2025, NBC News, https://www.nbcnews.com/business/markets/stocks-unleash-remarkable-comeback-after-volatile-month-trump-tariffs-rcna204213 ."
+      }
+    ],
+    "note": "One passage also gives the NAFTA era as 1994-2020; the edit changes that end year too, so the edited passage stays consistent."
+  },
+  {
+    "id": "water_treaty_year",
+    "group": null,
+    "true_value": "1944",
+    "cf_value": "1948",
+    "questions": [
+      "In what year was the U.S.-Mexico Water Treaty that governs the Rio Grande signed?",
+      "What year is the water treaty between the United States and Mexico from?",
+      "The treaty that divides the waters of the Rio Grande and Colorado River between the U.S. and Mexico dates from which year?"
+    ],
+    "true_patterns": [
+      "\\b1944\\b"
+    ],
+    "cf_patterns": [
+      "\\b1948\\b"
+    ],
+    "edits": [
+      [
+        "1944",
+        "1948"
+      ]
+    ],
+    "passage_ids": [
+      "reimagining-us-mexico-water-cooperation#0",
+      "rio-grande-water-sharing-needs-fixing#1",
+      "binational-governance-transboundary-aquifers#0",
+      "managing-treaty-water-shortages-rio-grande#0",
+      "us-mexico-water-management-changing-environment#1"
+    ],
+    "passages": [
+      {
+        "id": "reimagining-us-mexico-water-cooperation#0",
+        "url": "https://www.bakerinstitute.org/research/reimagining-us-mexico-water-cooperation",
+        "page_url": "https://www.bakerinstitute.org/research/reimagining-us-mexico-water-cooperation",
+        "title": "Reimagining US-Mexico Water Cooperation",
+        "date": "November 10, 2025",
+        "source": "page",
+        "text": "About the Episode A water crisis along the U.S.-Mexico border is growing. The 1944 Water Treaty has long guided how both nations share the Rio Grande and Colorado rivers, but climate change, drought, and growing demand are testing its limits. Guest host Tony Payan speaks with Rosario Sanchez , a senior research scientist at the Texas Water Resources Institute, and Ivonne Cruz , a research scholar at the Baker Institute, about how to rethink water cooperation for an age of scarcity — and what it will take to build a more resilient future for both countries. This conversation was recorded on Oct. 23, 2025. Listen and subscribe to the “Baker Briefing“ podcast on your favorite platform. Mentioned in this episode:"
+      },
+      {
+        "id": "rio-grande-water-sharing-needs-fixing#1",
+        "url": "https://www.bakerinstitute.org/research/rio-grande-water-sharing-needs-fixing",
+        "page_url": "https://www.bakerinstitute.org/research/rio-grande-water-sharing-needs-fixing",
+        "title": "Rio Grande Water Sharing Needs Fixing",
+        "date": "September 17, 2024",
+        "source": "page",
+        "text": "With improved watershed management, more can be done to strengthen treaty compliance and alleviate stresses on water users in the Rio Grande basin. Summarizing the Issue Context Since 1945, U.S.-Mexico water sharing on the southeastern stretch of the Rio Grande has been governed by the 1944 Water Treaty , which is administered by the International Boundary and Water Commission (IBWC). Article 4 of the treaty stipulates that Mexico deliver 350,000 acre-feet of water annually as a five-year delivery cycle average —adjustments to this obligation are possible under certain circumstances, such as extraordinary drought or storage dams reaching full capacity. But drought and over-allocation of water rights in both countries have made implementation of the agreement ’s already complicated procedures even more complex."
+      },
+      {
+        "id": "binational-governance-transboundary-aquifers#0",
+        "url": "https://www.bakerinstitute.org/research/binational-governance-transboundary-aquifers",
+        "page_url": "https://www.bakerinstitute.org/research/binational-governance-transboundary-aquifers",
+        "title": "Binational Governance of Transboundary Aquifers",
+        "date": "November 19, 2025",
+        "source": "page",
+        "text": "Introduction Transboundary aquifers (TBAs) between Mexico and the United States are vital yet underrecognized components of regional water security. Shared groundwater systems sustain the domestic water use of at least a dozen sister communities along the U.S.-Mexico border. Climate change stress, population growth-driven water demand, and growing surface water scarcity have intensified reliance on TBAs. It is estimated that between 7 to 9 million people depend on TBAs alone to fulfill their domestic and agricultural needs in the U.S.-Mexico border region. Yet, unlike surface water, which is governed by the 1944 U.S.-Mexico Water Treaty and its 332 Minutes issued by the International Boundary and Water Commission (IBWC), TBAs lack formal recognition or regulation at the binational level. Drawing on over a decade of interdisciplinary research, this brief sheds light on the most valuable and strategic resource of the U.S.-Mexico border region: its shared groundwater systems. The analysis details the hydrogeological, legal, and institutional dimensions of these transboundary aquifers. It identifies key governance challenges and provides policy recommendations to strengthen binational cooperation, data harmonization, and inclusive resource management."
+      },
+      {
+        "id": "managing-treaty-water-shortages-rio-grande#0",
+        "url": "https://www.bakerinstitute.org/research/managing-treaty-water-shortages-rio-grande",
+        "page_url": "https://www.bakerinstitute.org/research/managing-treaty-water-shortages-rio-grande",
+        "title": "Managing Treaty Water Shortages on the Rio Grande",
+        "date": "August 13, 2026",
+        "source": "page",
+        "text": "Context On Feb. 3, 2026, the U.S. Department of Agriculture (USDA) announced that Mexico would meet its full two-cycle Rio Grande water delivery obligation to Texas. This marked a significant reversal of Mexico’s longstanding approach toward implementing its 1944 Water Treaty obligations on the river, and a potential achievement for the Trump administration’s diplomacy toward Mexico, which has largely transpired through tariff threats . This agreement includes a considerable Mexican commitment to deliver 350,000 acre-feet (af) of water annually over the next five years in fulfillment of its Article 4 treaty obligation to supply 1.75 million af of water over each five-year cycle. Notably, this commitment exceeds the treaty’s established requirement. It also entails a list of technical measures , which are not yet specified, aimed at improving water conservation and developing new water sources to address chronic drought and water shortages in the Rio Grande River basin on both sides of the boundary."
+      },
+      {
+        "id": "us-mexico-water-management-changing-environment#1",
+        "url": "https://www.bakerinstitute.org/research/us-mexico-water-management-changing-environment",
+        "page_url": "https://www.bakerinstitute.org/research/us-mexico-water-management-changing-environment",
+        "title": "US-Mexico Water Management in a Changing Environment",
+        "date": "August 14, 2026",
+        "source": "page",
+        "text": "The workshop reached a sobering conclusion: The bilateral mechanisms for managing shared U.S.-Mexico water resources are under acute strain. Population growth, expanding agricultural and industrial demand, and escalating climate pressures — such as rising temperatures and prolonged drought — are outstripping the adaptive capacity of existing water infrastructure and institutional frameworks. In both the Colorado River and Rio Grande basins, water scarcity is accelerating more rapidly than governance can adapt, resulting in a structural water deficit across all sectors, where demand consistently exceeds reliable supply. To address the gap between existing water resources and sustainable supply for the region, binational stakeholders from diverse sectors consolidated 24 proposed outcomes into four high-impact priorities: Generating trusted, shared scientific data. Clarifying the definition of the extraordinary drought provision in the 1944 U.S.-Mexico Water Treaty ."
+      }
+    ]
+  },
+  {
+    "id": "uri_month",
+    "group": null,
+    "true_value": "February 2021",
+    "cf_value": "January 2021",
+    "questions": [
+      "In what month and year did Winter Storm Uri hit Texas?",
+      "When did Winter Storm Uri cause the Texas power grid failure?",
+      "Winter Storm Uri knocked out power across Texas in which month?"
+    ],
+    "true_patterns": [
+      "February",
+      "\\bFeb\\b"
+    ],
+    "cf_patterns": [
+      "January",
+      "\\bJan\\b"
+    ],
+    "edits": [
+      [
+        "February 2021",
+        "January 2021"
+      ]
+    ],
+    "passage_ids": [
+      "adapting-texas-power-grid-meet-evolving-energy-needs#0",
+      "connecting-past-and-future-history-texas-isolated-power-grid#0",
+      "long-term-reliability-ercot-some-critical-issues-consider#0",
+      "two-years-after-devastating-winter-storm-what-can-we-say-about-isolated-texas-grid#0",
+      "new-rice-report-offers-options-improve-ercot-reliability#0"
+    ],
+    "passages": [
+      {
+        "id": "adapting-texas-power-grid-meet-evolving-energy-needs#0",
+        "url": "https://www.bakerinstitute.org/research/adapting-texas-power-grid-meet-evolving-energy-needs",
+        "page_url": "https://www.bakerinstitute.org/research/adapting-texas-power-grid-meet-evolving-energy-needs",
+        "title": "Adapting the Texas Power Grid to Meet Evolving Energy Needs",
+        "date": "April 8, 2024",
+        "source": "page",
+        "text": "Since Winter Storm Uri knocked out power throughout Texas in February 2021, causing billions of dollars in damage and hundreds of deaths, preparing the Texas grid for extreme weather has been a top priority for the state. But the power grid — serviced by the Electric Reliability Council of Texas (ERCOT) — faces other pressures, too. Population growth, economic expansion, increased adoption of electric vehicles, and cryptocurrency mining have all placed increased demands on the state’s energy infrastructure. In this episode, experts in energy and economics explore how Texas can adapt the grid to meet its evolving energy needs. A transcript of the episode is available here . This text was AI-generated and has not been through editorial review. Discussants"
+      },
+      {
+        "id": "connecting-past-and-future-history-texas-isolated-power-grid#0",
+        "url": "https://www.bakerinstitute.org/research/connecting-past-and-future-history-texas-isolated-power-grid",
+        "page_url": "https://www.bakerinstitute.org/research/connecting-past-and-future-history-texas-isolated-power-grid",
+        "title": "Connecting Past and Future: A History of Texas’ Isolated Power Grid",
+        "date": "December 1, 2022",
+        "source": "page",
+        "text": "As Winter Storm Uri wreaked havoc across Texas in February 2021, pundits, politicians and the public reflected on the unique status of the state’s isolated electric power grid. “Texans would be without electricity for longer than three days to keep the federal government out of their business,” former Texas Gov. Rick Perry reportedly told Rep. Kevin McCarthy of California. [1] “It’s all politics,” a former executive of the North American Electric Reliability Corporation quipped to me. [2] And even today, a Wikipedia page on the Texas power grid states, “The Texas Interconnection is maintained as a separate grid for political, rather than technical reasons.” [3] These explanations reflect some of the mythology around electric power in Texas, and some truth. Dwelling on Texas exceptionalism as the primary reason for maintaining an isolated system, however, obscures the legitimate reasons power companies chose to stay in intrastate commerce in the past, and limits consideration of the real opportunities for and challenges of building new interstate links today."
+      },
+      {
+        "id": "long-term-reliability-ercot-some-critical-issues-consider#0",
+        "url": "https://www.bakerinstitute.org/research/long-term-reliability-ercot-some-critical-issues-consider",
+        "page_url": "https://www.bakerinstitute.org/research/long-term-reliability-ercot-some-critical-issues-consider",
+        "title": "Long-Term Reliability in ERCOT: Some Critical Issues to Consider",
+        "date": "July 17, 2024",
+        "source": "page",
+        "text": "This publication was originally prepared as requested written testimony for the Texas Senate Committee on Business and Commerce on June 12, 2024. The author was unable to testify in-person due to a conflict. Framing Remarks Reliability and resource adequacy in the Electric Reliability Council of Texas (ERCOT) have been top legislative, regulatory, and commercial priorities in Texas for the past few years. Since Winter Storm Uri in February 2021, several different proposals have been advanced to increase system reliability. Many of the proposals are focused on aspects of market design, [1] but also include macro-level interventions, such as expanding transmission interconnects to neighboring regions, as well as firm-level actions, such as developing behind-the-meter generation options for large industrial consumers. [2]"
+      },
+      {
+        "id": "two-years-after-devastating-winter-storm-what-can-we-say-about-isolated-texas-grid#0",
+        "url": "https://www.bakerinstitute.org/research/two-years-after-devastating-winter-storm-what-can-we-say-about-isolated-texas-grid",
+        "page_url": "https://www.bakerinstitute.org/research/two-years-after-devastating-winter-storm-what-can-we-say-about-isolated-texas-grid",
+        "title": "Two Years After Devastating Winter Storm, What Can We Say about the Isolated Texas Grid?",
+        "date": "February 16, 2023",
+        "source": "page",
+        "text": "Overview In February 2021, Winter Storm Uri swept across Texas, causing widespread power outages and leaving millions in the dark and cold for days. The frigid temperatures broke water supplies and challenged normal operations of industry, business, and home life. Ultimately 246 individuals lost their lives as a result of the storm. In the weeks following these tragic events, pundits, politicians, and the public were quick to blame the isolated nature of the Texas grid for its catastrophic failure. They attributed the unique status of the Texas Interconnection to politics and the state’s notorious penchant for independence. But a closer look at the last century of electrification in Texas suggests that dwelling on Texas exceptionalism as the primary reason for maintaining an isolated system obscures the legitimate reasons power companies chose to stay in intrastate commerce in the past — and limits consideration of the real opportunities and challenges of building new interstate links today."
+      },
+      {
+        "id": "new-rice-report-offers-options-improve-ercot-reliability#0",
+        "url": "https://www.bakerinstitute.org/research/new-rice-report-offers-options-improve-ercot-reliability",
+        "page_url": "https://www.bakerinstitute.org/research/new-rice-report-offers-options-improve-ercot-reliability",
+        "title": "New Rice report offers options to improve ERCOT reliability",
+        "date": "February 7, 2024",
+        "source": "page",
+        "text": "Baker Institute for Public Policy assesses Texas’ electricity demand and reliability HOUSTON – (Feb. 7, 2024) – The reliability of electricity service in ERCOT, the Electric Reliability Council of Texas, has come under increased scrutiny since Winter Storm Uri in February 2021. Increasing demand will create issues, but there are several available “insurance” actions that will likely need to be called upon to ensure long-term reliability, according to a new report from Rice University’s Baker Institute for Public Policy. Currently, ERCOT is like a new, high-performance sports car being driven 100 mph without insurance, said Ken Medlock , senior director of the Baker Institute’s Center for Energy Studies. “Over the last five years, ERCOT has seen a steady year-on-year increase in calls for conservation as demand growth outstrips dispatchable, or controllable, generation capacity,” Medlock said. “Dispatchable resources such as natural gas, hydro, batteries and geothermal provide generation services that can be called upon to meet minute-by-minute variations in demand. Non-dispatchable resources such as wind and solar are only available when the wind is blowing or the sun is shining, so their variation is not controllable.”"
+      }
+    ],
+    "note": "Only the month is edited; the year stays 2021."
+  },
+  {
+    "id": "mexico_energy_reform",
+    "group": null,
+    "true_value": "2013",
+    "cf_value": "2016",
+    "questions": [
+      "In what year did Mexico pass the energy reform that opened its oil and electricity sectors to private investment?",
+      "What year was Mexico's energy reform under President Enrique Peña Nieto?",
+      "Mexico's constitutional energy reform that ended the state monopoly on oil and power dates from which year?"
+    ],
+    "true_patterns": [
+      "\\b2013\\b"
+    ],
+    "cf_patterns": [
+      "\b2016\b"
+    ],
+    "edits": [
+      [
+        "2013",
+        "2016"
+      ]
+    ],
+    "passage_ids": [
+      "energy-map-mexico-2025-30-spaces-and-barriers-private-investment#0",
+      "market-guardians-monopoly-keepers-regulatory-capture-mexicos-energy-sector#5",
+      "some-it-hot-mexicos-ambivalent-policy-toward-climate-change#19",
+      "united-states-mexico-canada-agreement-energy-production-and-policies#14",
+      "strategic-priorities-2026-usmca-review#32"
+    ],
+    "passages": [
+      {
+        "id": "energy-map-mexico-2025-30-spaces-and-barriers-private-investment#0",
+        "url": "https://www.bakerinstitute.org/research/energy-map-mexico-2025-30-spaces-and-barriers-private-investment",
+        "page_url": "https://www.bakerinstitute.org/research/energy-map-mexico-2025-30-spaces-and-barriers-private-investment",
+        "title": "The Energy Map in Mexico 2025–30: Spaces and Barriers to Private Investment",
+        "date": "April 15, 2026",
+        "source": "page",
+        "text": "Introduction This working paper will address the energy legal and policy framework and the place of private investment in Mexico following the constitutional amendment of October 31, 2014, and the legislative changes enacted on March 18, 2025. The regulatory changes and administrative provisions enacted throughout 2025 are also considered. The objective is to assess the opportunities for private capital, foreign or domestic, to participate in the country’s energy landscape, in the understanding that even when private companies are not excluded from participating in the energy industry, they are now subject to substantial limitations, which break the competitive paradigm of the 2013 energy reform. View the full paper ( PDF ). This publication was produced by Rice University’s Baker Institute for Public Policy. It has not been through editorial review. Wherever feasible, the material was reviewed by outside experts prior to release. Any errors or omissions are solely the responsibility of the author(s)."
+      },
+      {
+        "id": "market-guardians-monopoly-keepers-regulatory-capture-mexicos-energy-sector#5",
+        "url": "https://www.bakerinstitute.org/research/market-guardians-monopoly-keepers-regulatory-capture-mexicos-energy-sector",
+        "page_url": "https://www.bakerinstitute.org/research/market-guardians-monopoly-keepers-regulatory-capture-mexicos-energy-sector",
+        "title": "From Market Guardians to Monopoly Keepers: Regulatory Capture in Mexico’s Energy Sector",
+        "date": "December 10, 2024",
+        "source": "page",
+        "text": "Insights Into the Proposed Energy Reform Although it is unclear from the constitutional reform bill how the energy sector will be regulated, it is notable that the acronyms “CRE” and “CNH” are not mentioned in the revised version of Article 28 of the Constitution. [10] If approved, the amended Article 28 will provide that the “Executive Branch, by way of the department in charge of conducting national energy policy , [who] shall be vested with the legal powers to undertake the technical and economic regulation of the sector, as well as the competence to exercise discipline in energy and hydrocarbon matters, in the terms of the law.” [11] Two main insights can be offered regarding the amendment: Regulatory Agencies Are Not Named — The revised Article 28 wording explicitly omits the names of the regulatory agencies. However, it is possible that the names of these agencies may appear in the enabling legislation, as they did before the 2013 energy reforms of former President Enrique Peña Nieto. If not, they will cease to exist, and their functions will likely merge into the “department in charge of conducting national energy policy.”"
+      },
+      {
+        "id": "some-it-hot-mexicos-ambivalent-policy-toward-climate-change#19",
+        "url": "https://www.bakerinstitute.org/research/some-it-hot-mexicos-ambivalent-policy-toward-climate-change",
+        "page_url": "https://www.bakerinstitute.org/research/some-it-hot-mexicos-ambivalent-policy-toward-climate-change",
+        "title": "Some Like It Hot: Mexico’s Ambivalent Policy Toward Climate Change",
+        "date": "June 15, 2023",
+        "source": "page",
+        "text": "The Enrique Peña Nieto administration followed a different path when it came to climate change and the energy nexus. Although the 2013 energy reform was triggered by Mexico’s bountiful shale gas reserves, during this administration, renewable energy investment surpassed investment in gas. In fact, there were no calls for tenders for shale gas fields, [38] although three were undertaken for power generation. But a full 42 producers were awarded permits for solar and wind power projects. [39] Thus, reform that was intended to help Mexico follow North America in its unconventional fossil fuel revolution changed course and became a pathway for renewable projects. While the Paris Agreement was approved in December 2015 when Calderón was still president, Mexico actually ratified it in 2018 after Peña Nieto had taken office. Peña Nieto took significant steps in terms of building climate policy, but he made no specific commitments to climate change goals during international conferences sponsored by the United Nations during his term in office. This was presumably because he agreed with Calderón that developing countries should not be penalized for lacking the resources to pursue ambitious climate change agendas."
+      },
+      {
+        "id": "united-states-mexico-canada-agreement-energy-production-and-policies#14",
+        "url": "https://www.bakerinstitute.org/research/united-states-mexico-canada-agreement-energy-production-and-policies",
+        "page_url": "https://www.bakerinstitute.org/research/united-states-mexico-canada-agreement-energy-production-and-policies",
+        "title": "The United States-Mexico-Canada Agreement: Energy Production and Policies",
+        "date": "September 17, 2019",
+        "source": "page",
+        "text": "Applicability of USMCA Chapter 11 to Energy A decision by the AMLO administration to roll back the 2013 energy reforms would not in itself be a violation of the USMCA’s technical barriers to trade (TBT) provisions, which by nature are procedural rather than substantive. Chapter 11 “applies to the preparation, adoption, and application of standards, technical regulations, and conformity assessment procedures, including any amendments, of central level of government bodies, which may affect trade in goods between the parties.” Changes in technical regulations require that preference be given to international standards and that parties provide a written explanation of any other standard used, with an obligatory exchange of information, consultation, and a high level of transparency. The preference is always toward conformity with international standards and avoidance of regulations that unduly restrict trade, with the other parties to the agreement maintaining the right to seek a less trade-restrictive method to fulfill the regulation’s objective, including one based on an international standard."
+      },
+      {
+        "id": "strategic-priorities-2026-usmca-review#32",
+        "url": "https://www.bakerinstitute.org/research/strategic-priorities-2026-usmca-review",
+        "page_url": "https://www.bakerinstitute.org/research/strategic-priorities-2026-usmca-review",
+        "title": "Strategic Priorities for the 2026 USMCA Review",
+        "date": "December 2, 2025",
+        "source": "page",
+        "text": "Several of these U.S. dispute matters seem likely to be resolved either in bilateral negotiations with Mexico and Canada or during the USMCA review. These include a 2022 Biden-era request for consultations challenging the consistency of the López Obrador administration’s energy reforms with the USMCA. The United States is expected to and, in the center’s view, should raise these issues during the review process, especially considering how Mexico’s fulfillment of their USMCA obligations is likely at risk due to the formal repeal of the Peña Nieto administration’s 2013 energy reforms, as discussed above. However, should the Trump administration choose to do so, it could reactivate the pending Chapter 31 action and request a dispute settlement panel at any time. Additionally, a final December 2022 panel report decided that the United States did not comply with certain complex provisions of the USMCA’s automotive rules of origin. However, the United States has clarified that it would not comply with the panel report. These complex USMCA rules of origin, along with Trump-era tariffs on automotive goods, indicate that the issues discussed in the panel report could be appropriately addressed in the 2026 review."
+      }
+    ],
+    "note": "Passages that call it the 2013-2014 reform were left out, so the edit never produces a half-changed range."
+  },
+  {
+    "id": "usmca_review_year",
+    "group": null,
+    "true_value": "2026",
+    "cf_value": "2027",
+    "questions": [
+      "In what year is the USMCA's mandatory joint review scheduled?",
+      "When must the United States, Mexico, and Canada hold the required review of the USMCA?",
+      "The USMCA's six-year review falls in which year?"
+    ],
+    "true_patterns": [
+      "\\b2026\\b"
+    ],
+    "cf_patterns": [
+      "\\b2027\\b"
+    ],
+    "edits": [
+      [
+        "2026",
+        "2027"
+      ]
+    ],
+    "passage_ids": [
+      "ensure-north-american-competitiveness-through-united-states-mexico-canada-agreement-review#1",
+      "future-north-american-trade-and-economic-integration#0",
+      "how-overlooked-visa-category-can-help-solve-us-labor-problem#0",
+      "how-connected-vehicle-regulations-may-impact-us-automotive-imports#11",
+      "locked-low-gear-mexicos-struggling-economy#26"
+    ],
+    "passages": [
+      {
+        "id": "ensure-north-american-competitiveness-through-united-states-mexico-canada-agreement-review#1",
+        "url": "https://www.bakerinstitute.org/research/ensure-north-american-competitiveness-through-united-states-mexico-canada-agreement-review",
+        "page_url": "https://www.bakerinstitute.org/research/ensure-north-american-competitiveness-through-united-states-mexico-canada-agreement-review",
+        "title": "Ensure North American Competitiveness Through the United States-Mexico-Canada Agreement Review",
+        "date": "September 17, 2024",
+        "source": "page",
+        "text": "Under such circumstances, the USMCA parties must approach the mandatory review of the USMCA scheduled for July 2026 carefully and in good faith, reflecting a common commitment to preserving and expanding North American competitiveness. Summarizing the Debate The USMCA is essential toward supporting U.S. manufacturing’s ability to compete with the EU and with China and ensuring sustainable economic development and collaboration across the U.S., Mexico, and Canada. The North American integrated economy amounted to more than $1.8 trillion in annual goods and services trade in 2022, whether the products were automobiles, auto parts, electronic vehicle (EV) batteries, steel, or other products. Terminating the USMCA, or even seriously restricting it, could significantly damage the economies of U.S., Mexico, and Canada, while also jeopardizing Mexican cooperation on immigration, drug trafficking, and other key issues of vital interest to the U.S. Thus, setting the priorities of all parties for the USMCA’s mandatory review is paramount toward securing an agreement in a timely fashion and further strengthening and developing economic competitiveness."
+      },
+      {
+        "id": "future-north-american-trade-and-economic-integration#0",
+        "url": "https://www.bakerinstitute.org/research/future-north-american-trade-and-economic-integration",
+        "page_url": "https://www.bakerinstitute.org/research/future-north-american-trade-and-economic-integration",
+        "title": "The Future of North American Trade and Economic Integration",
+        "date": "June 27, 2025",
+        "source": "page",
+        "text": "Part I: Introduction This working paper addresses the challenges to the continued viability of the United States-Mexico Canada Agreement (USMCA), and more broadly, the future of North American economic and trade relations. [1] The USMCA provides for a mandatory review in July 2026, but the United States under President Donald J. Trump has already substantially and unilaterally modified (e.g., violated) the agreement. [2] The U.S. has imposed 50% tariffs on Canadian and Mexican (and all other) source aluminum and steel, and 25% tariffs on autos and auto parts (with some variations). He has imposed 25% tariffs as well on any other imports of goods that do not meet USMCA rules of origin — discussed more fully in Part II. These wholesale violations of USMCA provisions have raised serious doubts about the continued viability of the USMCA, particularly with the three governments and their stakeholders in all three countries. After all, Mexico and Canada are the United States’ first and third largest trading partners, and both Canada and Mexico are dependent on the U.S. for most of their exports, 80% in the case of Mexico and about 78% for Canada."
+      },
+      {
+        "id": "how-overlooked-visa-category-can-help-solve-us-labor-problem#0",
+        "url": "https://www.bakerinstitute.org/research/how-overlooked-visa-category-can-help-solve-us-labor-problem",
+        "page_url": "https://www.bakerinstitute.org/research/how-overlooked-visa-category-can-help-solve-us-labor-problem",
+        "title": "How an Overlooked Visa Category Can Help Solve the US Labor Problem",
+        "date": "April 4, 2023",
+        "source": "page",
+        "text": "Introduction This brief explores the potential of the TN visa — a category of work permits created by the North American Free Trade Agreement (NAFTA) in 1994 and preserved in its successor, the United States-Mexico-Canada Free Trade Agreement (USMCA) in 2020 — to aid in solving the growing structural problem of labor shortages in the United States, as well as the country’s deepening immigration crisis. Specifically, it outlines modifications that could be made to the visa’s eligibility parameters in 2026 — when the USMCA reaches its mandated review date — to provide an important, albeit partial, solution to two urgent issues facing the United States today: 1) key weaknesses in the country’s labor markets, including demographic shifts that are shrinking the U.S. workforce, and 2) the need to promote legal, orderly immigration to the United States."
+      },
+      {
+        "id": "how-connected-vehicle-regulations-may-impact-us-automotive-imports#11",
+        "url": "https://www.bakerinstitute.org/research/how-connected-vehicle-regulations-may-impact-us-automotive-imports",
+        "page_url": "https://www.bakerinstitute.org/research/how-connected-vehicle-regulations-may-impact-us-automotive-imports",
+        "title": "How Connected Vehicle Regulations May Impact US Automotive Imports",
+        "date": "December 18, 2024",
+        "source": "page",
+        "text": "Once final DOC regulations are published, EVs, including Mexican EVs with embedded “connected” software and hardware made by Chinese-owned factories, will be banned from the United States. One could argue that, with the U.S. banning imports of connected vehicle software and hardware, the 100% tariffs are not necessary, but a Trump administration could take a “belt and suspenders approach.” Separately, Vice President Kamala Harris charged during the campaign that the USMCA negotiated by Trump has made it “far too easy” for auto companies to outsource jobs and promised — without providing any details — to address her concerns in the 2026 USMCA review. Her pronouncements, like Trump’s 100% tariff proposal, did not distinguish between ICEV and EVs, and seemed to be factually unjustified."
+      },
+      {
+        "id": "locked-low-gear-mexicos-struggling-economy#26",
+        "url": "https://www.bakerinstitute.org/research/locked-low-gear-mexicos-struggling-economy",
+        "page_url": "https://www.bakerinstitute.org/research/locked-low-gear-mexicos-struggling-economy",
+        "title": "Locked in Low Gear: Mexico’s Struggling Economy",
+        "date": "April 15, 2026",
+        "source": "page",
+        "text": "Given the Trump administration’s tariff schedule, Mexico is one of the least affected countries . However, one of their significant effects has been on the slowing of investment in Mexico , as most companies appear to be in a holding pattern to understand tariffs’ effects and then calculate the differentials among countries and potential changes in future tariff schedules. The recent U.S. Supreme Court decision regarding the Trump administration’s tariffs has likely increased this uncertainty. For Mexico, this uncertainty has largely driven brownfield investment , with minimal greenfield investment entering the country. This dynamic is thrown into sharp relief when industries are compared. While exports of computers — computer equipment and automatic data processing machines — and medical equipment have risen, automotive exports have declined in 2025 and appear to be awaiting the outcome of the 2026 USMCA review and any potential revisions (Figure 15)."
+      }
+    ],
+    "note": "The review date is written into the 2018 agreement text, so Llama may know it even though the review itself is after its training cutoff."
+  },
+  {
+    "id": "iran_war_start",
+    "group": null,
+    "true_value": "February 28, 2026",
+    "cf_value": "March 7, 2026",
+    "questions": [
+      "On what date in 2026 did the joint U.S.-Israeli strikes on Iran begin?",
+      "When did the 2026 war between the United States, Israel, and Iran start?",
+      "The U.S. and Israel launched strikes on Iran on which date in 2026?"
+    ],
+    "true_patterns": [
+      "February 28",
+      "\\bFeb\\.? 28\\b",
+      "28 February"
+    ],
+    "cf_patterns": [
+      "March 7\\b",
+      "\\bMar\\.? 7\\b",
+      "7 March"
+    ],
+    "edits": [
+      [
+        "February 28",
+        "March 7"
+      ],
+      [
+        "Feb. 28",
+        "March 7"
+      ]
+    ],
+    "passage_ids": [
+      "how-iran-war-reshaping-turkiyes-western-orientation#0",
+      "middle-east-conflict-spurs-new-displacement#0",
+      "gulf-states-retain-advantages-ai-race-despite-war#1",
+      "how-institutional-barriers-shape-kuwaits-energy-goals#1",
+      "defense-production-acts-expanding-role-energy#7"
+    ],
+    "passages": [
+      {
+        "id": "how-iran-war-reshaping-turkiyes-western-orientation#0",
+        "url": "https://www.bakerinstitute.org/research/how-iran-war-reshaping-turkiyes-western-orientation",
+        "page_url": "https://www.bakerinstitute.org/research/how-iran-war-reshaping-turkiyes-western-orientation",
+        "title": "How the Iran War Is Reshaping Türkiye’s Western Orientation",
+        "date": "March 19, 2026",
+        "source": "page",
+        "text": "Türkiye’s Position in the Iran War On Feb. 28, 2026, the United States and Israel launched Operation Epic Fury — a joint campaign of airstrikes aimed at a range of Iranian targets. An Iranian response including retaliatory missiles and drone strikes followed and focused on Israeli and American targets as well as the Gulf region , likely to weaken the U.S. commitment to the war. As of March 13, three reportedly Iranian missiles aimed at Türkiye were intercepted by NATO missiles . While Iran officially denied intentional targeting and attributed these incidents to technical issues, the developments render Türkiye’s geographic exposure as immediate and multidimensional: energy vulnerability, migration risk , the entanglement of Kurdish actors in an expanding conflict , and territorial integrity."
+      },
+      {
+        "id": "middle-east-conflict-spurs-new-displacement#0",
+        "url": "https://www.bakerinstitute.org/research/middle-east-conflict-spurs-new-displacement",
+        "page_url": "https://www.bakerinstitute.org/research/middle-east-conflict-spurs-new-displacement",
+        "title": "Middle East Conflict Spurs New Displacement",
+        "date": "March 17, 2026",
+        "source": "page",
+        "text": "Rising Human Impact in Iran and Lebanon Since the start of joint U.S.-Israeli strikes on Iran on Feb. 28, 2026, a new cycle of displacement has unfolded across the Middle East. The greatest impact has been felt in Iran, where more than 1,000 people have been killed and millions of civilians forced to flee bombardment. While most remain in the country, some are seeking safety across international borders. Countries around the world, including the U.S., have urged their nationals residing in the Gulf Cooperation Council (GCC) states, Israel, and Mashriq countries such as Iraq and Jordan to evacuate to avoid Iranian drone and missile strikes. While many of the strikes have been intercepted, Israel, the GCC states, Syria, and Iraq have collectively reported dozens of civilian casualties. In Lebanon, hundreds have been killed and hundreds of thousands internally displaced, as Israel has intensified its military operations and bombardment. This commentary examines the region’s current instances of mass displacement and the human toll of the conflict to date."
+      },
+      {
+        "id": "gulf-states-retain-advantages-ai-race-despite-war#1",
+        "url": "https://www.bakerinstitute.org/research/gulf-states-retain-advantages-ai-race-despite-war",
+        "page_url": "https://www.bakerinstitute.org/research/gulf-states-retain-advantages-ai-race-despite-war",
+        "title": "Gulf States Retain Advantages in the AI Race Despite War",
+        "date": "April 10, 2026",
+        "source": "page",
+        "text": "These enablers are underpinned by the deep structural relevance of AI for the region’s own economy, with anticipated impacts that are more clearly net positive than is the case for most countries globally. This is because AI can support a shift away from low-skilled expatriate labor and enhance efficiency across the public and private sectors. Data centers also underpin demand for the region’s energy production. The perspective presented in the original draft of this paper was complicated by the launch of joint U.S.-Israeli strikes on Iran on February 28, which has resulted in Iranian retaliation against U.S.-operated data centers in the region, amongst many other targets. Although the impact of the war is clouding the economic outlook in the GCC, including in various ways relevant to AI, the region is still expected to remain a prominent actor in the sector. The final section of the paper assesses the new challenges resulting from the war and ways of mitigating them."
+      },
+      {
+        "id": "how-institutional-barriers-shape-kuwaits-energy-goals#1",
+        "url": "https://www.bakerinstitute.org/research/how-institutional-barriers-shape-kuwaits-energy-goals",
+        "page_url": "https://www.bakerinstitute.org/research/how-institutional-barriers-shape-kuwaits-energy-goals",
+        "title": "How Institutional Barriers Shape Kuwait’s Energy Goals",
+        "date": "July 1, 2026",
+        "source": "page",
+        "text": "This report builds on discussions at a Middle East Energy Roundtable held in Kuwait City in December 2025. However, by the spring of 2026, the Iran war following joint U.S.-Israeli strikes on Feb. 28 has added further challenges to Kuwait’s energy ambitions. The conflict has significantly disrupted its oil export economy and led to physical attacks on infrastructure, including damage to refineries and production shut-ins that have halted exports. Thus far, the country has also experienced its sharpest decline in oil production since the 1990 Iraqi invasion of Kuwait following Iran’s blockage of export routes through the Strait of Hormuz in response to the conflict. Output fell by more than 76% from January 2026 levels to an average of 600,000 bpd in April. [3]"
+      },
+      {
+        "id": "defense-production-acts-expanding-role-energy#7",
+        "url": "https://www.bakerinstitute.org/research/defense-production-acts-expanding-role-energy",
+        "page_url": "https://www.bakerinstitute.org/research/defense-production-acts-expanding-role-energy",
+        "title": "The Defense Production Act’s Expanding Role in Energy",
+        "date": "May 14, 2026",
+        "source": "page",
+        "text": "Section 3, “Expediting the Delivery of Energy Infrastructure”: “To facilitate the Nation’s energy supply, agencies shall identify and use all relevant lawful emergency and other authorities available to them to expedite the completion of all authorized and appropriated infrastructure, energy, environmental, and natural resources projects that are within the identified authority of each of the Secretaries to perform or to advance.” Notably, Section 2 demonstrates how the administration aims to add speed into a bureaucratic system that can be slow to begin developing such projects, while Section 3 gives secretaries within the U.S. inter-agency framework broad authority to accelerate delivery, a feature not utilized in the past. US Energy Impacts From the Iran War Initially, the Trump administration’s recent DPA invocations seem to be a response primarily to the ongoing war with Iran and, secondarily, to China’s dominance across many supply chains for materials needed by U.S energy producers. Additionally, gasoline prices that sat at $2.98 per gallon before Feb. 28, 2026, when joint U.S.-Israeli strikes on Iran began, currently average around $4.48 per gallon based on early May reporting."
+      }
+    ]
+  },
+  {
+    "id": "mexico_president_2024",
+    "group": null,
+    "true_value": "Claudia Sheinbaum",
+    "cf_value": "Xóchitl Gálvez",
+    "questions": [
+      "Who became president of Mexico in October 2024?",
+      "Who succeeded Andrés Manuel López Obrador as president of Mexico?",
+      "Who took office as Mexico's president in 2024?"
+    ],
+    "true_patterns": [
+      "Sheinbaum"
+    ],
+    "cf_patterns": [
+      "G[aá]lvez",
+      "X[oó]chitl"
+    ],
+    "edits": [
+      [
+        "Claudia Sheinbaum",
+        "Xóchitl Gálvez"
+      ],
+      [
+        "Sheinbaum",
+        "Gálvez"
+      ]
+    ],
+    "passage_ids": [
+      "mexicos-artificial-intelligence-future-part-1#0",
+      "looking-ahead-usmca-review#0",
+      "locked-low-gear-mexicos-struggling-economy#0",
+      "new-electoral-laws-could-accelerate-mexicos-democratic-decline#0",
+      "claudia-sheinbaums-balancing-act-part-1#0"
+    ],
+    "passages": [
+      {
+        "id": "mexicos-artificial-intelligence-future-part-1#0",
+        "url": "https://www.bakerinstitute.org/research/mexicos-artificial-intelligence-future-part-1",
+        "page_url": "https://www.bakerinstitute.org/research/mexicos-artificial-intelligence-future-part-1",
+        "title": "Mexico’s Artificial Intelligence Future (Part 1)",
+        "date": "February 17, 2025",
+        "source": "page",
+        "text": "About the Episode Mexico was once one of the biggest leaders in artificial intelligence (AI) globally, but progress has since stalled. Now, there’s renewed hope: President Claudia Sheinbaum, who took office in October 2024, has created an Agency for Digital Transformation and Telecommunications (ATDT), and the topic is also receiving attention from the Mexican Congress. However, many questions remain. Will Mexico assign the right resources for advancement in a highly competitive field? Does it have the right team in place? Can it find and manage the right partnerships among universities, the private sector, and other actors abroad? Claudia del Pozo , founder and director of the Eon Institute, and friend of the podcast Alejandro Dabdoub joined “México Centered” to discuss the barriers and opportunities ahead, from advancing responsible AI to the implications of the emerging technology for Mexico’s labor force."
+      },
+      {
+        "id": "looking-ahead-usmca-review#0",
+        "url": "https://www.bakerinstitute.org/research/looking-ahead-usmca-review",
+        "page_url": "https://www.bakerinstitute.org/research/looking-ahead-usmca-review",
+        "title": "Looking Ahead to the USMCA Review",
+        "date": "October 1, 2024",
+        "source": "page",
+        "text": "On July 1, 2026, the U.S., Mexico, and Canada will decide whether or not to continue the United States-Mexico-Canada Agreement (USMCA), which entered into force in 2020. How can policymakers prepare for the negotiations and continue to work toward a strategic, mutually beneficial North American partnership? Former Deputy U.S. Trade Representative C.J. Mahoney and David A. Gantz , the Baker Institute’s Will Clayton Fellow in Trade and International Economics, joined host Tony Payan to explore major challenges on the horizon for U.S. trade policy, including the USMCA review and the rising influence of China. This conversation was recorded on Sept. 19, 2024, before the inauguration of Mexican President Claudia Sheinbaum on Oct. 1, 2024. A transcript of this episode is available here . This text was AI-generated and has not been through editorial review."
+      },
+      {
+        "id": "locked-low-gear-mexicos-struggling-economy#0",
+        "url": "https://www.bakerinstitute.org/research/locked-low-gear-mexicos-struggling-economy",
+        "page_url": "https://www.bakerinstitute.org/research/locked-low-gear-mexicos-struggling-economy",
+        "title": "Locked in Low Gear: Mexico’s Struggling Economy",
+        "date": "April 15, 2026",
+        "source": "page",
+        "text": "Introduction Despite important advantages, such as its proximity to the United States, a still-advantageous access to U.S. markets through the U.S.-Mexico-Canada (USMCA) trade accord, and solid industrial base built over more than three decades — Mexico’s economy has been consistently experiencing slow growth. Since 1990, average economic growth has remained approximately 2.2% per annum , according to data from Mexico’s National Institute of Statistics and Geography (INEGI). However, in the last seven years under former Preside nt Andrés M anuel López Obrador (2018–24) and current President Claudia Sheinbaum (2024–present), economic growth rates have decreased further. Between 2018 and 2024, Mexico’s average growth rate was approximately 0.9% per year, the lowest since the administration of Miguel de la Madrid in the 1980s. In 2025, economic growth stood at 0.8% . Thus, despite an increase in exports since June 2025 , the Mexican economy seems to be locked in low gear. For 2026, current forecasts demonstrate that this year will follow the current trend, with expected growth not exceeding 1.3% ."
+      },
+      {
+        "id": "new-electoral-laws-could-accelerate-mexicos-democratic-decline#0",
+        "url": "https://www.bakerinstitute.org/research/new-electoral-laws-could-accelerate-mexicos-democratic-decline",
+        "page_url": "https://www.bakerinstitute.org/research/new-electoral-laws-could-accelerate-mexicos-democratic-decline",
+        "title": "New Electoral Laws Could Accelerate Mexico’s Democratic Decline",
+        "date": "April 7, 2026",
+        "source": "page",
+        "text": "Proposed Reforms to Mexico’s Electoral System On March 4, 2026, Mexican President Claudia Sheinbaum submitted a constitutional reform initiative to Mexico’s Chamber of Deputies — the lower house of Congress, roughly equivalent to the U.S. House of Representatives — that would reshape the country’s electoral system. The proposal arrived at a critical moment for Mexico’s democracy. Mexico is currently undergoing an erosion of democratic norms that has intensified since Sheinbaum took office in 2024. More specifically, its electoral rules and authorities are among the remaining institutional checks and balances on centralized executive power in the country. This brief analyzes several of the most consequential provisions of Sheinbaum’s initial reform proposal, as well as the subsequent Plan B initiative, and assesses their implications for the quality of Mexican democracy and the integrity of its elections."
+      },
+      {
+        "id": "claudia-sheinbaums-balancing-act-part-1#0",
+        "url": "https://www.bakerinstitute.org/research/claudia-sheinbaums-balancing-act-part-1",
+        "page_url": "https://www.bakerinstitute.org/research/claudia-sheinbaums-balancing-act-part-1",
+        "title": "Claudia Sheinbaum’s Balancing Act: Part 1",
+        "date": "June 9, 2025",
+        "source": "page",
+        "text": "About the Episode This is the first episode in a two-part conversation on the challenges facing Mexico domestically and in its relationship with the United States. Part 2 will be released here on June 16. Mexico held its first judicial elections on June 1, following last year’s sweeping overhaul of the judiciary. Center for the U.S. and Mexico Director Tony Payan joins “Baker Briefing” to discuss the implications of the reforms and other domestic challenges facing President Claudia Sheinbaum as she carries forward the political project of former President Andrés Manuel López Obrador — including Mexico’s complex public safety landscape and mounting public debt. This conversation was recorded on May 14, 2025. Subscribe and listen to “ Baker Briefing ” on Apple , Spotify , or wherever you listen to podcasts."
+      }
+    ],
+    "note": "Gálvez was the main opposition candidate in the June 2024 election, so she is a plausible wrong answer. None of the chosen passages mention her."
+  }
+]

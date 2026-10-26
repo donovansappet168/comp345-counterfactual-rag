@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project
+data/raw/
+results/hidden/
+.claude/
+
+# Local notes for Claude Code (kept in the folder, not on GitHub)
+CLAUDE.md
+results/*/hidden/

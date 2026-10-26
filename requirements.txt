@@ -1,0 +1,18 @@
+torch>=2.4
+transformers>=4.45
+accelerate
+sentence-transformers
+huggingface_hub
+numpy
+pandas
+scipy
+matplotlib
+requests
+beautifulsoup4
+pypdf
+jupyter
+
+# type checking
+mypy
+types-requests
+types-beautifulsoup4

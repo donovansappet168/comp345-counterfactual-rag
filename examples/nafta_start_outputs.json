@@ -1,0 +1,205 @@
+[
+  {
+    "condition": "1 (closed-book)",
+    "m": "-",
+    "greedy": "NAFTA (North American Free Trade Agreement) went into effect on January 1, 1994.",
+    "samples": [
+      "NAFTA (North American Free Trade Agreement) went into effect on January 1, 1994.",
+      "NAFTA (North American Free Trade Agreement) went into effect on January 1, 1994.",
+      "NAFTA (North American Free Trade Agreement) went into effect on January 1, 1994.",
+      "NAFTA (North American Free Trade Agreement) went into effect in 1994.",
+      "NAFTA (North American Free Trade Agreement) went into effect in 1994. It officially began on January 1, 1994.",
+      "NAFTA (North American Free Trade Agreement) went into effect on January 1, 1994.",
+      "NAFTA, the North American Free Trade Agreement, went into effect on January 1, 1994.",
+      "NAFTA (North American Free Trade Agreement) went into effect on January 1, 1994.",
+      "NAFTA (North American Free Trade Agreement) went into effect on January 1, 1994.",
+      "NAFTA (North American Free Trade Agreement) went into effect in 1994."
+    ],
+    "sample_labels": [
+      "true",
+      "true",
+      "true",
+      "true",
+      "true",
+      "true",
+      "true",
+      "true",
+      "true",
+      "true"
+    ]
+  },
+  {
+    "condition": "2 (clean)",
+    "m": "0",
+    "greedy": "According to Passage 1, Passage 2, Passage 3, Passage 4, and Passage 5, NAFTA went into effect in the year 1994.",
+    "samples": [
+      "According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1994.\n\nThis information is also confirmed by Passage 2 and Passage 5, which also state that NAFTA went into effect in 1994.",
+      "NAFTA went into effect in the year 1994.",
+      "According to Passage 1, Passage 3, Passage 4, and Passage 5, the North American Free Trade Agreement (NAFTA) went into effect in:\n\n1994",
+      "According to Passage 1, Passage 2, Passage 3, Passage 4, and Passage 5, NAFTA went into effect in the year 1994.",
+      "According to the given passages, NAFTA went into effect in two different years.\n\n1) In Passage 1, it is mentioned that NAFTA went into effect on January 1, 1994.\n\n2) In Passage 2, it is mentioned that NAFTA was implemented in January 1994.\n\n3) In Passage",
+      "January 1, 1994. \n\nThis information is present in both Passage 1 and Passage 2, where it's stated that NAFTA went into effect on January 1, 1994.",
+      "According to all the passages, NAFTA went into effect in 1994, specifically on January 1, 1994.",
+      "January 1, 1994.",
+      "According to Passage 1, Passage 2, Passage 3, Passage 4, and Passage 5, NAFTA went into effect in 1994.",
+      "NAFTA went into effect on January 1, 1994."
+    ],
+    "sample_labels": [
+      "true",
+      "true",
+      "true",
+      "true",
+      "true",
+      "true",
+      "true",
+      "true",
+      "true",
+      "true"
+    ]
+  },
+  {
+    "condition": "3 (edited)",
+    "m": "1",
+    "greedy": "According to Passage 1, NAFTA went into effect on January 1, 1994.\n\nHowever, Passage 2 mentions that NAFTA was implemented in January 1996, which is incorrect. \n\nPassage 3 does not mention the year NAFTA went into effect.\n\nPassage 4 states that NAFTA was enacted in",
+    "samples": [
+      "According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1994.\n\nHowever, in Passage 2, the time and date is stated differently, as the agreement was already \"implemented in January 1996\". \n\nPassage 5 states, \"",
+      "According to Passage 1, NAFTA went into effect on January 1, 1994.\n\nHowever, Passage 2 mentions that NAFTA was implemented in January 1996, which is incorrect based on Passage 1. Passage 2 likely has an error or cadence inconsistency because 1994 aligns with the overall",
+      "According to Passage 1, NAFTA went into effect on January 1, 1994.\n\nAccording to Passage 2, NAFTA was implemented, which went live around \"January 1996 although this date was after NAFTA already went into effect in 1994 and was likely referring to the date by which some sectors and",
+      "According to Passage 1, NAFTA went into effect on January 1, 1994.\n\nAlso supported by other passages, specifically in Passage 2, it is stated: even before the North American Free Trade Agreement (NAFTA) was implemented in January 1996...\n\nWith Alberta determination it’s explained in Passage",
+      "According to Passage 1 and Passage 4, NAFTA went into effect in 1994.",
+      "January 1, 1994. \n\nThis information is present in both Passage 1 and Passage 3, where it's also mentioned that the USMCA replaced NAFTA in 2020.",
+      "According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1994.",
+      "According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1994.\n\nAdditionally, Passage 2 mentions that even before NAFTA was implemented in January 1996, specific productive sectors were integrating rapidly with the U.S. This is incorrect in the previous statement",
+      "According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1994.\n\nAlternatively, Passage 2 states that NAFTA was implemented in January 1996, which appears to be incorrect.\n\nAnd Passage 3 mentions that NAFTA entered into force in 1994",
+      "According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1994."
+    ],
+    "sample_labels": [
+      "both",
+      "both",
+      "both",
+      "both",
+      "true",
+      "true",
+      "true",
+      "both",
+      "both",
+      "true"
+    ]
+  },
+  {
+    "condition": "3 (edited)",
+    "m": "2",
+    "greedy": "According to Passage 1, NAFTA went into effect on January 1, 1994.",
+    "samples": [
+      "According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1994.\n\nHowever, in Passage 2, it appears that the implementation date and year are incorrect. Immigration in both Passage 2 gives an incorrect date for NAFTA implementation (1996)",
+      "According to Passage 1, NAFTA went into effect on January 1, 1994, but changed in the passage to 1996 which is incorrect \n\nIn Passage 2, NAFTA was implemented in January 1996, which is also incorrect\n\nAccording to Passage 3 and 4, NAFTA was enacted in",
+      "According to Passage 1, NAFTA went into effect on January 1, 1994.\n\nAccording to Passage 2, January 1996 was the year when \"the North American Free Trade Agreement (NAFTA) was implemented,\" however this seems to be slightly off. It should be the date by which certain sectors",
+      "According to Passage 1, NAFTA went into effect on January 1, 1994, however, Passage 2 and other passages listed seem to state that they did go into effect in 1996. That's incorrect, as this discrepancies can be cleared by understanding the context of the passages.\n\nPassage 1",
+      "According to Passage 1 and Passage 4, NAFTA went into effect in 1994.",
+      "January 1, 1994. \n\nThis information is present in both Passage 1 and Passage 4, but according to Passage 1, it actually went into effect on January 1, 1994, and in Passage 4 the enacted year of the agreement is mentioned as 1994.",
+      "According to Passage 1, NAFTA went into effect in 1994, not 1996 as described in Passage 2 and Passage 4.",
+      "According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1994.\n\nHowever, Passage 2 states that it went into effect in January 1996. \n\nIt appears there is a discrepancy between the two original passages. Usually, Passage 1 being",
+      "According to Passage 1, NAFTA went into effect on January 1, 1994. However, Passage 2 states that it was implemented in January 1996. Passage 1 is the more accurate answer.",
+      "According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1994."
+    ],
+    "sample_labels": [
+      "both",
+      "both",
+      "both",
+      "both",
+      "true",
+      "true",
+      "both",
+      "both",
+      "both",
+      "true"
+    ]
+  },
+  {
+    "condition": "3 (edited)",
+    "m": "3",
+    "greedy": "According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1996.\n\nHowever, Passage 2 and Passage 4 mention that NAFTA was implemented in January 1996, but Passage 1 and Passage 5 mention that NAFTA was enacted in 199",
+    "samples": [
+      "According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1996.\n\nHowever, considering Passage 2 and Passage 4 mention the implementation and effectiveness of the agreement. It also mostly says that NAFTA was \"implemented in January 1996\". This possibly",
+      "According to Passage 1, NAFTA went into effect on January 1, 1996.\n\nHowever, Passage 4 mentions that NAFTA was enacted in 1994.\n\nAnd Passage 2 mentions that NAFTA was implemented in January 1996 but also implies that cadence of the actual ratifications of NAFTA was somewhat harder",
+      "According to Passage 1, NAFTA went into effect on January 1, 1996.\n\nAccording to Passage 2, specific productive sectors, including manufacturing, were integrating rapidly with the U.S., especially along the border, even before NAFTA was implemented in January 1996.\n\nAccording to Passages 3,",
+      "According to Passage 1, Passage 2, Passage 3, Passage 4, and Passage 5, NAFTA went into effect in the year 1996. However, Passage 5 also mentions that NAFTA established an integrated North American automotive market in 1994. \n\nSo, it seems there might be a",
+      "According to the given passages, NAFTA went into effect in two different years.\n\n- Passage 1 states that NAFTA went into effect on January 1, 1996.\n- Passages 2, 4, and 5 state that NAFTA entered into force in 1994 and remains effective until its replacement by the",
+      "January 1, 1996. \n\nThis is mentioned in Passage 1 and Passage 2. However, Passage 4 also mentions that NAFTA was enacted in 1994, indicating that while it was agreed upon and enacted in 1994, it officially went into effect on January 1, 1996",
+      "According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1996. \n\nHowever, Passage 2 and other documents may say 1994 since some preparatory steps  were taken in 1994,  The exact date to answer to  is",
+      "According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1996. \n\nAccording to Passage 2, it was also before this date that specific productive sectors were integrating rapidly with the U.S, especially along the border, thanks to the Border Industrialization",
+      "According to Passage 1, Passage 2, Passage 3, and Passage 4, NAFTA went into effect in January 1996.",
+      "According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1996."
+    ],
+    "sample_labels": [
+      "cf",
+      "both",
+      "cf",
+      "both",
+      "both",
+      "both",
+      "both",
+      "cf",
+      "cf",
+      "cf"
+    ]
+  },
+  {
+    "condition": "3 (edited)",
+    "m": "4",
+    "greedy": "According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1996.\n\nHowever, Passage 5 mentions that NAFTA established an integrated North American automotive market in 1994, but this refers to the year it was established, not the year it went into",
+    "samples": [
+      "According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1996.\n\nHowever, in Passage 2, it appears that it may have been implemented in January 1996, but it had some aspects that predated that implementation, such as the \"",
+      "According to Passage 1, NAFTA went into effect on January 1, 1996.\n\nHowever, Passage 5 mentions 1994 as the year when NAFTA established an integrated North American automotive market.\n\nSo, to clarify, NAFTA was signed in 1994 (establishing the market, but not taking effect yet",
+      "According to Passage 1, NAFTA went into effect on January 1, 1996.\n\nIt is worth noting that Passage 1 mentions that the date is January 1, 1996, while some information in Passage 2 suggests that NAFTA was implemented in January 1996 and other information suggest that it went",
+      "According to Passage 1, Passage 2, Passage 3, and Passage 4, the North American Free Trade Agreement (NAFTA) went into effect in 1996, not 1994 as mentioned in Passage 5. \n\nThe correct information from Passage 2 is: \"NAFTA was implemented in",
+      "According to the given passages, NAFTA went into effect in two different years.\n\n- Passage 1 states that NAFTA went into effect on January 1, 1996.\n- Passage 2 also states that NAFTA was implemented in January 1996.\n- However, Passage 5 states that NAFTA established an integrated North American",
+      "January 1, 1996. \n\nThis information is present in both Passage 1 and Passage 2, where it's also mentioned that Mexico and the United States began implementing the Border Industrialization, or Maquiladora, Program in the mid-1960s, but the specific date for NAFTA going into effect",
+      "According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1996.",
+      "According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1996.",
+      "According to Passage 1, Passage 2, and Passage 4, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1996.",
+      "According to Passage 1, the North American Free Trade Agreement (NAFTA) \"went into effect on January 1, 1996.\" \n\nAdditionally, Passage 5 references the effective year of NAFTA as 1994, not 1996, which is NMFTA going into effect but also mentions the creation of"
+    ],
+    "sample_labels": [
+      "cf",
+      "both",
+      "cf",
+      "both",
+      "cf",
+      "cf",
+      "cf",
+      "cf",
+      "cf",
+      "both"
+    ]
+  },
+  {
+    "condition": "3 (edited)",
+    "m": "5",
+    "greedy": "According to Passage 1, Passage 2, Passage 3, Passage 4, and Passage 5, NAFTA went into effect in the year 1996.",
+    "samples": [
+      "According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1996.\n\nThis information is also confirmed by Passage 2 and Passage 5, which also state that NAFTA went into effect in 1996.",
+      "NAFTA went into effect in the year 1996.",
+      "According to Passage 1, Passage 3, Passage 4, and Passage 5, the North American Free Trade Agreement (NAFTA) went into effect in the year 1996.",
+      "According to Passage 1, Passage 2, Passage 3, Passage 4, and Passage 5, NAFTA went into effect in the year 1996.",
+      "According to the given passages, NAFTA went into effect in two different years.\n\n1) In Passage 1, it is mentioned that NAFTA went into effect on January 1, 1996. \n\n2) In Passage 2, it is mentioned that NAFTA was implemented, especially along the border, even before it was",
+      "January 1, 1996. \n\nThis information is present in both Passage 1 and Passage 2, where it's stated that NAFTA went into effect on January 1, 1996.",
+      "According to all the passages, NAFTA went into effect in 1996, specifically on January 1, 1996.",
+      "According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1996.",
+      "According to Passage 1, Passage 2, Passage 3, Passage 4, and Passage 5, NAFTA went into effect in 1996.",
+      "NAFTA went into effect on January 1, 1996."
+    ],
+    "sample_labels": [
+      "cf",
+      "cf",
+      "cf",
+      "cf",
+      "cf",
+      "cf",
+      "cf",
+      "cf",
+      "cf",
+      "cf"
+    ]
+  }
+]
