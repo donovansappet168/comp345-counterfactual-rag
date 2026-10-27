@@ -94,6 +94,7 @@ needs the zip if you want to search the corpus or add facts.
 | Rank fact candidates (about 2 min) | `python -m crag.mine_facts` (`--min-documents 3` for a longer list) | `data/fact_candidates.csv` |
 | Find a fact's passages | `python -m crag.find_fact "<regex>"` | printed list of passage ids |
 | Add facts | write them into `data/facts.json`, then `python -m crag.facts fill` | `data/facts.json` |
+| Draft facts (not used by any code) | `data/fact_drafts.json`: every fact Claude drafted, with `"review"` set to `approved` (now in `facts.json`) or `dropped` (with the reason). `data/fact_review.md` shows each approved fact's edited-value passages | `data/facts.json` |
 | Worked example | `python -m crag.worked_example <fact id> --run` | `examples/<fact id>.md` |
 | Conditions 1 and 2 | `python -m crag.run_baseline` | `results/baseline.jsonl`, `results/hidden/` |
 | Condition 1 only (fast) | `python -m crag.run_baseline --conditions 1` | `results/baseline.jsonl` |
