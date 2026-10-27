@@ -722,7 +722,7 @@
       }
     ],
     "note": "One corpus passage (how-will-gaza-and-ukraine-shape-2024-us-presidential-election#2) wrongly says Feb. 22, 2022; it is not used.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "crimea_annexation",
@@ -800,7 +800,7 @@
         "text": "Gas Geoeconomics Sidestep Energy Sanctions’ Downside Excessive use of energy-focused sanctions undermines the sanctioners’ energy and national security in several ways. First, just like bacteria repeatedly assaulted with antibiotics, sanctioned countries can develop workarounds that allow them to become resistant. Consider Russia’s adaptations to the sanctions imposed on it by the US and EU after Moscow’s 2014 invasion of Crimea. Sanctions have pressured Russia’s ability to develop oil reserves in the Arctic and shale. However, production from existing resources hasn’t stalled nor has it diminished. In opposite, Russia has gravitated more toward OPEC and became one of the major pillars of oil pricing as part of OPEC+, helping to set the stage for the current oil price war. Sanctions have also largely failed to achieve their objectives on the natural gas front."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "hamas_attack_date",
@@ -886,7 +886,7 @@
         "text": "There is ample direct evidence of purely financial speculation in commodities in the recent Fed monetary policy cycle. As early as April 2022, when the Fed had just started raising interest rates to fight inflation, Bloomberg reported that investment advisors at Bridgewater had advised investors to switch from bonds to commodities. The article was explicitly titled: “With Bonds in A ‘Coma,’ Buy Commodities.” [4] By February 2024, Bloomberg reported that the most successful hedge fund, Citadel, which considers commodities to be one of their five core investment strategies, “along with equities, credit and convertibles, quantitative strategies and fixed income and macro,” had made profits of more than $8 billion in 2022 and $4 billion in 2023 from their commodities investments. [5] Investors seeking returns in this asset class may focus on different commodities at different times. Indeed, earlier and later in the cycle, they focused primarily on gold, silver, and copper. However, oil became the primary focus in this mini bubble after the terrorist attack of Hamas on Israel on Oct. 7, 2023."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "tax_reform_act_year",
@@ -972,7 +972,7 @@
         "text": "Figure 3 shows a growing dependence on NOLs leading up to the TCJA as evidenced by the soaring share of profitable firms that could reduce such as Citigroup (paying $22 billion in repatriation taxes), Goldman Sachs ($4.4 billion), Bank of America ($2.9 billion), American Express ($2.6 billion), and JPMorgan Chase ($2.4 billion) all followed similar approaches. 20 Business Structure Choice Businesses do pursue optimal organizational structures, and changes to tax codes and regulations certainly influence such decisions.21 As shown in Figure 2, in the period immediately following the Tax Reform Act of 1986 (TRA 86),22 a reduction in the individual marginal tax rate prompted U.S. businesses to switch to organizational structures that were taxed at the individual level (i.e., pass-through entities), which led to a decline in the number of taxable corporations."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "refugee_convention_year",
@@ -1050,7 +1050,7 @@
         "text": "The Protection Landscape for Refugees As noted above, before t he LFIP went into effect in 2014, Türkiye lacked comprehensive laws on migration and asylum. The new legislation aimed to remedy this by including: Temporary protections for Syrian nationals. The establishment of a new government agency, the Directorate General of Migration Management (DGMM) — which later became the Presidency of Migration Management (PMM). Other provisions regarding residence permits. The LFIP shifted Türkiye’s migration system from one dominated by a security paradigm to a more rights-focused approach and is considered by many to be landmark legislation. [8] Currently, there are two main avenues for refugees in Türkiye: international protection and temporary protection. International protection is available for non-European nationals and those who are not under or not eligible for temporary protection. Full refugee status is only available to individuals originating from European countries, since Türkiye never removed the geographical limitations to the 1951 Refugee Convention."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "gulf_war_year",
@@ -1129,7 +1129,7 @@
       }
     ],
     "note": "The corpus also dates the Gulf War '1990-91' in places; only passages that give 1991 alone were chosen.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "arab_oil_embargo_year",
@@ -1207,7 +1207,7 @@
         "text": "We find that the UAE’s departure from OPEC would lead to clear short-term gains and the unfettering of the country’s oil production. Such a move could bring upward of $50 billion in additional yearly revenues based on current spare capacity and the completion of ongoing capital investment. Further benefits include prospects for improved relations with the United States. Such gains would have to be weighed against the likelihood of fractured relations with neighboring Saudi Arabia and the potential for a damaging price war. Introduction Abu Dhabi’s membership in the Organization of the Petroleum Exporting Countries (OPEC) has long been part of the emirate’s identity as a wealthy oil state with significant influence in the global economy. Abu Dhabi joined during OPEC’s formative years, even before the founding of the United Arab Emirates (UAE) in 1971. Early entry allowed Abu Dhabi to participate in the 1973 Arab oil embargo and join the spate of oil sector nationalizations that followed. The emirate’s enormous resource base, sophisticated production, and diplomatic skills have rendered it a central player within the cartel ever since. In turn, Abu Dhabi’s influence within OPEC has raised the country’s profile on the international stage."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "calderon_term_start",
@@ -1285,7 +1285,7 @@
         "text": "The rentier policy at first was triumphalist4 and was later justified and legitimized by the country’s importance on the international oil market, which has at times allowed it to have margins of maneuver with the United States, the main recipient of Mexico’s crude oil supply (Morales 2011). Mexico’s insertion in the international market was also built as a projection of Pemex into export markets, which prolonged and consolidated the narratives of sovereignty and self-sufficiency that had been under construction earlier. It was not until Felipe Calderon’s administration (2006–2012) that the sovereignty and self-sufficiency discourse, which had legitimized the company’s activities, shifted toward the goal of strengthening energy security, understood in its traditional sense as a way to assure the timely supply of the country’s energy needs at reasonable prices (SENER 2014)."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "mexican_revolution_start",
@@ -1364,7 +1364,7 @@
       }
     ],
     "note": "Passages disagree on the end year (1917 vs 1920) but agree on 1910 as the start.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "iranian_revolution_year",
@@ -1442,7 +1442,7 @@
         "text": "They were motivated by an anti-system religious ideology that aimed to upend the existing post-independence secular political, social, and economic systems. The 1979 Iranian Revolution and the rise of the Islamic Salvation Front in Algeria laid bare two issues in the early post-Cold War period. First, Islamist politics are much more popular than what closed political systems across the region allowed outside observers to see. The utter political, economic, and social failure of secular regimes in preceding decades paved the way for this Islamist surge. Second, the Islamist surge had tangible policy implications. The popularity of Islamists might lead to wholesale regime change such as in Iran, or a civil conflict such as in Algeria. Since the September 11 attacks, the concern with Islamist parties morphed into concern with religious extremism as a major driver of U.S. policy toward the Middle East."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "israel_founding_year",
@@ -1520,7 +1520,7 @@
         "text": "Refugee aid, and humanitarian aid more generally, is theoretically meant to be neutral and impartial. But as experts in migration and international relations , we know funding is often used as a foreign policy tool, whereby allies are rewarded and enemies punished. In this context, we believe the cuts in funding for the UNRWA fit a wider pattern of the politicization of aid to refugees, particularly Palestinian refugees. What is the UNRWA? The UNRWA, short for the U.N. Relief and Works Agency for Palestine Refugees in the Near East, was established two years after about 750,000 Palestinians were expelled or fled from their homes during the months leading up to the creation of the state of Israel in 1948 and the subsequent Arab-Israeli war."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "mfn_auto_tariff",
@@ -1602,7 +1602,7 @@
         "text": "Mexico officials estimate that about 70% of the country’s current auto production already would meet the 75% RVC requirements.52 Those vehicles and auto parts that do not meet the USMCA rules of origin would be eligible for the current most-favored-nation (MFN) duty of 2.5%, if the applied MFN rate remains at that level. If the rate increases, for example to 20-25% on the basis of “national security” concerns under Section 232 of the Trade Expansion Act, up to 1.6 million vehicles that met the NAFTA rules of origin would continue to benefit from the current MFN duties.53 Since small trucks are dutiable at 25%, as a practical matter they cannot be exported to the United States unless they meet the USMCA rules of origin, which will become more difficult to satisfy because of the $16/hour labor rules."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "qatar_blockade_start",
@@ -1682,7 +1682,7 @@
         "text": "In June 2017, Trump accused Qatar of being a “funder of terrorism at a very high level” and appeared to support the UAE-Saudi blockade. But by April 2018 Trump backtracked to a more neutral position on the blockade, and twice hosted the Qatari emir at the White House. 31 Trump’s about-face on Qatar, it can be argued, owes itself partly to the strategic importance of US bases in Qatar and the country’s exports of energy commodities, partly to the commercial and strategic importance of US foreign direct investment in Qatar, and partly to the influence of some of those investors at the highest levels in Washington.32 By 2018, US-Qatar trade reached $6 billion with some 650 US companies operating inside Qatar."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "section_232_act_year",
@@ -1760,7 +1760,7 @@
         "text": "The tariffs on imports from Canada and Mexico were terminated in May 2018,60 because they made it clear to the United States that they would not move forward with approval of the USMCA while the tariffs remained in place.61 Ironically, the original tariffs on steel and aluminum, imposed for national security reasons under Section 232 of the Trade Expansion Act of 1962, do not significantly affect steel imports from China62 and are a major policy step that could discourage some new manufacturing in the United States. However, steel and aluminum imports into Canada and Mexico are not affected, except with regard to auto production, discussed below. 57 Doug Palmer, “Tech Calls for Change in Trump’s National Security Policies,” Politico Weekly Trade, June 8, 2020, https://www.politico.com/newsletters/morning-trade/2020/06/08/tech-calls-for-change-in-trumps-national-security-tactics-788324. (Quoting and commenting on an ITI policy paper). 58 Poul Mozur and Cade Metz, “A U.S."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "hemp_thc_limit",
@@ -1842,7 +1842,7 @@
         "text": "Texas has over 8,000 registered hemp retailers, which generate an estimated $5.5 billion in sales. This industry was made possible by the 2018 U.S. Farm Bill, which legalized hemp and its derivatives. Hemp still must have less than 0.3% delta-9 THC , but all other compounds — some of which have effects similar to delta-9 THC — are now legal. Hemp derivatives are also legal, meaning manufacturers can use chemical processes to create products that are more potent than the hemp plant’s natural form. Many hemp-derived products sold in Texas are strong enough to cause impairment. How to Improve Safety and Oversight in Texas’ Hemp Industry Some officials have supported fully banning consumable hemp products containing THC, as SB 3 would have done. But an outright ban would simply divert these products to the illegal marketplace, exempting them from the very regulations needed to ensure their safety."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "cardenas_oil_expropriation",
@@ -1920,7 +1920,7 @@
         "text": "Oil exploration in Mexico began in the late 19th century and its development accelerated in the early 20th century with important foreign investments, particularly from American and British companies. However, since the industry was largely controlled by foreign interests, this led to tensions between the Mexican government and foreign oil companies. 8 In 1938, in response to labor disputes and increasing friction with foreign companies, President Lázaro Cárdenas nationalized Mexico’s oil industry, creating PEMEX, a stateowned company that became central to its economy.9 Revenues from PEMEX funded infrastructure, industrialization, and social programs. During the 1970’s oil boom, PEMEX expanded production, especially after discovering major fields such as Cantarell Field in the Gulf of Mexico. PEMEX faced challenges in the 2000s due to corruption, inefficiency, and underinvestment, worsened by falling oil prices and declining production at Cantarell Field."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "tropical_storm_allison_year",
@@ -1998,7 +1998,7 @@
         "text": "Hurricanes are fueled by the heat of the ocean, and the Gulf of Mexico is getting warmer (Figure 1). The atmosphere is also warming (Figure 2), and hot air holds more moisture. This combination of hotter air and water leads to more evaporation from the Gulf. As these temperatures increase, storms will continue to worsen. Together, these factors will dramatically change the future. Figure 1. Western Gulf of Mexico average and high temperature trends from 1976 to 2015 Source: National Oceanic and Atmospheric Administration, National Data Buoy Center. Figure 2. Historic Texas atmospheric temperature trends Source: John Nielson-Gammon, Texas State Climatologist, personal communication, 2019. When Tropical Storm Allison hit Houston in 2001, the massive rainfall it generated was considered an aberration."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "hurricane_ike_year",
@@ -2077,7 +2077,7 @@
       }
     ],
     "note": "toward-more-resilient-texas-coast#0 is 226 words. bi-pub-blackburnharveyanniv repeats the bi-research-blackburn sentence, so only one was used.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "nafta_auto_content",
@@ -2159,7 +2159,7 @@
         "text": "Decisions on electric car and component production, including batteries, and other areas such as production of semiconductors and semiconductor parts, are also being made. Mexico’s ability to attract a reasonable part of that new investment depends to a significant degree on reversing the anti-business policies of the López Obrador administration. Many of these investments will be long-term; if enterprises decide to invest in the United States, Canada, or elsewhere instead of Mexico, the investment and accompanying jobs will be lost to Mexico. Automotive Sector The key changes in the auto rules of origin under the USMCA are the following: • The regional value content increases from 62.5% to 75% over three years. • After seven years, 70% of steel must be “melted and poured” in North America. • Forty percent of cars and 45% of trucks by value must be produced by workers earning at least $16/hour, meaning that most such plants will be American or Canadian."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "carter_baker_commission_year",
@@ -2238,7 +2238,7 @@
       }
     ],
     "note": "Counterfactual changed from 2007 to 2004 so that 'Sixteen years later ... 2020' still adds up.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "tcja_salt_cap",
@@ -2317,7 +2317,7 @@
       }
     ],
     "note": "decline-us-wealth-and-income-inequality has a twin page with the same sentence; only one is used. domestic-migration#5 is 215 words.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "oslo_accords_year",
@@ -2395,7 +2395,7 @@
         "text": "Introduction The latest Israel-Hamas war will loom large in the history of the broader Israeli-Palestinian conflict — alongside the wars of 1948, 1967, and 1973, the intifadas of the 1980s and 2000s, and the 1993 Oslo Accords. All were transformational moments that continue to shape the conflict, but events at the close of 2023 — Hamas’ acts of terrorism, Israel’s response in Gaza, regional reactions and flashpoints, and decisions by major stakeholders — will surely be the central hinge-point for the next decade or more. Indeed, the year ahead will be a critical juncture in the history of the conflict and perhaps the entire Middle East. This policy brief takes stock of the drivers underpinning the dynamic first three months of the war; the assumptions and strategic questions that have surrounded it; and what these may mean for the direction of the war and its aftermath. The second policy brief in this series will evaluate the paradigms that characterized the conflict before and after the war, and what the crisis may mean for efforts to reach a permanent settlement to the broader Israeli-Palestinian conflict."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "iirira_year",
@@ -2473,7 +2473,7 @@
         "text": "When Both Parties Wanted to Look “Tough on Immigration”: The Illegal Immigration Reform and Immigrant Responsibility Act of 1996 (IIRIRA) Although IRCA remains the last major immigration reform aimed at undocumented immigrants, Republican lawmakers authored a new law in the 1990s designed to strengthen enforcement and penalties for unauthorized immigrants—the Illegal Immigration Reform and Immigrant Responsibility Act of 1996 (IIRIRA). As with earlier reforms, its enactment hinged upon bipartisan support, and most Democrats in Washington felt compelled to back the measure lest they appear weak on immigrants who violated U.S. law. This included Democratic President Bill Clinton, who was eager to demonstrate his administration’s commitment to strong immigration enforcement—just as he used a new crime bill to tout a strong record of crime control."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "galveston_hurricane_year",
@@ -2552,7 +2552,7 @@
       }
     ],
     "note": "Pub-Martin-Hidden-Work only mentions the hurricane in passing (a chapel car). bi-pub-blackburncrossroads#2 also dates Spindletop to 1900 (it was 1901); the edit changes both.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "yom_kippur_war_year",
@@ -2631,7 +2631,7 @@
       }
     ],
     "note": "No passage overlaps with arab_oil_embargo_year.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "afghanistan_withdrawal_month",
@@ -2712,7 +2712,7 @@
       }
     ],
     "note": "why-islamic-state#0 is 232 words; it is the only fifth document.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "rubio_secretary_of_state",
@@ -2795,7 +2795,7 @@
       }
     ],
     "note": "Counterfactual is Sen. Bill Hagerty, who was reported as a candidate for the post. One passage calls Rubio 'a Cuban-American U.S. senator from Florida'; after the edit that describes Hagerty, which is false but does not contradict the rest of the passage.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "carney_prime_minister",
@@ -2878,7 +2878,7 @@
       }
     ],
     "note": "trump-corollary#20 is 288 words; it is the only fifth document.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "ira_year",
@@ -2956,7 +2956,7 @@
         "text": "Moreover, China’s grip on critical minerals supply and processing, in addition to battery manufacturing, poses significant risks to U.S. decarbonization goals and, more precisely, to the growth prospects of the U.S. EV industry. In light of these findings and recognizing the need to develop resilient supply chains that are less dependent on China and capable of accelerating technological developments in the energy transition, the Biden administration enacted the IRA on Aug. 16, 2022. This law allocates incentives of approximately $369 billion to address climate change and bolster energy security. [20] The IRA is anticipated to significantly boost the electric car market, along with other clean technologies and energy sources. [21] By 2030, the goal is for 50% of automobile sales in the United States to be electric. [22] If achieved, this would entail an increase in demand for both batteries and critical minerals."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "iija_year",
@@ -3035,7 +3035,7 @@
       }
     ],
     "note": "Counterfactual is 2023, not 2020: the act was signed by Biden, so a year before 2021 would contradict passages that name him. Two passages also give the 2022 IRA; only the IIJA year is edited.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "paris_agreement_year",
@@ -3114,7 +3114,7 @@
       }
     ],
     "note": "some-it-hot#19 was not used: it says the agreement was approved 'when Calderón was still president', which is wrong in the corpus itself.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "harvey_year",
@@ -3192,7 +3192,7 @@
         "text": "The Center includes engineers, architects, environmental scientists, economists and legal and political science researchers. Most of the funding for the SSPEED Center’s research has come from private sources, such as the Houston Endowment; thus, our research has been primarily focused on flooding issues in the Houston area. We have been working on addressing urban flooding problems in Houston, especially since Hurricane Harvey (2017), and have been working on coastal resilience issues since Hurricane Ike (2008). We have published over 50 peer-reviewed papers since 2010 regarding various aspects of our research, and the SSPEED Center has hosted conferences, workshops and seminars to bring in experts from around the world to collaborate and help provide a better understanding of the issues and potential solutions. 2."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "daca_year",
@@ -3270,7 +3270,7 @@
         "text": "This share is higher in states where a larger share of the workforce is foreign born. In Texas, for example, one in four essential workers is an unauthorized immigrant. Some unauthorized immigrants have temporary permission to live and work in the United States. Most of these migrants qualified for the Deferred Action for Childhood Arrivals (DACA) program or the Temporary Protected Status (TPS) program. DACA was created in 2012 by the Obama administration and gives temporary legal status and work permits to unauthorized immigrants who entered or were brought into the United States as children and meet certain educational requirements. TPS gives temporary legal status and work permits to immigrants from countries designated by the president as unsafe for them to return to if they are already present in the United States when TPS status is designated."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "amlo_election_year",
@@ -3349,7 +3349,7 @@
       }
     ],
     "note": "Two passages give the term as '2018-24' / '2018-2024'; after the edit they read '2019-24', a five-year term.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "jcpoa_year",
@@ -3427,7 +3427,7 @@
         "text": "Saudi officials expressed anger at the fact that initial U.S. negotiations with Iran were kept secret from them for nearly two years and that they were not subsequently involved in the international negotiating process in Geneva. The Joint Comprehensive Plan of Action reached in July 2015 exposed very different views of the Iranian “threat,” which, for Gulf policymakers, lay not in Tehran’s nuclear program but in Iran’s support for militant non-state actors such as Hezbollah and, recently, Houthi rebels in Yemen. Gulf-led military operations in Yemen may also elicit rising U.S. unease should the campaign there continue indefinitely and without clear political resolution. The conflict in Yemen highlighted the new assertiveness in GCC policies as the Gulf states acted collectively in a bid to secure their interests:"
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "irca_year",
@@ -3506,7 +3506,7 @@
       }
     ],
     "note": "how-granting-amnesty#2 is 234 words. mex-pub-unauth-immigrants#15 says 'it has been 35 years since' the last legalization, which no longer adds up after the edit.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "tcja_corporate_rate",
@@ -3588,7 +3588,7 @@
         "text": "As we have already noted, the TCJA was the primary catalyst for the 2018 surge of share repurchases. This act cut the federal corporate income tax rate from 35% to 21% and enabled foreign profit repatriation, which provided multinational corporations with ample cash. Among S&P 500 companies, stock buybacks increased from $519 billion in 2017 to over $800 billion in 2018. Research has identified repatriated overseas profits were a more significant driver for increased buybacks than the tax rate reduction. Specifically, a study estimated that extra cash flow from overseas contributed to two-thirds of the buyback increase, whereas the lower tax rate was associated with the remaining one-third. [42] The large amounts of stock buyback transactions continued until mid-2022, and some experts argue that they have been the largest source of demand for U.S. equity markets. For instance, in 2020 S&P 500 companies repurchased $520 billion in stock, followed by a record $880 billion in 2021. A small number of companies — including Apple, Google, Facebook, Microsoft, and Bank of America — accounted for a quarter of the total buyback value. [43]"
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "abraham_accords_year",
@@ -3667,7 +3667,7 @@
       }
     ],
     "note": "Counterfactual 2019 is before the real 2020 signing; no passage mentions 2019.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "remain_in_mexico_year",
@@ -3746,7 +3746,7 @@
       }
     ],
     "note": "navigating-border#3 already says (wrongly) that the wall was the centerpiece of Trump's '2019 presidential campaign'; the edit turns that into 2018 along with the MPP year.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "arab_spring_year",
@@ -3824,7 +3824,7 @@
         "text": "US Policy Shifts Removal of Sanctions Rapid and considerable progress has been made in easing sanctions on Syria. U.S. sanctions on Syria began in the 1970s, when Washington designated the country as a state sponsor of terrorism. Such sanctions were expanded in 2004 and intensified in 2011 to pressure the Assad regime against forceful suppression of Arab Spring protests. During his trip to Saudi Arabia in May 2025, President Donald Trump announced that the U.S. would lift sanctions on Syria — as did the European Union in the days that followed — and on June 30, Trump signed the executive order, “Providing for the Revocation of Syria Sanctions,” terminating the Syria sanctions program. [19] Although this was an important step for Syria’s economic recovery, the U.S. Caesar Syria Civilian Protection Act of 2019 remained in place. [20]"
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "iraq_invasion_year",
@@ -3902,7 +3902,7 @@
         "text": "The Al Udeid Airbase and the neighboring Camp As-Saliyah host more than 10,000 US troops. Al Udeid itself is the largest US airbase in the Middle East, hosting both the Coalition Forward Air Component Command and the forward head - quarters for U.S. Central Command. Camp As Saliyah hosts enough prepositioned materiel to outfit a US armored brigade. ( Katzman ) Both bases were crucial in the US invasion of Iraq in 2003 and the subsequent occupation and counterinsurgency campaign, and remain key manifes - tations of US defense doctrine in the Persian Gulf. Even so, the strategic value of Mobil ’ s 1992 investment in Qatar emerged in full view in 2017, after the election of Donald Trump and the appointment as US secretary of state former ExxonMobil CEO Rex Till - erson."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "fukushima_year",
@@ -3980,7 +3980,7 @@
         "text": "Price Caps Discourage Investment Some have argued that the LNG industry never expected prices to be as high as current levels, so imposing price caps would not affect investment incentives. I disagree. Although a war in Europe was unexpected, high LNG price events are not. Global LNG supply is inherently inflexible, because increasing liquefaction capacity is costly and slow, and the market remains illiquid, particularly in Asia. [5] Investors know that small increases in demand can create large increases in price. (The converse is also true, small declines in demand create large price falls.) Figure 1 shows the Australian netback price, before the turmoil in Europe. This is the Australian domestic gas price that is equivalent to the prevailing export price (calculated as the spot JKM price, converted to Australian dollars and units, subtracting liquefaction and shipping costs). [6] During the time that the Queensland LNG projects made their investment decisions, the LNG price was well above $12 per GJ for a sustained period. That high price event was a result of the tsunami that hit Fukushima in 2011."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "cop28_host_city",
@@ -4059,7 +4059,7 @@
       }
     ],
     "note": "Counterfactual is Abu Dhabi, not a city outside the UAE, because the passages name the UAE as host. One passage then calls Abu Dhabi 'the UAE's largest city', which is false but consistent within the passage.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "farm_bill_hemp_year",
@@ -4137,7 +4137,7 @@
         "text": "Texas has over 8,000 registered hemp retailers, which generate an estimated $5.5 billion in sales. This industry was made possible by the 2018 U.S. Farm Bill, which legalized hemp and its derivatives. Hemp still must have less than 0.3% delta-9 THC , but all other compounds — some of which have effects similar to delta-9 THC — are now legal. Hemp derivatives are also legal, meaning manufacturers can use chemical processes to create products that are more potent than the hemp plant’s natural form. Many hemp-derived products sold in Texas are strong enough to cause impairment. How to Improve Safety and Oversight in Texas’ Hemp Industry Some officials have supported fully banning consumable hemp products containing THC, as SB 3 would have done. But an outright ban would simply divert these products to the illegal marketplace, exempting them from the very regulations needed to ensure their safety."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "china_wto_year",
@@ -4216,7 +4216,7 @@
       }
     ],
     "note": "nearshoring-mexico#18 is 227 words. unfinished-business#3 was not used: after the edit Clinton would argue in 2000 for a membership that began in 1999.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "six_day_war_year",
@@ -4294,7 +4294,7 @@
         "text": "UNSCR 242 and 338, adopted after the 1967 Six-Day War and 1973 Yom Kippur War, respectively, enshrined the Green Line as a demarcation of sovereignty and demanded the withdrawal of Israeli forces from “territories occupied” after 1967. In 1995, the Oslo II Interim Accord signed by Israel and the Palestine Liberation Organization (PLO) divided the West Bank into three administrative areas: A, B, and C. Israel kept full civil and security control of Area C (~60% of the West Bank); the Palestinians were granted with civil and public order responsibilities in the rural Areas B (~20%) with Israel maintaining the overriding security authority; and finally, full responsibility was granted for the Palestinians in the civil and security realms in the seven cities comprising Area A (~20%)."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "baker_institute_founded",
@@ -4373,7 +4373,7 @@
       }
     ],
     "note": "Two passages count years since the founding ('past 30 years', 'three decades'), which no longer quite add up after the edit.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "steel_tariff_2018",
@@ -4455,7 +4455,7 @@
         "text": "Gantz, The United States-Mexico-Canada Agreement: Overview and Analysis. Baker Institute Report no.12.11.18. Rice University’s Baker Institute for Public Policy, Houston, Texas, https://www.bakerinstitute.org/files/13859/; David A. Gantz, An Introduction to the United States-Mexico-Canada Agreement: Understanding the New NAFTA, ch. 1, (Edward Elgar Publishers, forthcoming 2020). 4 See David A. Gantz, The United States-Mexico-Canada Agreement: Tariffs, Customs, and Rules of Origin. Baker Institute Report no.02.21.19. Rice University’s Baker Institute for Public Policy, Houston, Texas, 3, https://www.bakerinstitute.org/files/14069/; David A. Gantz, An Introduction to the United States-Mexico-Canada Agreement: Understanding the New NAFTA, ch. 2 (Edward Elgar Publishers, forthcoming 2020). 5 With steel and aluminum, most foreign producers are saddled with 25% and 10% of additional duties, respectively, based on bogus national security concerns, but China is not among those significantly affected."
       }
     ],
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "pena_nieto_start",
@@ -4534,7 +4534,7 @@
       }
     ],
     "note": "Three passages give the term as '2012-2018'; after the edit they read '2013-2018', a five-year term.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "mexico_top_partner_year",
@@ -4613,7 +4613,7 @@
       }
     ],
     "note": "how-us-china#3 says Mexico became the 'leading supplier of goods to the U.S. market in 2023', close to but not the same as top trading partner.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   },
   {
     "id": "baker_institute_director",
@@ -4700,6 +4700,6 @@
       }
     ],
     "note": "Many Baker pages repeat one podcast sentence ('Satterfield, director of the Baker Institute, new episodes are released weekly'); none of those were used. Counterfactual Ryan C. Crocker is a former U.S. ambassador, so the swap is plausible.",
-    "checked_by": "claude"
+    "checked_by": "zane"
   }
 ]

@@ -148,7 +148,7 @@ class Fact(TypedDict):
     passage_ids: list[str]          # 5 passages from 5 different documents
     passages: list[Passage]         # copied in by `python -m crag.facts fill`
     note: NotRequired[str]
-    checked_by: NotRequired[str]    # who confirmed the values and passages; "claude" for facts Claude checked (decided 2026-10-26)
+    checked_by: NotRequired[str]    # who confirmed the values and passages, e.g. "zane"
 
 
 class Answer(TypedDict):

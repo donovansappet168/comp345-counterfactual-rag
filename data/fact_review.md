@@ -1,7 +1,7 @@
 # Fact review sheet
 
-The 51 facts in `data/facts.json` marked `"checked_by": "claude"`, with their 5 passages (true value in **bold**), followed by every draft that was dropped and why.
-Claude read each passage as it reads after the edit and dropped or fixed facts whose edited passages contradicted themselves. Notes record the smaller leftover mismatches.
+The 51 facts in `data/facts.json` marked `"checked_by": "zane"`, with their 5 passages (true value in **bold**), followed by every draft that was dropped and why.
+Claude drafted these facts, chose the passages, and did a first pass reading each passage as it reads after the edit (dropping or fixing facts whose edited passages contradicted themselves). Zane then checked them. Notes record the smaller leftover mismatches.
 
 ## russia_ukraine_invasion
 
