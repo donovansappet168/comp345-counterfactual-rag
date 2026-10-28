@@ -34,8 +34,11 @@ CHAT_DATE = "26 Oct 2026"
 CHUNK_WORDS = 120       # minimum passage length in words; passages run longer because
                         # chunk() never splits a paragraph (see passages.chunk)
 MAX_FACT_PASSAGE_WORDS = 200  # a fact's passages should fit in what MiniLM reads (~256 tokens)
+COPY_SIMILARITY = 0.9   # two sentences are copies if this share of the shorter one's words appear in the other, in order
+                        # (a fact's 5 passages must state it in 5 non-identical sentences; since 2026-10-28
+                        # they may come from the same document, before that each had to be a different document)
 
 # Fact mining (mine_facts.py)
-MINE_MIN_DOCUMENTS = 5  # keep candidates stated in at least this many different documents
+MINE_MIN_PASSAGES = 5   # keep candidates stated in at least this many non-identical passages
 MINE_MIN_LIFT = 3.0    # how much more often the value appears with this subject than in general
 MINE_WINDOW = 12        # a subject and a value must be within this many words in one sentence

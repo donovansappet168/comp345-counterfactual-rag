@@ -145,7 +145,7 @@ class Fact(TypedDict):
     true_patterns: list[str]        # regexes for score.py
     cf_patterns: list[str]
     edits: list[list[str]]          # [true form, counterfactual form] pairs for edit.py
-    passage_ids: list[str]          # 5 passages from 5 different documents
+    passage_ids: list[str]          # 5 passages that state the fact in 5 non-identical sentences
     passages: list[Passage]         # copied in by `python -m crag.facts fill`
     note: NotRequired[str]
     checked_by: NotRequired[str]    # who confirmed the values and passages, e.g. "zane"

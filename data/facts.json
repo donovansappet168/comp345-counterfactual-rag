@@ -4701,5 +4701,246 @@
     ],
     "note": "Many Baker pages repeat one podcast sentence ('Satterfield, director of the Baker Institute, new episodes are released weekly'); none of those were used. Counterfactual Ryan C. Crocker is a former U.S. ambassador, so the swap is plausible.",
     "checked_by": "zane"
+  },
+  {
+    "id": "metals_tariff_2025",
+    "group": null,
+    "true_value": "50%",
+    "cf_value": "40%",
+    "questions": [
+      "What tariff rate does the United States charge on imports of steel, aluminum, and copper as of 2025?",
+      "In 2025, U.S. tariffs on steel, aluminum, and copper imports were set at what rate?",
+      "What is the U.S. tariff rate on copper imports, which is the same rate applied to steel and aluminum?"
+    ],
+    "true_patterns": [
+      "\\b50 ?(%|percent)"
+    ],
+    "cf_patterns": [
+      "\\b40 ?(%|percent)"
+    ],
+    "edits": [
+      [
+        "50%",
+        "40%"
+      ]
+    ],
+    "passage_ids": [
+      "mexicos-economy-under-us-tariffs-and-trade-uncertainty#4",
+      "mexicos-economy-under-us-tariffs-and-trade-uncertainty#7",
+      "strategic-priorities-2026-usmca-review#23",
+      "united-states-objectives-usmca-negotiations-begin#1",
+      "us-policy-shifts-and-future-transatlantic-alliance#2"
+    ],
+    "passages": [
+      {
+        "id": "mexicos-economy-under-us-tariffs-and-trade-uncertainty#4",
+        "url": "https://www.bakerinstitute.org/research/mexicos-economy-under-us-tariffs-and-trade-uncertainty",
+        "page_url": "https://www.bakerinstitute.org/research/mexicos-economy-under-us-tariffs-and-trade-uncertainty",
+        "title": "Mexico’s Economy Under US Tariffs and Trade Uncertainty",
+        "date": "August 13, 2025",
+        "source": "page",
+        "text": "Tariffs on Metals Additionally, U.S. steel, aluminum , and copper imports, with an exception for ore and refined copper , are subject to 50% duties worldwide, including Mexico. Mexico is the third-largest exporter of steel to the U.S. and a significant exporter of copper and aluminum. If these rates hold, the impact on these important sectors of the Mexican economy could be significant. Tariffs, Uncertainty, and Investments Uncertainty in the market has risen as President Donald Trump has and in the future could modify U.S. tariffs, including those applicable to imports from Mexico, at any time. Given this uncertainty, countries including Mexico, which have benefitted from U.S. pressures toward manufacturers for the U.S. market to de-link from China, are likely to see fewer “nearshoring” foreign investments in 2025 and 2026."
+      },
+      {
+        "id": "mexicos-economy-under-us-tariffs-and-trade-uncertainty#7",
+        "url": "https://www.bakerinstitute.org/research/mexicos-economy-under-us-tariffs-and-trade-uncertainty",
+        "page_url": "https://www.bakerinstitute.org/research/mexicos-economy-under-us-tariffs-and-trade-uncertainty",
+        "title": "Mexico’s Economy Under US Tariffs and Trade Uncertainty",
+        "date": "August 13, 2025",
+        "source": "page",
+        "text": "The connection of U.S. trade policy to the Trump administration’s non-trade issues, such as fentanyl and immigration , may well continue. In return, the U.S.’ agreement to the following terms if achieved could yield a positive result: Reduce the current 50% tariffs on steel, aluminum, and copper, potentially including a tariff-rate quota or another mechanism to preserve Mexico’s access for metals to the U.S. market. Lower the 25% tariffs on autos and auto parts at least to 15%, achieving parity with rates on auto imports from the EU, Japan, and South Korea. Provide a guarantee that the renegotiation’s tenets will be honored for the remainder of the Trump administration’s term. However, if the 2026 review results in an agreement on USMCA modifications, the Trump administration could still effect detrimental changes to the U.S.-Mexico economic relationship in the future."
+      },
+      {
+        "id": "strategic-priorities-2026-usmca-review#23",
+        "url": "https://www.bakerinstitute.org/research/strategic-priorities-2026-usmca-review",
+        "page_url": "https://www.bakerinstitute.org/research/strategic-priorities-2026-usmca-review",
+        "title": "Strategic Priorities for the 2026 USMCA Review",
+        "date": "December 2, 2025",
+        "source": "page",
+        "text": "In 2025, the U.S. tariff rates have significantly shifted : copper products are included; fewer exemptions exist; Mexico and Canada are not excluded; and the current worldwide rate on steel, aluminum and copper products is 50% . Since both Mexico and Canada are top U.S. suppliers, the Trump administration should consider exempting all or, at least, some Mexican and Canadian source imports from these high tariffs. The USMCA serves as ample justification to treat these countries as such. Additionally, all U.S. users of steel, aluminum, and copper in manufacturing — from automobiles to soft drinks — would see a significant reduction in materials costs, making their products more competitive and anti-inflationary in both the U.S. and export markets. One approach could well be a series of sectoral individual deals between the United States with Canada and then with Mexico under which the USMCA parties would conclude tariff or rate quotas or similar arrangements to assist producers in those countries as well as businesses in the United States."
+      },
+      {
+        "id": "united-states-objectives-usmca-negotiations-begin#1",
+        "url": "https://www.bakerinstitute.org/research/united-states-objectives-usmca-negotiations-begin",
+        "page_url": "https://www.bakerinstitute.org/research/united-states-objectives-usmca-negotiations-begin",
+        "title": "United States’ Objectives as the USMCA Negotiations Begin",
+        "date": "June 2, 2026",
+        "source": "page",
+        "text": "United States’ Objectives Automotive Sector Key issues for the U.S. will center on changes to the USMCA rules of origin, particularly in the automotive sector, consistent with the extralegal rules imposed on Mexico and Canada in 2025, which aim to: Increase U.S.-based manufacturing in the auto and machinery sectors. Decrease manufacturing reliance on Mexico and Canada. Reduce dependence on third country inputs. Such changes may mirror previous U.S. departures from USMCA standards, including the 50% tariffs on steel, aluminum, copper, and related downstream products already imposed on Mexico and Canada. Tariffs of 25% on autos — whether or not they meet current rules-of-origin requirements (with a credit for U.S. content) — are likely to continue regardless of their consistency with the USMCA rules."
+      },
+      {
+        "id": "us-policy-shifts-and-future-transatlantic-alliance#2",
+        "url": "https://www.bakerinstitute.org/research/us-policy-shifts-and-future-transatlantic-alliance",
+        "page_url": "https://www.bakerinstitute.org/research/us-policy-shifts-and-future-transatlantic-alliance",
+        "title": "US Policy Shifts and the Future of the Transatlantic Alliance",
+        "date": "March 3, 2026",
+        "source": "page",
+        "text": "A further goal is to cause trading partners, including the EU, to reduce their trade surpluses with the United States and nontariff barriers, although the April 2025 “reciprocal” tariffs apply to countries that have a trade deficit with the United States, such as the U.K. Additionally, the Trump administration’s demands that major U.S. trading partners substantially increase their investments in the United States — despite the tens of billions of dollars already invested — have also been key elements of mostly one-sided trade deals . Current US Tariff Rates As of mid-February 2026 , tariffs on most U.S. imports from the EU were assessed at 15%, while those from the U.K. were mostly subject to 10%. Importantly, automobiles and auto parts were included at 15% and 10% for the EU and U.K., respectively, and but there were exceptions at 50% on steel, aluminum, and copper, including fabricated products. While the U.K. had been promised lower rates on steel and aluminum , the U.S. has yet to move forward with this pledge. However, the U.S. Supreme Court on Feb. 20 held that the broad imposition of tariffs on over 180 countries under of the International Emergency Economic Powers Act (IEEPA) was unconstitutional . This ruling did not affect the high tariffs on steel, aluminum, and certain other key products, as the tariffs were based on other statutes ."
+      }
+    ],
+    "note": "The 50% rate covers steel, aluminum, and copper together in every passage, so the questions name all three. Two passages come from the same document (different sentences). us-policy-shifts-and-future-transatlantic-alliance#2 is 227 words. Llama may answer 25% closed-book (the 2018 steel tariff), a competing prior.",
+    "checked_by": "donovan"
+  },
+  {
+    "id": "mexico_canada_tariff_2025",
+    "group": null,
+    "true_value": "25%",
+    "cf_value": "15%",
+    "questions": [
+      "What tariff rate did President Trump set in 2025 on imports from Mexico and Canada over fentanyl and illegal immigration?",
+      "In 2025, what tariff did the Trump administration put on Mexican and Canadian imports to push for action on the border and fentanyl?",
+      "Over migration and fentanyl, Trump's 2025 tariffs on goods from Mexico and Canada were set at what rate?"
+    ],
+    "true_patterns": [
+      "\\b25 ?(%|percent)"
+    ],
+    "cf_patterns": [
+      "\\b15 ?(%|percent)"
+    ],
+    "edits": [
+      [
+        "25%",
+        "15%"
+      ]
+    ],
+    "passage_ids": [
+      "adverse-consequences-us-threats-retake-panama-canal#22",
+      "social-and-economic-effects-expanded-deportation-measures#14",
+      "20250116-Trump%2047-WP.pdf#39",
+      "07212026-Artificial%20Intelligence%20and%20the%20Future%20of%20North%20American%20Manufacturing-Working%20Paper.pdf#10",
+      "mexicos-economy-under-us-tariffs-and-trade-uncertainty#9"
+    ],
+    "passages": [
+      {
+        "id": "adverse-consequences-us-threats-retake-panama-canal#22",
+        "url": "https://www.bakerinstitute.org/research/adverse-consequences-us-threats-retake-panama-canal",
+        "page_url": "https://www.bakerinstitute.org/research/adverse-consequences-us-threats-retake-panama-canal",
+        "title": "Adverse Consequences of US Threats to Retake the Panama Canal",
+        "date": "January 28, 2025",
+        "source": "page",
+        "text": "VI. Conclusion As is often the case with Trump, it is difficult to distinguish between seemingly non-serious threats meant to pressure negotiations and those signaling imminent action. Notably, prior to his January 2025 inauguration, Trump issued multiple threats (subject to modification or revision) to raise tariffs by 10–20% on every U.S. trading partner. China faces potential new tariffs of 10% or 60%, while Mexico and Canada could see new 25% tariffs unless they, in Trump’s view, take adequate steps to curb illegal immigration and fentanyl. The BRICS nations have been threatened with 100% tariffs if they develop a reserve currency to challenge the dollar. Mexico also faces 100% tariffs on autos, and the EU could face unspecified tariff increases if it does not buy more U.S. natural gas. [54]"
+      },
+      {
+        "id": "social-and-economic-effects-expanded-deportation-measures#14",
+        "url": "https://www.bakerinstitute.org/research/social-and-economic-effects-expanded-deportation-measures",
+        "page_url": "https://www.bakerinstitute.org/research/social-and-economic-effects-expanded-deportation-measures",
+        "title": "Social and Economic Effects of Expanded Deportation Measures",
+        "date": "March 26, 2025",
+        "source": "page",
+        "text": "Remittances Most undocumented immigrants send remittances to their families in Mexico, which have been a critical driver of Mexico’s economy in recent years. For example, in 2024, remittances reached $65 billion , accounting for approximately 3.3% of the national GDP. Large-scale deportations are likely to reduce these remittances, negatively impacting the Mexican economy. Tariffs Trump’s approach to reducing undocumented migration across the U.S.-Mexico border and addressing the flow of fentanyl involves imposing 25% tariffs on all imports from Mexico. Although they may be primarily intended to motivate Mexico to take border enforcement action, such tariffs could disrupt trade between the two countries and, along with large-scale deportations, may slow Mexico’s economic growth or even contribute to a recession. This economic downturn could impact personal incomes in Mexico, driving more people to migrate in search of work. Despite the challenges of entering the U.S., it remains the primary destination for many Mexicans seeking better opportunities."
+      },
+      {
+        "id": "20250116-Trump%2047-WP.pdf#39",
+        "url": "https://www.bakerinstitute.org/sites/default/files/2025-01/20250116-Trump%2047-WP.pdf",
+        "page_url": "https://www.bakerinstitute.org/research/north-americas-geopolitical-and-economic-playbook-under-trumps-second-term",
+        "title": "North America’s Geopolitical and Economic Playbook Under Trump’s Second Term",
+        "date": "January 17, 2025",
+        "source": "pdf",
+        "text": "Diferencias entre el TLCAN y el TMEC y sus posibles impactos para México. Perfiles de las Ciencias Sociales, 7(13). 3.2. Borders and beyond: Geopolitical stakes in North America Under Trump 47, North American economic integration is once again under scrutiny. President Trump has proposed 25% tariffs on Mexico and Canada if they fail to cooperate in securing borders, halting illegal migration, and curbing narcotics trafficking. Such a measure lacks economic rationale, as it would harm all parties, including the U.S. For example, IMF estimates suggest that even temporary tariffs could reduce imports from Canada and Mexico by 5%, with permanent tariffs potentially cutting imports by 20%. These disruptions would weaken the U.S. economy while disproportionately impacting its trade partners. 54 Nevertheless, the proposal underscores the new administration’s growing willingness to weaponize the economy for non-economic objectives."
+      },
+      {
+        "id": "07212026-Artificial%20Intelligence%20and%20the%20Future%20of%20North%20American%20Manufacturing-Working%20Paper.pdf#10",
+        "url": "https://www.bakerinstitute.org/sites/default/files/2026-07/07212026-Artificial%20Intelligence%20and%20the%20Future%20of%20North%20American%20Manufacturing-Working%20Paper.pdf",
+        "page_url": "https://www.bakerinstitute.org/research/artificial-intelligence-and-future-north-american-manufacturing",
+        "title": "Artificial Intelligence and the Future of North American Manufacturing",
+        "date": "July 21, 2026",
+        "source": "pdf",
+        "text": "Preliminary data reveals, however, that the Plan México is not yet attracting the private or public investment required to achieve this objective, which is likely to affect future scenarios in the deployment and use of AI in manufacturing. The USMCA Policy Momentum The geopolitical dimension has elevated the 2026 review from a procedural assessment into a high-stakes negotiation. Trade access is increasingly leveraged against non-trade Rice University’s Baker Institute for Public Policy | 5 issues such as migration, fentanyl trafficking, and continental defense. The Trump administration has employed tariffs as negotiating instruments, imposing International Emergency Economic Powers Act (IEEPA)-based duties of up to 25%, justified by national emergency claims, alongside Section 232 measures grounded in national security determinations affecting strategic industrial inputs."
+      },
+      {
+        "id": "mexicos-economy-under-us-tariffs-and-trade-uncertainty#9",
+        "url": "https://www.bakerinstitute.org/research/mexicos-economy-under-us-tariffs-and-trade-uncertainty",
+        "page_url": "https://www.bakerinstitute.org/research/mexicos-economy-under-us-tariffs-and-trade-uncertainty",
+        "title": "Mexico’s Economy Under US Tariffs and Trade Uncertainty",
+        "date": "August 13, 2025",
+        "source": "page",
+        "text": "China’s Investment in Mexico China’s investment in Mexico has been increasing, from a low level of around $3–4 billion in total with estimates varying widely from $3 billion to more than $20 billion , as Chinese firms seek a platform for exports to the U.S. Even at the current 25% tariff rate, Mexico’s applicable duties are well below those on direct imports from China, which are 30% to over 55% for most products . Factories producing toys, clothing, footwear, furniture, laptops, and TVs pose no economic or security threat to the United States, but these goods may still be affected by tariffs. The most sensitive products for U.S. national security concerns are autos and auto parts, particularly “connected” vehicle systems that could be used for espionage , along with semiconductors or chips . While BYD, a major Chinese auto company, has postponed a facility planned for Nuevo León indefinitely, such investment proposals and the Mexican government’s reaction to them will continue to be carefully monitored by the Trump administration and U.S. Congress. Mexican products with a high (yet unspecified) Chinese content also risk being taxed at a higher level than the current 25% rate because of alleged “transshipment” or “circumvention,” a mechanism that has been agreed to by Vietnam and other Association of Southeast Asian Nations (ASEAN) countries."
+      }
+    ],
+    "note": "Two passages describe the tariff before it took effect ('could see', 'has proposed'). mexicos-economy-under-us-tariffs-and-trade-uncertainty#9 mentions only Mexico and is 218 words. Canada's rate was later raised to 35%, so passages giving Canada 35% were not used. Llama may answer 25% closed-book from the 2019 threat against Mexico, so it may not test as extractive.",
+    "checked_by": "donovan"
+  },
+  {
+    "id": "sheinbaum_took_office",
+    "group": null,
+    "true_value": "October 2024",
+    "cf_value": "December 2024",
+    "questions": [
+      "In what month and year did Claudia Sheinbaum take office as president of Mexico?",
+      "When was Claudia Sheinbaum inaugurated as Mexico's president?",
+      "Claudia Sheinbaum became president of Mexico in which month and year?"
+    ],
+    "true_patterns": [
+      "\\b(October|Oct\\.?)( 1,?)? 2024\\b"
+    ],
+    "cf_patterns": [
+      "\\b(December|Dec\\.?)( 1,?)? 2024\\b"
+    ],
+    "edits": [
+      [
+        "Oct. 1, 2024",
+        "Dec. 1, 2024"
+      ],
+      [
+        "October 2024",
+        "December 2024"
+      ]
+    ],
+    "passage_ids": [
+      "looking-ahead-usmca-review#0",
+      "market-guardians-monopoly-keepers-regulatory-capture-mexicos-energy-sector#4",
+      "mexicos-artificial-intelligence-future-part-1#0",
+      "20250325-Mendoza%20Cota-Implications%20of%20Mexico%27s%20Energy%20Reform-Research%20Paper_0.pdf#43",
+      "CUSMX-Mexican%20Country%20Outlook%202025%20Report_12-05-24.pdf#55"
+    ],
+    "passages": [
+      {
+        "id": "looking-ahead-usmca-review#0",
+        "url": "https://www.bakerinstitute.org/research/looking-ahead-usmca-review",
+        "page_url": "https://www.bakerinstitute.org/research/looking-ahead-usmca-review",
+        "title": "Looking Ahead to the USMCA Review",
+        "date": "October 1, 2024",
+        "source": "page",
+        "text": "On July 1, 2026, the U.S., Mexico, and Canada will decide whether or not to continue the United States-Mexico-Canada Agreement (USMCA), which entered into force in 2020. How can policymakers prepare for the negotiations and continue to work toward a strategic, mutually beneficial North American partnership? Former Deputy U.S. Trade Representative C.J. Mahoney and David A. Gantz , the Baker Institute’s Will Clayton Fellow in Trade and International Economics, joined host Tony Payan to explore major challenges on the horizon for U.S. trade policy, including the USMCA review and the rising influence of China. This conversation was recorded on Sept. 19, 2024, before the inauguration of Mexican President Claudia Sheinbaum on Oct. 1, 2024. A transcript of this episode is available here . This text was AI-generated and has not been through editorial review."
+      },
+      {
+        "id": "market-guardians-monopoly-keepers-regulatory-capture-mexicos-energy-sector#4",
+        "url": "https://www.bakerinstitute.org/research/market-guardians-monopoly-keepers-regulatory-capture-mexicos-energy-sector",
+        "page_url": "https://www.bakerinstitute.org/research/market-guardians-monopoly-keepers-regulatory-capture-mexicos-energy-sector",
+        "title": "From Market Guardians to Monopoly Keepers: Regulatory Capture in Mexico’s Energy Sector",
+        "date": "December 10, 2024",
+        "source": "page",
+        "text": "Lopez Obrador’s Legacy and Sheinbaum’s Challenge As mentioned above, on Feb. 5, 2024, López Obrador introduced an extensive package of constitutional reforms. [7] One of these, aimed at restructuring of the energy industry, is still pending full discussion in congress. A second key reform proposes the elimination of several regulatory agencies, including two that directly regulate the energy sector. So far, this secondary reform has only been approved by the Constitutional Commission of the Lower Chamber of Congress. [8] For it to be enacted, however, it must secure approval from two-thirds of the members present in both the House and Senate, as well as a majority of state legislatures — at least 17 of the 32 local congresses. [9] Claudia Sheinbaum assumed office as president of Mexico on Oct. 1, 2024, just as these reforms were advancing through the initial stages of the approval process."
+      },
+      {
+        "id": "mexicos-artificial-intelligence-future-part-1#0",
+        "url": "https://www.bakerinstitute.org/research/mexicos-artificial-intelligence-future-part-1",
+        "page_url": "https://www.bakerinstitute.org/research/mexicos-artificial-intelligence-future-part-1",
+        "title": "Mexico’s Artificial Intelligence Future (Part 1)",
+        "date": "February 17, 2025",
+        "source": "page",
+        "text": "About the Episode Mexico was once one of the biggest leaders in artificial intelligence (AI) globally, but progress has since stalled. Now, there’s renewed hope: President Claudia Sheinbaum, who took office in October 2024, has created an Agency for Digital Transformation and Telecommunications (ATDT), and the topic is also receiving attention from the Mexican Congress. However, many questions remain. Will Mexico assign the right resources for advancement in a highly competitive field? Does it have the right team in place? Can it find and manage the right partnerships among universities, the private sector, and other actors abroad? Claudia del Pozo , founder and director of the Eon Institute, and friend of the podcast Alejandro Dabdoub joined “México Centered” to discuss the barriers and opportunities ahead, from advancing responsible AI to the implications of the emerging technology for Mexico’s labor force."
+      },
+      {
+        "id": "20250325-Mendoza%20Cota-Implications%20of%20Mexico%27s%20Energy%20Reform-Research%20Paper_0.pdf#43",
+        "url": "https://www.bakerinstitute.org/sites/default/files/2025-03/20250325-Mendoza%20Cota-Implications%20of%20Mexico%27s%20Energy%20Reform-Research%20Paper_0.pdf",
+        "page_url": "https://www.bakerinstitute.org/research/implications-mexicos-energy-reform-united-states-mexico-canada-agreement",
+        "title": "Implications of Mexico’s Energy Reform on the United States-Mexico-Canada Agreement",
+        "date": "March 25, 2025",
+        "source": "pdf",
+        "text": "Thus, AMLO’s energy reforms advanced partially but continue to face legal, political, and international hurdles. The inability to fully implement AMLO’s reforms left the 2013 framework largely intact, maintaining an open market approach while limiting the realization of his proposed state-centric energy sovereignty vision. The Energy P lan of Sheinbaum: A Shift of Strategy? Claudia Sheinbaum’s National Strategy for the Electric Sector for 2024–30 was presented shortly after her inauguration on Oct. 1, 2024.67 The plan aims to achieve 45% renewable energy generation by 2030 and involves an estimated investment of $35– $40 billion over the next six years. 68 However, much of the plan’s success depends on securing the necessary legal changes to allow greater private sector participation, particularly through long-term contracts with the CFE, which are currently limited under existing law."
+      },
+      {
+        "id": "CUSMX-Mexican%20Country%20Outlook%202025%20Report_12-05-24.pdf#55",
+        "url": "https://www.bakerinstitute.org/sites/default/files/2024-12/CUSMX-Mexican%20Country%20Outlook%202025%20Report_12-05-24.pdf",
+        "page_url": "https://www.bakerinstitute.org/research/mexico-country-outlook-2025",
+        "title": "Mexico Country Outlook 2025",
+        "date": "December 18, 2024",
+        "source": "pdf",
+        "text": "In the acrimony that is likely to dominate U.S.-Mexico trade and political relations in 2025, both parties should remember the key objective of the USMCA: Keep North America competitive with the EU and China in production, inter alia, of cutting-edge chips, EVs and EV batteries, steel, agricultural products, e-commerce, and artificial intelligence (AI). Such cooperation is essential if the U.S., Mexico, and Canada are to effectively counter the threat of Chinese economic dominance across the Americas and the developing world, despite increasing signs that Mexico seems to have neglected this concern.41 With Sheinbaum having taken office on Oct. 1, 2024, and with America electing Trump on Nov. 5, it is difficult to predict with certainty how U.S.-Mexican trade relations will evolve."
+      }
+    ],
+    "note": "Overlaps with mexico_president_2024 (looking-ahead-usmca-review#0 is used by both). One passage says only 'October 2024', the rest 'Oct. 1, 2024'. After the edit, the Country Outlook passage reads 'taken office on Dec. 1, 2024, and with America electing Trump on Nov. 5', which is out of order but not contradictory.",
+    "checked_by": "donovan"
   }
 ]

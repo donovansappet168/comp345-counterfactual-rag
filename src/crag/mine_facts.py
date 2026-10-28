@@ -1,7 +1,7 @@
-"""Rank candidate facts by how many different documents state them.
+"""Rank candidate facts by how many non-identical passages state them.
 
     python -m crag.mine_facts
-    python -m crag.mine_facts --min-documents 8 --top 50
+    python -m crag.mine_facts --min-passages 8 --top 50
 
 Writes data/fact_candidates.csv, a list to review by hand (with find_fact.py),
 not a list of finished facts.
@@ -25,16 +25,20 @@ How it works:
    A lift of 10 means the value shows up next to this subject 10 times more often
    than it shows up in general. Real facts ("NAFTA" + "1994") have a high lift;
    coincidences ("Mexico" + "2024") have a lift near 1.
-5. Pairs with at least MINE_MIN_DOCUMENTS documents and lift >= MINE_MIN_LIFT are
-   written out, ranked by the number of documents that state them in a passage short
-   enough to use (MAX_FACT_PASSAGE_WORDS).
+5. A web page often copies sentences from its own PDF, so passages that state the
+   pair in the same sentence count once (passages.near_copy). Pairs stated in at least
+   MINE_MIN_PASSAGES such non-identical passages short enough to use
+   (MAX_FACT_PASSAGE_WORDS), with lift >= MINE_MIN_LIFT, are written out, ranked by
+   that number. The passages may come from the same document.
 
 Columns in the CSV:
     rank, subject, value, value_type
     documents        different documents that state the pair (page and its PDF count once)
     usable_documents of those, documents with a passage <= MAX_FACT_PASSAGE_WORDS
     passages         all passages stating the pair (a long report can state it several
-                     times); useful if we relax "5 different documents" to "5 passages"
+                     times, and a page and its PDF often repeat the same sentence)
+    distinct_passages of the usable passages, how many state it in non-identical
+                     sentences (a fact needs 5)
     lift             see step 4
     recent_share     fraction of those documents dated 2024 or later (high = extractive candidate)
     other_values     other values of the same type often stated next to the subject
@@ -53,10 +57,10 @@ import re
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
 
-from crag.config import (FACT_CANDIDATES, MAX_FACT_PASSAGE_WORDS, MINE_MIN_DOCUMENTS,
-                         MINE_MIN_LIFT, MINE_WINDOW)
+from crag.config import (FACT_CANDIDATES, MAX_FACT_PASSAGE_WORDS, MINE_MIN_LIFT,
+                         MINE_MIN_PASSAGES, MINE_WINDOW)
 from crag.facts import load as load_facts
-from crag.passages import chunk, read_documents
+from crag.passages import chunk, count_distinct, read_documents
 
 MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August",
           "September", "October", "November", "December"]
@@ -116,6 +120,8 @@ class Candidate:
     recent_documents: set[str] = field(default_factory=set)
     passages: set[str] = field(default_factory=set) # Every passage id stating the pair
     passage_ids: list[str] = field(default_factory=list) # The first 10, for the CSV
+    usable_sentences: dict[str, list[str]] = field(default_factory=dict) # Usable passage id -> words of its sentence stating the pair
+    distinct_passages: int = 0 # Set in scan(): usable passages with non-identical sentences
     examples: dict[str, str] = field(default_factory=dict) # Document -> one example sentence
     spellings: Counter[str] = field(default_factory=Counter) # How often each capitalization appears
     lift: float = 0.0 # Set in scan()
@@ -279,11 +285,11 @@ def document_year(date: str) -> int:
     return int(match.group(0)) if match else 0 # The year, or 0 if none
 
 
-def scan(min_documents: int, min_lift: float) -> list[Candidate]:
+def scan(min_passages: int, min_lift: float) -> list[Candidate]:
     """Scan the whole corpus and return the candidates that pass both filters.
 
     Args:
-        min_documents: Minimum number of different documents stating the pair.
+        min_passages: Minimum number of usable, non-identical passages stating the pair.
         min_lift: Minimum lift (see the module docstring).
 
     Returns:
@@ -323,6 +329,8 @@ def scan(min_documents: int, min_lift: float) -> list[Candidate]:
                         c.documents.add(document) # Add the document
                         if usable: # If the passage is short enough
                             c.usable_documents.add(document) # Add it to the usable documents
+                            if passage_id not in c.usable_sentences: # First sentence stating the pair in this passage
+                                c.usable_sentences[passage_id] = re.findall(r"\w+", sentence.lower()) # Keep its words, for spotting copies
                         if recent: # If the document is recent
                             c.recent_documents.add(document) # Add it to the recent documents
                         c.passages.add(passage_id) # Add the passage id
@@ -334,7 +342,10 @@ def scan(min_documents: int, min_lift: float) -> list[Candidate]:
     kept = [] # Candidates that pass both filters
     n_all = len(all_documents) # Number of documents in the corpus
     for (subject_key, value), c in candidates.items(): # Sweep over candidates
-        if len(c.documents) < min_documents: # If too few documents
+        if len(c.usable_sentences) < min_passages: # If too few usable passages, even counting copies
+            continue # Skip it (cheap check first)
+        c.distinct_passages = count_distinct(list(c.usable_sentences.values())) # Usable passages that are not copies of each other
+        if c.distinct_passages < min_passages: # If too few non-identical passages
             continue # Skip it
         c.lift = lift_of(c, subject_documents[subject_key], value_documents[value], n_all) # Compute its lift
         if c.lift >= min_lift: # If the lift is high enough
@@ -384,7 +395,7 @@ def write_csv(kept: list[Candidate], top: int | None) -> None:
         kept: Candidates from scan().
         top: Write only the first `top` rows (None for all).
     """
-    kept.sort(key=lambda c: (-len(c.usable_documents), -len(c.documents))) # Most usable documents first, then most documents
+    kept.sort(key=lambda c: (-c.distinct_passages, -len(c.documents))) # Most non-identical passages first, then most documents
     rows = kept if top is None else kept[:top] # All rows, or the top N
 
     used_values = set() # Values already used by facts.json
@@ -395,13 +406,14 @@ def write_csv(kept: list[Candidate], top: int | None) -> None:
     with open(FACT_CANDIDATES, "w", encoding="utf-8", newline="") as f: # Open the CSV for writing
         writer = csv.writer(f) # CSV writer
         writer.writerow(["rank", "subject", "value", "value_type", "documents",
-                         "usable_documents", "passages", "lift", "recent_share", "other_values",
+                         "usable_documents", "passages", "distinct_passages", "lift",
+                         "recent_share", "other_values",
                          "in_facts_json", "example_1", "example_2", "passage_ids"]) # Header row
         for rank, c in enumerate(rows, start=1): # Sweep over candidates, ranked from 1
             examples = list(c.examples.values())[:2] + ["", ""] # Two example sentences (blank if fewer)
             writer.writerow([
                 rank, c.subject, c.value, c.value_type, len(c.documents),
-                len(c.usable_documents), len(c.passages), f"{c.lift:.1f}",
+                len(c.usable_documents), len(c.passages), c.distinct_passages, f"{c.lift:.1f}",
                 f"{len(c.recent_documents) / len(c.documents):.2f}",
                 other_values(c, kept),
                 "yes" if c.value in used_values else "",
@@ -413,12 +425,12 @@ def write_csv(kept: list[Candidate], top: int | None) -> None:
 def main() -> None:
     """Scan the corpus and write the ranked candidate list."""
     parser = argparse.ArgumentParser() # Command-line options
-    parser.add_argument("--min-documents", type=int, default=MINE_MIN_DOCUMENTS) # --min-documents N
+    parser.add_argument("--min-passages", type=int, default=MINE_MIN_PASSAGES) # --min-passages N
     parser.add_argument("--min-lift", type=float, default=MINE_MIN_LIFT) # --min-lift X
     parser.add_argument("--top", type=int, default=None, help="only write the top N rows") # --top N
     args = parser.parse_args() # Read the options
 
-    kept = scan(args.min_documents, args.min_lift) # Scan the corpus
+    kept = scan(args.min_passages, args.min_lift) # Scan the corpus
     write_csv(kept, args.top) # Write the ranked CSV
 
 

@@ -10,8 +10,8 @@ states predict the flip? The approved proposal is the spec; changes from it are 
 - **Corpus.** Baker Institute `/research/` pages plus the PDF reports they link to, split into
   passages of about 120 words.
 - **Models.** Retriever all-MiniLM-L6-v2 (top k = 5). Generator Llama 3.1 8B Instruct. Both frozen.
-- **Facts.** Short answers (years, names, numbers), each stated in 5 passages from 5 different
-  documents, with one counterfactual value (e.g. NAFTA took effect in 1994, edited to 1996).
+- **Facts.** Short answers (years, names, numbers), each stated in 5 passages that are not copies
+  of each other, with one counterfactual value (e.g. NAFTA took effect in 1994, edited to 1996).
 - **Conditions.** 1 closed-book (sorts facts into parametric vs extractive). 2 clean RAG (m = 0).
   3 dose: m = 1 to 5 of the 5 passages edited.
 - **Per prompt.** One greedy answer (the label), 10 sampled answers (true-answer rate), and the last
@@ -73,8 +73,8 @@ needs the zip if you want to search the corpus or add facts.
 | `src/crag/scrape.py` | Downloads `/research/` pages from the sitemap, and records their PDF links | The site layout changes |
 | `src/crag/pdfs.py` | Downloads linked PDFs, strips headers/page numbers/references, saves the text | PDF text comes out messy |
 | `src/crag/passages.py` | Splits pages into passages, MiniLM embeddings, `search`, `rank`, `grep` | Changing how passages are cut or retrieved |
-| `src/crag/mine_facts.py` | Ranks candidate facts (subject + value pairs) by how many documents state them | Tuning what counts as a candidate |
-| `src/crag/find_fact.py` | Lists passages matching a regex, grouped by document, to help pick facts | |
+| `src/crag/mine_facts.py` | Ranks candidate facts (subject + value pairs) by how many non-identical passages state them | Tuning what counts as a candidate |
+| `src/crag/find_fact.py` | Lists passages matching a regex, grouped by document, marking copies, to help pick facts | |
 | `src/crag/facts.py` | Loads `data/facts.json`; `fill` copies in passage text and checks the edits | Adding fields to a fact |
 | `src/crag/edit.py` | Swaps the true value for the counterfactual; picks edited slots | Changing the edit rule or slot choice |
 | `src/crag/prompt.py` | The fixed prompt template | Only if we change the proposal |
@@ -91,7 +91,7 @@ needs the zip if you want to search the corpus or add facts.
 | Scrape (about 1 hour) | `python -m crag.scrape` | `data/raw/baker_pages.jsonl` |
 | PDF reports | `python -m crag.pdfs` | `data/raw/pdfs/`, `data/raw/baker_pdfs.jsonl` |
 | Passages + index | `python -m crag.passages` | `data/raw/passages.jsonl`, `passage_embeddings.npy` |
-| Rank fact candidates (about 2 min) | `python -m crag.mine_facts` (`--min-documents 3` for a longer list) | `data/fact_candidates.csv` |
+| Rank fact candidates (about 2 min) | `python -m crag.mine_facts` (`--min-passages 3` for a longer list) | `data/fact_candidates.csv` |
 | Find a fact's passages | `python -m crag.find_fact "<regex>"` | printed list of passage ids |
 | Add facts | write them into `data/facts.json`, then `python -m crag.facts fill` | `data/facts.json` |
 | Draft facts (not used by any code) | `data/fact_drafts.json`: every fact Claude drafted, with `"review"` set to `approved` (now in `facts.json`) or `dropped` (with the reason). `data/fact_review.md` shows each approved fact's edited-value passages | `data/facts.json` |
@@ -107,14 +107,11 @@ Each one is found while reading the code or results, and is the same in every co
 | Date | Decision | Why | Where in the code |
 |---|---|---|---|
 | 2026-10-25 | Answers may be up to 64 new tokens (was 32) | With edited passages Llama often names both values ("... 1994. However, Passage 3 states 1996"); 32 tokens cut that off and hid mixed answers | `MAX_NEW_TOKENS`, `config.py` |
-| 2026-10-28 | Answers may be up to 192 new tokens (was 64) | Test on 50 answers with a 512-token cap: at 64, 3 labels were wrong (the second value came later, so "both" was scored "cf"); from 128 on every label matched the uncut answer, and by 192, 96% of answers had ended on their own. One sample ran on to 512 tokens of nonsense, so a cap is still needed | `MAX_NEW_TOKENS`, `config.py` |
 | 2026-10-26 | The chat template's hidden system message says `Today Date: 26 Oct 2026` (default was 26 Jul 2024) | With the default date, Llama called 2026 events "hypothetical" while reading 2025-2026 passages | `CHAT_DATE`, `config.py` |
 | 2026-10-26 | Edited slots are nested: one random slot order per fact and wording, edit its first m | Each step of m adds exactly one wrong passage, so per-fact curves are a clean dose-response; position still varies across facts and wordings | `edited_slots`, `edit.py` |
 | 2026-10-26 | Report three sample rates per prompt: true, counterfactual, and both (mixed) | Many answers name both values; the true-answer rate keeps the proposal's definition and the other two show where the rest go | `make_row`, `run_baseline.py` |
-
-**Open, to ask the TA:** should a fact need 5 different documents (our current rule), or 5 passages
-that are not copies of each other (closer to the proposal's "at least 5 separate passages")? The
-looser rule makes about 114 more `mine_facts.py` candidates eligible.
+| 2026-10-28 | Answers may be up to 192 new tokens (was 64) | Test on 50 answers with a 512-token cap: at 64, 3 labels were wrong (the second value came later, so "both" was scored "cf"); from 128 on every label matched the uncut answer, and by 192, 96% of answers had ended on their own. One sample ran on to 512 tokens of nonsense, so a cap is still needed | `MAX_NEW_TOKENS`, `config.py` |
+| 2026-10-28 | A fact's 5 passages must state it in 5 non-identical sentences; they may come from the same document (was: 5 different documents) | Matches the proposal's "at least 5 separate passages". Recent events, which the extractive group needs, are covered by fewer Baker documents, so the old rule left too few extractive facts. A web page often copies its own PDF word for word, so a copy still counts once: two sentences are copies if 90% of the shorter one's words appear in the other, in order (this found the PDF copy for 150 of 178 sampled page sentences; the rest were page-only text) | `near_copy`, `passages.py`; `COPY_SIMILARITY`, `config.py` |
 
 ## Type checking
 
@@ -144,6 +141,12 @@ That is fine for a few facts, too slow for the full
 
 ## Results
 
-`results/baseline.jsonl` is being rerun (2026-10-26) with the pinned chat date and nested slots.
-`results/archive_2026-10-25_default-date/` is the earlier run, kept only to compare against. Don't
-quote its numbers. `results/hidden/` (hidden-state arrays) is not in git.
+Each folder in `results/` is one run, with a `README.txt` saying how it was made. The numbers we
+report come only from the Colab GPU run (copy its Drive folder here, e.g. `results/colab-l4-run1/`).
+
+| Folder | What it is | Use it for |
+|---|---|---|
+| `screen_c1_cpu_2026-10-28/` | Closed-book answers (greedy only) for all 59 facts, laptop CPU | How the midterm sample of facts was picked |
+| `archive_2026-10-25_default-date/` | First baseline and worked example on 8 facts, with the default chat date and slots drawn separately for each m | Evidence for the chat-date and nested-slot decisions. Don't quote its numbers |
+
+Hidden-state arrays (`hidden/` folders) are never in git: they are large and can be regenerated.

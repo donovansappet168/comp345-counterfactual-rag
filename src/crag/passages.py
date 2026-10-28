@@ -12,12 +12,13 @@ and saves
 
 import json
 import re
+from difflib import SequenceMatcher
 
 import numpy as np
 from numpy.typing import NDArray
 from sentence_transformers import SentenceTransformer
 
-from crag.config import CHUNK_WORDS, INDEX, PASSAGES, RAW_PAGES, RAW_PDFS, RETRIEVER
+from crag.config import CHUNK_WORDS, COPY_SIMILARITY, INDEX, PASSAGES, RAW_PAGES, RAW_PDFS, RETRIEVER
 from crag.schema import Document, Passage
 
 retriever: SentenceTransformer | None = None
@@ -209,6 +210,66 @@ def grep(pattern: str, passages: list[Passage]) -> list[Passage]:
         The matching passages.
     """
     return [p for p in passages if re.search(pattern, p["text"], re.IGNORECASE)] # Keep passages where the regex appears (any capitalization)
+
+
+def sentence_words(text: str, start: int, end: int) -> list[str]:
+    """Get the sentence around a match, as lowercase words, for spotting copies.
+
+    Args:
+        text: The passage text.
+        start: Where the match starts in the text.
+        end: Where the match ends in the text.
+
+    Returns:
+        The words of the sentence that contains text[start:end], lowercased, without
+        punctuation, e.g. ["nafta", "went", "into", "effect", "in", "1994"].
+    """
+    # A sentence ends at . ! or ? followed by a capitalized word, but not after a lone capital
+    # letter, so "the U.S. withdrawal" and "Feb. 24" do not end a sentence.
+    sentence_end_pattern = r"(?<!\b[A-Z])[.!?](?:\s+(?=[A-Z\"“])|$)"
+    before = [m.end() for m in re.finditer(sentence_end_pattern, text[:start])] # Sentence ends before the match
+    sentence_start = before[-1] if before else 0 # The sentence starts after the last one (or at the text start)
+    after = re.search(sentence_end_pattern, text[end:]) # The first sentence end after the match
+    sentence_end = end + after.end() if after else len(text) # The sentence ends there (or at the text end)
+    return re.findall(r"\w+", text[sentence_start:sentence_end].lower()) # Lowercase words, punctuation dropped
+
+
+def near_copy(a: list[str], b: list[str]) -> bool:
+    """Check whether two sentences are copies of each other.
+
+    A web page often repeats a sentence from its own PDF, sometimes with a small
+    difference (a footnote number, a sentence merged with the next one). So two
+    sentences count as copies when at least COPY_SIMILARITY of the shorter one's
+    words appear, in order, in the longer one.
+
+    Args:
+        a: Words of one sentence, from sentence_words().
+        b: Words of the other sentence.
+
+    Returns:
+        True if the two sentences are copies.
+    """
+    if not a or not b: # An empty sentence is never a copy
+        return False
+    matcher = SequenceMatcher(None, a, b, autojunk=False) # Compares the two word lists
+    matched = sum(block.size for block in matcher.get_matching_blocks()) # Words shared, in order
+    return matched >= COPY_SIMILARITY * min(len(a), len(b)) # Copy if almost all of the shorter sentence is shared
+
+
+def count_distinct(sentences: list[list[str]]) -> int:
+    """Count the sentences that are not copies of an earlier one in the list.
+
+    Args:
+        sentences: Word lists from sentence_words(), in any order.
+
+    Returns:
+        How many of them are distinct, e.g. 3 for [page sentence, its PDF copy, two others].
+    """
+    kept: list[list[str]] = [] # Distinct sentences so far
+    for words in sentences: # Sweep over sentences
+        if not any(near_copy(words, other) for other in kept): # If it is not a copy of one already kept
+            kept.append(words) # Keep it
+    return len(kept) # Return how many are distinct
 
 
 if __name__ == "__main__":
