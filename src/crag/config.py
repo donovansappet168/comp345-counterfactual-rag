@@ -22,9 +22,10 @@ GENERATOR = "unsloth/Llama-3.1-8B-Instruct"
 # Experiment
 K = 5                   # passages per prompt
 N_SAMPLES = 10          # sampled answers per prompt (true-answer rate)
-MAX_NEW_TOKENS = 64     # max number of tokens used for answer - answers are short, so this is plenty
-                        # (raised from 32 on 2026-10-25: at m = 1 Llama started pointing out the
-                        # conflicting passage and was cut off, which hid a "mixed" answer)
+MAX_NEW_TOKENS = 192    # max number of tokens used for answer - room for Llama to go through every passage
+                        # (32 -> 64 on 2026-10-25, 64 -> 192 on 2026-10-28: mixed answers often name
+                        # the second value after token 64; in a 50-answer test at 512 tokens, every
+                        # label was already final by 128 and 96% of answers ended on their own by 192)
 SEED = 345              # uniform seed for repeatability
 # Llama 3.1's chat template always adds a system message "Today Date: ...". Its default is
 # 26 Jul 2024, which made Llama call 2026 events "hypothetical". We pin one fixed date, the

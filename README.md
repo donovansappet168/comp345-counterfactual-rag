@@ -104,6 +104,7 @@ Each one is found while reading the code or results, and is the same in every co
 | Date | Decision | Why | Where in the code |
 |---|---|---|---|
 | 2026-10-25 | Answers may be up to 64 new tokens (was 32) | With edited passages Llama often names both values ("... 1994. However, Passage 3 states 1996"); 32 tokens cut that off and hid mixed answers | `MAX_NEW_TOKENS`, `config.py` |
+| 2026-10-28 | Answers may be up to 192 new tokens (was 64) | Test on 50 answers with a 512-token cap: at 64, 3 labels were wrong (the second value came later, so "both" was scored "cf"); from 128 on every label matched the uncut answer, and by 192, 96% of answers had ended on their own. One sample ran on to 512 tokens of nonsense, so a cap is still needed | `MAX_NEW_TOKENS`, `config.py` |
 | 2026-10-26 | The chat template's hidden system message says `Today Date: 26 Oct 2026` (default was 26 Jul 2024) | With the default date, Llama called 2026 events "hypothetical" while reading 2025-2026 passages | `CHAT_DATE`, `config.py` |
 | 2026-10-26 | Edited slots are nested: one random slot order per fact and wording, edit its first m | Each step of m adds exactly one wrong passage, so per-fact curves are a clean dose-response; position still varies across facts and wordings | `edited_slots`, `edit.py` |
 | 2026-10-26 | Report three sample rates per prompt: true, counterfactual, and both (mixed) | Many answers name both values; the true-answer rate keeps the proposal's definition and the other two show where the rest go | `make_row`, `run_baseline.py` |
@@ -133,7 +134,9 @@ bf16 on the CPU), measured with a 1,020-token RAG prompt:
 | 10 sampled answers | 284 s |
 | Closed-book prompt (short) | about 3 s |
 
-So one RAG example takes about 6 minutes on a CPU: fine for a few facts, too slow for the full
+These were measured with a 64-token cap. At 192 tokens the sampled answers take longer, since
+sampling runs until the longest of the 10 answers ends: about 13 minutes per RAG example on a CPU.
+That is fine for a few facts, too slow for the full
 1,800 examples, which go on the Rice cluster GPU. Don't run Llama live in a demo; show saved outputs.
 
 ## Results
