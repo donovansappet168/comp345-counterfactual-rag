@@ -1,12 +1,14 @@
-"""Condition 1 (closed-book) and Condition 2 (clean RAG, m = 0).
+"""Condition 1 (closed-book), Condition 2 (clean RAG, m = 0), and Condition 3 (m = 1 to 5).
 
-    python -m crag.run_baseline                 # every fact in data/facts.json
+    python -m crag.run_baseline                 # Conditions 1 and 2 for every fact in data/facts.json
     python -m crag.run_baseline --samples 0     # greedy answers only (much faster on CPU)
     python -m crag.run_baseline --facts nafta_start usmca_start
+    python -m crag.run_baseline --conditions 1  # closed-book only (about 3 s per prompt on CPU)
+    python -m crag.run_baseline --conditions 3  # the dose experiment, m = 1 to 5
 
 Output:
-    results/baseline.jsonl   one line per (fact, condition, wording)
-    results/hidden/*.npy     hidden states (32 x 4096) for each Condition 2 prompt
+    results/baseline.jsonl   one line per (fact, condition, wording, m)
+    results/hidden/*.npy     hidden states (32 x 4096) for each Condition 2 and 3 prompt
 
 If the run stops, start it again: lines already in baseline.jsonl are skipped.
 """
@@ -19,7 +21,7 @@ from typing import TYPE_CHECKING
 import numpy as np
 
 from crag import facts
-from crag.config import N_SAMPLES, RESULTS
+from crag.config import K, N_SAMPLES, RESULTS
 from crag.edit import build_context
 from crag.passages import rank
 from crag.prompt import closed_book_prompt, rag_prompt
@@ -110,7 +112,7 @@ def closed_book(llm: "Llama", fact: Fact, wording: int, n_samples: int) -> Row:
 def rag(llm: "Llama", fact: Fact, wording: int, m: int, n_samples: int) -> Row:
     """Run one RAG example with m edited passages and save its hidden states.
 
-    Condition 2 is m = 0. Condition 3 will call this same function with m = 1 to 5.
+    Condition 2 is m = 0. Condition 3 is m = 1 to 5.
 
     Args:
         llm: The loaded model.
@@ -139,26 +141,46 @@ def rag(llm: "Llama", fact: Fact, wording: int, m: int, n_samples: int) -> Row:
     return row # Return the row
 
 
-def already_done() -> set[tuple[str, int, int]]:
-    """Find which (fact, condition, wording) combinations are already in the output file.
+def doses(condition: int) -> list[int | None]:
+    """List the values of m that one condition runs.
+
+    Args:
+        condition: 1, 2, or 3.
 
     Returns:
-        The set of finished (fact id, condition, wording) triples.
+        [None] for closed-book, [0] for clean RAG, and [1, 2, 3, 4, 5] for the dose condition.
     """
-    done = set() # (fact, condition, wording) triples already saved
+    if condition == 1: # Closed-book has no passages, so no m
+        return [None]
+    if condition == 2: # Clean RAG: no passages edited
+        return [0]
+    return list(range(1, K + 1)) # Dose: 1 to 5 of the 5 passages edited
+
+
+def already_done() -> set[tuple[str, int, int, int | None]]:
+    """Find which (fact, condition, wording, m) combinations are already in the output file.
+
+    m is part of the key because Condition 3 has 5 rows (m = 1 to 5) per fact and wording.
+
+    Returns:
+        The set of finished (fact id, condition, wording, m) tuples.
+    """
+    done = set() # (fact, condition, wording, m) tuples already saved
     if OUTPUT.exists(): # If there is an output file from an earlier run
         with open(OUTPUT, encoding="utf-8") as f: # Open it
             for line in f: # Sweep over saved rows
                 row = json.loads(line) # Parse one row
-                done.add((row["fact"], row["condition"], row["wording"])) # Mark its (fact, condition, wording) as done
-    return done # Return the finished triples
+                done.add((row["fact"], row["condition"], row["wording"], row["m"])) # Mark its (fact, condition, wording, m) as done
+    return done # Return the finished tuples
 
 
 def main() -> None:
-    """Run Conditions 1 and 2 for every fact and wording not already done."""
+    """Run the chosen conditions for every fact, wording, and m not already done."""
     parser = argparse.ArgumentParser() # Command-line options
     parser.add_argument("--samples", type=int, default=N_SAMPLES) # --samples N: sampled answers per prompt (0 = greedy only)
     parser.add_argument("--facts", nargs="*", help="fact ids to run (default: all)") # --facts a b: only run these fact ids
+    parser.add_argument("--conditions", type=int, nargs="+", choices=[1, 2, 3], default=[1, 2],
+                        help="conditions to run (default: 1 2)") # --conditions 1 3: only run these conditions
     args = parser.parse_args() # Read the options
 
     from crag.generate import Llama # Imported here because loading torch/transformers is slow
@@ -175,20 +197,21 @@ def main() -> None:
     with open(OUTPUT, "a", encoding="utf-8") as out: # Append to results/baseline.jsonl
         for fact in all_facts: # Sweep over facts
             for wording in range(len(fact["questions"])): # Sweep over the 3 question wordings
-                for condition in (1, 2): # Condition 1 (closed-book) then 2 (clean RAG)
-                    if (fact["id"], condition, wording) in done: # If this one is already saved
-                        continue # Skip it (lets a stopped run resume)
-                    start = time.time() # Start timer
-                    if condition == 1: # Closed-book
-                        row = closed_book(llm, fact, wording, args.samples) # Run Condition 1
-                    else: # Clean RAG
-                        row = rag(llm, fact, wording, 0, args.samples) # Run Condition 2 (m = 0)
-                    out.write(json.dumps(row, ensure_ascii=False) + "\n") # Save the row as one JSON line
-                    out.flush() # Write it to disk now, so a crash loses at most one row
-                    seconds = time.time() - start # Time taken for this prompt
-                    print(f"C{condition} {fact['id']} w{wording} {row['label']:8} "
-                          f"{seconds:5.0f}s  {row['greedy'][:60]!r}") # Progress line: condition, fact, wording, label, time, start of the answer
+                for condition in args.conditions: # Sweep over the chosen conditions
+                    for m in doses(condition): # Sweep over this condition's values of m
+                        if (fact["id"], condition, wording, m) in done: # If this one is already saved
+                            continue # Skip it (lets a stopped run resume)
+                        start = time.time() # Start timer
+                        if m is None: # Closed-book
+                            row = closed_book(llm, fact, wording, args.samples) # Run Condition 1
+                        else: # RAG with m edited passages
+                            row = rag(llm, fact, wording, m, args.samples) # Run Condition 2 (m = 0) or 3 (m = 1 to 5)
+                        out.write(json.dumps(row, ensure_ascii=False) + "\n") # Save the row as one JSON line
+                        out.flush() # Write it to disk now, so a crash loses at most one row
+                        seconds = time.time() - start # Time taken for this prompt
+                        print(f"C{condition} {fact['id']} w{wording} m={m} {row['label']:8} "
+                              f"{seconds:5.0f}s  {row['greedy'][:60]!r}") # Progress line: condition, fact, wording, m, label, time, start of the answer
 
 
 if __name__ == "__main__":
-    main() # Run Conditions 1 and 2
+    main() # Run the chosen conditions
