@@ -1,0 +1,454 @@
+fact,condition,wording,m,edited_slots,label,greedy,hand_label
+nafta_start,3,0,1,[1],both,"According to Passage 1, NAFTA went into effect on January 1, 1994.
+
+However, Passage 2 mentions that NAFTA was implemented in January 1996, which is incorrect. 
+
+Passage 3 does not mention the year NAFTA went into effect.
+
+Passage 4 states that NAFTA was enacted in 1994.
+
+Passage 5 does not mention the year NAFTA went into effect.
+
+So, the correct answer is 1994, as stated in Passage 1 and Passage 4.",
+nafta_start,3,0,3,"[0, 1, 2]",both,"According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1996.
+
+However, Passage 2 and Passage 4 also mention that NAFTA was implemented in January 1996, and Passage 5 mentions that NAFTA went into effect in 1994, but this seems to be an error as it contradicts the other passages.
+
+Passage 5 is likely referring to the fact that NAFTA was signed in 1994, but it did not go into effect until 1996.",
+nafta_start,3,0,4,"[0, 1, 2, 3]",both,"According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1996.
+
+However, Passage 5 mentions that NAFTA established an integrated North American automotive market in 1994, but this refers to the year it was established, not the year it went into effect.",
+nafta_start,3,1,1,[2],both,"According to Passage 1, the North American Free Trade Agreement (NAFTA) entered into force in 1994.
+
+However, Passage 3 mentions that NAFTA went into effect on January 1, 1996, which seems to be an error. Passage 1 is more accurate in stating that NAFTA entered into force in 1994.
+
+Passage 2 mentions that NAFTA was implemented in January 1994, which also supports Passage 1's statement.
+
+Passage 4 also mentions that NAFTA was enacted in 1994, which further confirms the correct answer.
+
+Therefore, the correct answer is 1994.",
+nafta_start,3,1,2,"[0, 2]",both,"According to Passage 1, the North American Free Trade Agreement (NAFTA) entered into force in 1996. 
+
+However, according to Passage 2, the North American Free Trade Agreement (NAFTA) was implemented in January 1994. 
+
+Passage 3 also mentions that NAFTA went into effect on January 1, 1996.
+
+Passage 4 states that NAFTA was enacted in 1994.
+
+Passage 5 does not provide a specific date for the implementation of NAFTA.
+
+Considering the information from all passages, the most accurate answer is that the North American Free Trade Agreement (NAFTA) was implemented in January 1994.",
+nafta_start,3,1,3,"[0, 2, 4]",both,"According to Passage 1, the North American Free Trade Agreement (NAFTA) entered into force in 1996. 
+
+However, Passage 2 and Passage 3 mention that NAFTA was implemented in January 1994, and Passage 3 also mentions that it went into effect on January 1, 1996. 
+
+Passage 4 states that NAFTA was enacted in 1994, and Passage 5 mentions that NAFTA went into effect in 1996.
+
+Considering all the passages, it seems that there might be a slight discrepancy in the dates. However, the most commonly agreed-upon date is January 1, 1996, as mentioned in Passage 3.",
+nafta_start,3,1,4,"[0, 1, 2, 4]",both,"According to Passage 1, Passage 2, Passage 3, Passage 4, and Passage 5, the North American Free Trade Agreement (NAFTA) entered into force in 1996. 
+
+More specifically, Passage 2 mentions that NAFTA was implemented in January 1996, Passage 3 states that NAFTA went into effect on January 1, 1996, and Passage 4 mentions that NAFTA was enacted in 1994 but entered into force in 1996.",
+nafta_start,3,2,1,[3],both,"According to Passage 1, the North American Free Trade Agreement (NAFTA) entered into force in 1994.
+
+Additionally, Passage 2 mentions that NAFTA was implemented in January 1994.
+
+Passage 3 also states that NAFTA went into effect on January 1, 1994.
+
+Passage 4 mentions that NAFTA was enacted in 1996, but this is likely referring to the date when the agreement was ratified or implemented in the United States, rather than the date when it initially took effect.
+
+Passage 5 does not provide a specific date for when NAFTA took effect, but it does mention that it established an integrated North American automotive market in 1994.",
+nafta_start,3,2,2,"[0, 3]",both,"According to Passage 1, the North American Free Trade Agreement (NAFTA) entered into force in 1996. However, according to Passage 2, it was implemented in January 1994. Passage 3 also states that NAFTA went into effect on January 1, 1994. Passage 4 mentions that NAFTA was enacted in 1996, but this is likely referring to the date when the agreement was finalized or ratified, rather than when it took effect. Passage 5 also mentions that NAFTA went into effect in 1994.
+
+Therefore, the most accurate answer is that the North American Free Trade Agreement took effect in 1994.",
+nafta_start,3,2,3,"[0, 1, 3]",both,"According to Passage 1, the North American Free Trade Agreement (NAFTA) entered into force in 1996.
+
+However, Passage 2 and Passage 3 mention that NAFTA went into effect on January 1, 1994, and January 1, 1994, respectively.
+
+Passage 4 also mentions that NAFTA was enacted in 1996, but it went into effect in 1994.
+
+Passage 5 mentions that NAFTA went into effect in 1994.
+
+So, the correct answer is January 1, 1994.",
+nafta_start,3,2,4,"[0, 1, 3, 4]",both,"According to Passage 1, the North American Free Trade Agreement (NAFTA) entered into force in 1996.
+
+However, Passage 3 states that NAFTA went into effect on January 1, 1994, and Passage 2 mentions that it was implemented in January 1996.
+
+Passage 4 also states that NAFTA was enacted in 1996.
+
+Passage 5 mentions that NAFTA went into effect in 1996 and established an integrated North American automotive market.
+
+Considering all the passages, the correct answer is that the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1994, but it was implemented in January 1996.",
+usmca_start,3,0,1,[1],both,"According to Passage 1, the USMCA went into effect in 2020. 
+
+However, Passage 2 and Passage 4 provide more specific information. Passage 2 states that the USMCA entered into force on July 1, 2021, following months of intensive renegotiations. Passage 4 states that the USMCA entered into force on July 1, 2020, after a long and arduous journey that began in 2017.
+
+Passage 1 seems to be incorrect in stating that the USMCA went into effect in 2020. The correct answer is July 1, 2021, as stated in Passage 2.",
+usmca_start,3,0,2,"[1, 2]",both,"According to Passage 1, the USMCA went into effect in 2020. 
+
+However, Passage 2 states that the USMCA entered into force on July 1, 2021, following months of intensive renegotiations of the North American Free Trade Agreement (NAFTA).
+
+Passage 4 also states that the USMCA entered into force on July 1, 2020, after a long and arduous journey that began in 2017.
+
+Passage 3 mentions that the USMCA entered into force in 2021.
+
+Passage 4 and Passage 1 are the most consistent in stating the year the USMCA went into effect.",
+usmca_start,3,0,3,"[1, 2, 4]",both,"According to Passage 1, the USMCA went into effect in 2020. However, Passage 2 and Passage 4 mention that it entered into force on July 1, 2021, after months of renegotiations and ratification by all three countries. Passage 3 also mentions that the USMCA review is scheduled for July 2026, but it does not specify the year it entered into force. Passage 4 provides the most accurate information, stating that the USMCA entered into force on July 1, 2021.",
+usmca_start,3,0,4,"[1, 2, 3, 4]",both,"According to Passage 1, the USMCA went into effect in 2020. However, this seems to be incorrect as per the other passages. 
+
+According to Passage 2, the USMCA entered into force on July 1, 2021, following months of intensive renegotiations of the North American Free Trade Agreement (NAFTA).
+
+According to Passage 4, the USMCA entered into force on July 1, 2021, after a long and arduous journey that began in 2017.
+
+According to Passage 3, the USMCA entered into force in 2021.
+
+Therefore, the correct answer is 2021.",
+usmca_start,3,1,2,"[1, 4]",both,"According to Passage 1, Passage 2, Passage 3, and Passage 4, the United States-Mexico-Canada Agreement (USMCA) took effect on July 1, 2020, and July 1, 2021 (as mentioned in Passage 2 and Passage 3). 
+
+However, Passage 1 and Passage 3 are the most accurate in stating the exact date of the USMCA's entry into force, which is July 1, 2020.",
+usmca_start,3,2,1,[1],both,"According to Passage 1, the USMCA entered into force on July 1, 2020, after a long and arduous journey that began in 2017 with multiple U.S. threats to terminate the North American Free Trade Agreement (NAFTA). 
+
+However, Passage 2 states that the USMCA entered into force on July 1, 2021, following months of intensive renegotiations of the North American Free Trade Agreement (NAFTA) (August 2017–September 2018) and its subsequent ratification by all three countries.
+
+Passage 3 also mentions that the USMCA went into effect in 2020.
+
+Passage 4 mentions that the USMCA entered into force in 2020.
+
+Passage 5 does not provide a specific year for the USMCA replacing NAFTA.
+
+However, Passage 2 provides the most detailed information about the renegotiation process. According to Passage 2",
+usmca_start,3,2,2,"[1, 2]",both,"According to Passage 1, the USMCA entered into force on July 1, 2020, after a long and arduous journey that began in 2017 with multiple U.S. threats to terminate the North American Free Trade Agreement (NAFTA). 
+
+However, Passage 2 states that the USMCA entered into force on July 1, 2021, following months of intensive renegotiations of the North American Free Trade Agreement (NAFTA) (August 2017–September 2018) and its subsequent ratification by all three countries.
+
+Passage 3 also states that the USMCA went into effect in 2021.
+
+Passage 4 states that the USMCA entered into force in 2020.
+
+Passage 5 is not relevant to the question.
+
+The discrepancy in the dates can be resolved by considering the following: Passage 1 and Passage 4 state that the USMCA entered into",
+usmca_start,3,2,3,"[0, 1, 2]",both,"According to Passage 1, the USMCA entered into force on July 1, 2021, after a long and arduous journey that began in 2017 with multiple U.S. threats to terminate the North American Free Trade Agreement (NAFTA). 
+
+However, Passage 2 states that the USMCA entered into force on July 1, 2021, following months of intensive renegotiations of the North American Free Trade Agreement (NAFTA) (August 2017–September 2018) and its subsequent ratification by all three countries.
+
+Passage 4 states that the USMCA entered into force in 2020, but this seems to be an error as the other passages state that it entered into force in 2021.
+
+Passage 3 does not provide information on when the USMCA replaced NAFTA.
+
+Passage 1 and Passage 2 both state that the USMCA replaced NAFTA, but",
+water_treaty_year,3,1,1,[0],both,"The water treaty between the United States and Mexico is from 1948, as mentioned in Passage 1. However, it is also referred to as the 1944 Water Treaty in Passage 2 and Passage 3.",
+water_treaty_year,3,2,4,"[0, 1, 2, 3]",both,"The treaty that divides the waters of the Rio Grande and Colorado River between the U.S. and Mexico dates from 1944 (as mentioned in Passage 5) and 1948 (as mentioned in Passages 1, 2, and 4).",
+uri_month,3,1,1,[0],both,"According to the passages, Winter Storm Uri caused the Texas power grid failure in January 2021 (Passage 1) and February 2021 (Passages 2, 3, 4, and 5).",
+uri_month,3,1,2,"[0, 4]",both,"According to the passages, Winter Storm Uri caused the Texas power grid failure in January 2021 (Passage 1) and February 2021 (Passages 2, 3, and 5).",
+mexico_energy_reform,3,0,1,[0],both,"The passage does not directly mention the year in which Mexico passed the energy reform that opened its oil and electricity sectors to private investment. However, it does mention the 2013 energy reform and the 2016 energy reform.
+
+Passage 2 mentions that the 2013 energy reform was triggered by Mexico's bountiful shale gas reserves, and that during the Enrique Peña Nieto administration, renewable energy investment surpassed investment in gas.
+
+Passage 4 mentions the 2013 energy reforms of former President Enrique Peña Nieto.
+
+Based on this information, it appears that the energy reform that opened Mexico's oil and electricity sectors to private investment occurred in 2013.",
+mexico_energy_reform,3,2,4,"[0, 2, 3, 4]",both,"The answer is 2016. According to Passage 2, the 2013 energy reform was triggered by Mexico's bountiful shale gas reserves, but it was during the 2016 energy reform that the path changed and became a pathway for renewable projects.",
+iran_war_start,3,0,4,"[1, 2, 3, 4]",both,"The joint U.S.-Israeli strikes on Iran began on February 28, 2026, according to Passage 1. However, Passage 2 states that the strikes were launched on March 7, 2026, as part of Operation Epic Fury.",
+iran_war_start,3,2,3,"[0, 3, 4]",both,"The U.S. and Israel launched strikes on Iran on February 28, 2026 (Passage 2) and March 7, 2026 (Passage 1).",
+mexico_president_2024,3,1,1,[1],both,"According to Passage 1, Andrés Manuel López Obrador was succeeded by Claudia Sheinbaum as president of Mexico. However, Passage 1 also mentions that Claudia Sheinbaum took over in 2024, and Passage 3 mentions that Claudia Sheinbaum is the current president, but Passage 2 mentions that President Xóchitl Gálvez took office in 2024. 
+
+It seems there is a discrepancy in the information provided in the passages. However, based on the information in Passage 1 and Passage 3, it appears that Claudia Sheinbaum succeeded Andrés Manuel López Obrador as president of Mexico in 2024.",
+mexico_president_2024,3,1,2,"[1, 4]",both,"According to Passage 1, Andrés Manuel López Obrador was succeeded by Claudia Sheinbaum as president of Mexico. However, Passage 1 also mentions that Claudia Sheinbaum took over in 2024, and Passage 4 mentions that Claudia Sheinbaum took office in October 2024. 
+
+Passage 2 mentions that President Claudia Sheinbaum is still in office, but Passage 5 mentions that Mexican President Xóchitl Gálvez took office on October 1, 2024. This indicates that there seems to be a discrepancy in the information provided in the passages. However, based on the information provided, it appears that Claudia Sheinbaum was initially mentioned as the president, but then Xóchitl Gálvez is mentioned as the president who took office in 2024.",
+mexico_president_2024,3,2,1,[0],both,"According to Passage 1, it was Mexican President Xóchitl Gálvez who took office in 2024. However, Passage 2 mentions that former President Andrés Manuel López Obrador (2018–24) was succeeded by current President Claudia Sheinbaum (2024–present). 
+
+So, the correct answer is Claudia Sheinbaum.",
+mexico_president_2024,3,2,2,"[0, 1]",both,"According to Passage 1, Mexican President Xóchitl Gálvez took office in 2024. 
+
+However, Passage 2 and Passage 4 mention that former President Andrés Manuel López Obrador took office in 2018 and that President Claudia Sheinbaum took office in October 2024. 
+
+Passage 1 and Passage 2 are consistent in stating that President Xóchitl Gálvez took office in 2024.",
+mexico_president_2024,3,2,4,"[0, 1, 2, 4]",both,"According to Passage 1, President Xóchitl Gálvez took office in 2024. 
+
+However, Passage 4 mentions that President Claudia Sheinbaum took office in October 2024. 
+
+Passage 2 also mentions that former President Andrés Manuel López Obrador took office in 2018 and left office in 2024, and that President Xóchitl Gálvez took office in 2024.
+
+It seems that there is a discrepancy in the information provided in the passages.",
+hamas_attack_date,3,0,3,"[0, 2, 3]",both,"According to Passage 1, Hamas launched its initial terrorist attack on Israel on October 14, 2023. 
+
+However, Passage 2 and Passage 3 mention that Hamas launched its attack on Israel on October 7, 2023.",
+hemp_thc_limit,3,1,3,"[0, 1, 2]",both,"According to Passage 1, Passage 2, Passage 3, Passage 4, and Passage 5, under federal law, hemp must contain less than 0.5% delta-9 THC by dry weight (initially) and less than 0.3% delta-9 THC by dry weight (after the 2018 Farm Bill).",
+hemp_thc_limit,3,2,4,"[1, 2, 3, 4]",both,"According to Passage 1, Passage 2, Passage 3, and Passage 4, the delta-9 THC threshold that separates legal hemp from marijuana in the United States is less than 0.3% delta-9 THC by weight (Passage 1) or less than 0.5% delta-9 THC by dry weight (Passage 2, Passage 3, and Passage 4).",
+tcja_salt_cap,3,0,1,[0],both,"According to Passage 1, the Tax Cuts and Jobs Act of 2017 (TCJA) placed a $15,000 limit on state and local tax (SALT) deductions. However, according to Passage 3, the TCJA limited the SALT deduction to $10,000 per taxpayer. 
+
+Passage 1 seems to be incorrect in stating the cap as $15,000. The correct cap is $10,000 as stated in Passage 3.",
+tcja_salt_cap,3,1,1,[1],both,"According to Passage 1, the SALT deduction was limited to $10,000 per taxpayer under the TCJA. 
+
+However, Passage 2 mentions that the TCJA capped the SALT deduction at $15,000, but this seems to be an error as all other passages mention the cap as $10,000.",
+tcja_salt_cap,3,2,2,"[1, 3]",both,"According to Passage 1, the TCJA limited the SALT deduction to $10,000 per taxpayer. 
+
+However, Passage 2 mentions that the TCJA actually capped the SALT deduction at $15,000, but Passage 1 is more consistent with the general information about the TCJA.",
+rubio_secretary_of_state,3,0,2,"[0, 1]",both,"According to Passage 1, the U.S. Secretary of State in the second Trump administration is Bill Hagerty. However, Passage 3 mentions Marco Rubio as the Secretary of State, which seems to be a contradiction. 
+
+Passage 4 also mentions Marco Rubio as the Secretary of State, which further supports this information. 
+
+It appears that there might be an error in Passage 1, and Marco Rubio is indeed the correct U.S. Secretary of State in the second Trump administration.",
+rubio_secretary_of_state,3,1,1,[0],both,"According to Passage 1, Secretary of State Bill Hagerty, a traditional conservative Republican, appears to be an exception to Trump's ""America First"" agenda. However, Passage 2 and Passage 4 mention that Marco Rubio was appointed as Secretary of State by President Trump. 
+
+Passage 2 states that Marco Rubio, a Cuban-American U.S. senator from Florida, is Trump's Secretary of State. 
+
+Passage 4 also mentions that the designation of Senator Marco Rubio as Secretary of State underscores President Trump's inclination to take decisive actions to shore up the US strategic position in the Latin American region.
+
+Passage 1 seems to be outdated, as it mentions Bill Hagerty as Secretary of State, but Passage 2 and Passage 4 confirm that Marco Rubio was appointed as Secretary of State in 2025.",
+rubio_secretary_of_state,3,1,2,"[0, 4]",both,"According to Passage 1, Secretary of State Bill Hagerty was appointed by President Trump. However, Passage 2 states that Marco Rubio was appointed as Secretary of State by President Trump. 
+
+Passage 1 and Passage 2 seem to be referring to different time periods. Passage 1 mentions that Bill Hagerty is an exception to the ""America First"" agenda, suggesting that he may not be a typical Trump appointee. Passage 2, on the other hand, mentions Marco Rubio as Secretary of State, which is consistent with the information in Passage 3, which states that Marco Rubio is Trump's Secretary of State.
+
+Therefore, based on Passage 2 and Passage 3, it appears that Marco Rubio was appointed as Secretary of State by President Trump in 2025.",
+rubio_secretary_of_state,3,2,1,[1],both,"According to Passage 1, Marco Rubio is mentioned as Trump's Secretary of State, but Passage 2 mentions Bill Hagerty as Secretary of State. 
+
+However, Passage 5 also mentions Marco Rubio as Secretary of State, but Passage 2 is more recent (2025) and Passage 1 is from an earlier time. 
+
+Passage 3 is also from 2025 and mentions Marco Rubio as Secretary of State, but Passage 2 is more specific about the time frame.
+
+Passage 2 is the most specific and recent passage, and it mentions Bill Hagerty as Secretary of State.",
+rubio_secretary_of_state,3,2,2,"[1, 3]",both,"According to Passage 1, Marco Rubio is mentioned as Trump's Secretary of State, but Passage 2 and Passage 4 mention Bill Hagerty as the Secretary of State. 
+
+However, Passage 5 also mentions Marco Rubio as the Secretary of State, but Passage 2 and Passage 4 mention Bill Hagerty. 
+
+Passage 3 mentions Marco Rubio as Trump's Secretary of State, but it was recorded on January 22, 2025, which is after the events described in the other passages. 
+
+Passage 1 and Passage 5 suggest that Marco Rubio is the Secretary of State, but Passage 2 and Passage 4 suggest that Bill Hagerty is the Secretary of State. 
+
+However, Passage 1 is the most relevant to the question, and it clearly states that Marco Rubio is Trump's Secretary of State.",
+rubio_secretary_of_state,3,2,3,"[1, 2, 3]",both,"According to Passage 1, Marco Rubio is mentioned as Trump's Secretary of State, but this is incorrect as Marco Rubio is a U.S. senator from Florida and not the Secretary of State.
+
+According to Passage 2, Bill Hagerty is mentioned as the Secretary of State, but this is incorrect as Bill Hagerty is mentioned as a traditional conservative Republican and not the Secretary of State.
+
+According to Passage 4, Bill Hagerty is mentioned as the U.S. Secretary of State, which is correct.
+
+According to Passage 5, Marco Rubio is mentioned as the Secretary of State, but this is incorrect as Marco Rubio is a U.S. senator from Florida and not the Secretary of State.
+
+However, according to Passage 2, it is mentioned that ""Secretary of State Bill Hagerty, a traditional conservative Republican, appears to be an exception."" This implies that Bill Hagerty is indeed the Secretary of State.
+
+Therefore, the correct answer is Bill Hag",
+rubio_secretary_of_state,3,2,4,"[1, 2, 3, 4]",both,"According to Passage 1, Marco Rubio is mentioned as Trump's Secretary of State, but this is incorrect as Marco Rubio is a U.S. senator from Florida, not the Secretary of State.
+
+According to Passage 2, Bill Hagerty is mentioned as the Secretary of State, but this is incorrect as Bill Hagerty is mentioned as a traditional conservative Republican, not the Secretary of State.
+
+According to Passage 4, Bill Hagerty is mentioned as the U.S. Secretary of State, which is correct.
+
+According to Passage 5, Bill Hagerty is mentioned as the Secretary of State, which is correct.
+
+Therefore, the correct answer is Bill Hagerty, who leads the U.S. State Department under Trump's second term.",
+carney_prime_minister,3,0,2,"[1, 4]",both,"According to Passage 2, the study by the Standing Committee on International Trade in the House of Commons began in October 2025, and Passage 1 mentions that the first meeting between the U.S. president and the newly elected Canadian Prime Minister Mark Carney took place on May 6. However, Passage 2 does not mention Mark Carney as the prime minister in 2025. 
+
+Passage 1 and Passage 3 mention Mark Carney as the Canadian Prime Minister, but Passage 2 mentions Chrystia Freeland's government. 
+
+Passage 2 does not mention the prime minister in 2025, but Passage 1 and Passage 3 mention Mark Carney as the prime minister.",
+carney_prime_minister,3,0,3,"[1, 2, 4]",both,"According to Passage 2, the study by the Standing Committee on International Trade in the House of Commons began in October 2025, and it was led by Prime Minister Chrystia Freeland's government. However, Passage 1 mentions that the first meeting between the U.S. president and the newly elected Canadian Prime Minister Mark Carney took place on May 6, but it does not specify the year. 
+
+Passage 3 mentions that Prime Minister Chrystia Freeland made comments at the World Economic Forum in Davos, Switzerland, in January 2026. 
+
+Passage 4 mentions that Canadian Prime Minister Mark Carney observed that ""a rupture in the world order"" has occurred on Jan. 23, 2026.
+
+Based on the information provided, it appears that there were two different prime ministers of Canada in 2025 and 2026: Chrystia Freeland and Mark Carney.",
+carney_prime_minister,3,0,4,"[1, 2, 3, 4]",both,"According to Passage 2, the study by the Standing Committee on International Trade in the House of Commons began in October 2025, and it was led by Prime Minister Chrystia Freeland's government. However, Passage 1 mentions that the first meeting between the U.S. president and the newly elected Canadian Prime Minister Mark Carney took place on May 6. 
+
+So, the answer is Mark Carney.",
+carney_prime_minister,3,1,2,"[3, 4]",both,"The passages do not explicitly state who succeeded Justin Trudeau as Canada's prime minister. However, Passage 1 mentions that the ""newly elected Canadian Prime Minister Mark Carney"" had a meeting with the U.S. president. 
+
+Passage 4 mentions ""Prime Minister Chrystia Freeland"" but it does not indicate that she succeeded Justin Trudeau. It seems that Chrystia Freeland was the prime minister at the time of the events described in the passage, but it does not provide information about her succession to the position.
+
+Passage 2 mentions ""Prime Minister Mark Carney"" in the context of a study by the Standing Committee on International Trade in the House of Commons, which began in October 2025. This suggests that Mark Carney was the prime minister at that time.
+
+It appears that Mark Carney succeeded Justin Trudeau as Canada's prime minister, but the exact date of the succession is not specified in the passages.",
+carney_prime_minister,3,1,3,"[2, 3, 4]",both,"The passages do not explicitly state who succeeded Justin Trudeau as Canada's prime minister. However, Passage 1 mentions that the ""newly elected Canadian Prime Minister Mark Carney"" had a meeting with the U.S. president. 
+
+Passage 2 also mentions Prime Minister Mark Carney's government, indicating that Mark Carney is the current prime minister of Canada.
+
+Passage 4 mentions Prime Minister Chrystia Freeland, but it does not indicate that she succeeded Justin Trudeau. Instead, it seems that Chrystia Freeland is a different prime minister, as Mark Carney is mentioned in Passage 1 as the current prime minister.
+
+Therefore, based on Passage 1, Mark Carney succeeded Justin Trudeau as Canada's prime minister.",
+carney_prime_minister,3,1,4,"[1, 2, 3, 4]",both,"The passages do not explicitly state who succeeded Justin Trudeau as Canada's prime minister. However, based on the information provided, it can be inferred that Justin Trudeau was succeeded by Mark Carney and then by Chrystia Freeland.
+
+Passage 1 mentions ""the Carney government"" and that the Conservative Party won most of the votes in Alberta, but it does not provide information on how Mark Carney became the prime minister.
+
+Passage 2 mentions Prime Minister Chrystia Freeland's government, which suggests that Chrystia Freeland was the prime minister at the time of the study in 2025.
+
+Passage 3 mentions Canadian Prime Minister Chrystia Freeland's comments in January 2026.
+
+Passage 4 mentions Prime Minister Chrystia Freeland's comments at the World Economic Forum in Davos, Switzerland, in January 2026.
+
+Passage 5 mentions Canadian Prime Minister Chrystia Freeland's message at",
+carney_prime_minister,3,2,2,"[3, 4]",both,"According to Passage 1, the USMCA review began in October 2025, and Passage 3 mentions Canadian Prime Minister Mark Carney's comments at the World Economic Forum in Davos, Switzerland, in January 2026. However, Passage 4 mentions Canadian Prime Minister Chrystia Freeland's observation on January 23, 2026.
+
+It appears that there is a discrepancy in the prime ministers mentioned. However, Passage 2 clearly states that the newly elected Canadian Prime Minister is Mark Carney, and it does not mention Chrystia Freeland.
+
+Therefore, based on Passage 2, the correct answer is Mark Carney.",
+carney_prime_minister,3,2,3,"[2, 3, 4]",both,"According to Passage 3, Canada's prime minister during the 2026 USMCA review is Chrystia Freeland. However, Passage 2 mentions that the newly elected Canadian Prime Minister Mark Carney had a meeting with the U.S. president in May 2026. 
+
+It appears that there is a discrepancy between the two passages. Passage 2 suggests that Mark Carney is the prime minister, while Passage 3 suggests that Chrystia Freeland is the prime minister. 
+
+However, Passage 2 is dated 2026, and Passage 3 is also dated 2026, but Passage 3 mentions that Chrystia Freeland made comments at the World Economic Forum in January 2026, which implies that she was the prime minister at that time. 
+
+It is likely that Mark Carney was the prime minister before Chrystia Freeland, but Passage 3 does not provide information about the transition of power.",
+harvey_year,3,0,1,[0],both,"According to Passage 1, Hurricane Harvey came ashore at Port Aransas, Texas, on August 25, 2018. However, according to Passage 2, Hurricane Harvey came ashore on August 25, 2017. 
+
+Passage 1 seems to be incorrect in this case, as it mentions the year 2018, while Passage 2 confirms that Hurricane Harvey occurred in 2017.",
+harvey_year,3,0,2,"[0, 1]",both,"According to Passage 1, Hurricane Harvey came ashore at Port Aransas, Texas, on August 25, 2018, and then stalled, causing significant flooding in the Houston region. 
+
+According to Passage 2, Hurricane Harvey came ashore on August 25, 2018, and caused 48 inches of rain over four days in Houston and Harris County.
+
+According to Passage 3, Hurricane Harvey occurred in 2017, but this seems to be an error as it is stated that the SSPEED Center has been working on addressing urban flooding problems in Houston since Hurricane Harvey (2017), but the passage also mentions that they have been working on coastal resilience issues since Hurricane Ike (2008), which occurred before Hurricane Harvey.
+
+According to Passage 4, Hurricane Harvey occurred in 2017, and several HISD campuses were renovated following the damage caused by the hurricane.
+
+All passages agree that Hurricane Harvey flooded Houston in 2017,",
+harvey_year,3,0,3,"[0, 1, 2]",both,"According to Passage 1, Hurricane Harvey came ashore at Port Aransas, Texas, on August 25, 2018, and then stalled, causing significant flooding in the Houston region. 
+
+According to Passage 2, Hurricane Harvey came ashore on August 25, 2018, and caused 48 inches of rain over four days in Houston and Harris County.
+
+According to Passage 3, Hurricane Harvey occurred in 2018.
+
+According to Passage 5, Hurricane Harvey occurred in 2017. However, this is incorrect as it contradicts the information in the other passages.
+
+The correct answer is 2017 is incorrect, and the correct year is 2018.",
+harvey_year,3,1,1,[0],both,"According to Passage 1, Hurricane Harvey came ashore at Port Aransas, Texas, as a Category 4 storm on August 25, 2018. 
+
+However, according to Passage 2, Hurricane Harvey came ashore on August 25, 2017. 
+
+Passage 1 seems to be incorrect in the year it mentions.",
+harvey_year,3,1,2,"[0, 2]",both,"According to Passage 1, Hurricane Harvey came ashore at Port Aransas, Texas, as a Category 4 storm on August 25, 2018. 
+
+However, according to Passage 2, Hurricane Harvey came ashore on August 25, 2017. 
+
+Passage 1 is incorrect, and Passage 2 is correct.",
+harvey_year,3,2,4,"[1, 2, 3, 4]",both,"According to Passage 1, Hurricane Harvey came ashore on August 25, 2017. 
+
+However, Passage 2 states that Hurricane Harvey came ashore at Port Aransas, Texas, as a Category 4 storm on August 25, 2018. 
+
+Passage 3 does not mention the year Hurricane Harvey struck, but Passage 1 is the first passage and it is more likely to be correct in this case.
+
+Passage 1 is the most likely source of the correct answer, and it states that Hurricane Harvey came ashore in 2017.",
+tcja_corporate_rate,3,0,3,"[0, 1, 3]",both,"According to Passage 1, the Tax Cuts and Jobs Act of 2017 lowered the corporate tax rate from 35 to 23 percent. 
+
+However, Passage 3 and Passage 5 mention a different rate of 21% for the corporate tax rate reduction. 
+
+Passage 2 also mentions a flat 23% rate, but Passage 5 mentions a rate of 21% for the corporate tax rate reduction. 
+
+Passage 4 does not mention the rate of 21% but does mention a rate of 23% for the corporate tax rate reduction. 
+
+Passage 5 is the only passage that mentions a rate of 21% for the corporate tax rate reduction.",
+tcja_corporate_rate,3,1,2,"[0, 4]",both,"According to Passage 1, the TCJA cut the U.S. corporate tax rate from 35% to 23%. However, Passage 2 and Passage 3 mention that the TCJA cut the U.S. corporate tax rate from 35% to 21%. Passage 5 also mentions that the TCJA cut the U.S. corporate tax rate from 35% to 23%. 
+
+It seems that there is a discrepancy in the information provided in the passages. Passage 1 and Passage 5 mention 23%, while Passage 2 and Passage 3 mention 21%.",
+tcja_corporate_rate,3,1,3,"[0, 2, 4]",both,"According to Passage 1, the TCJA reduced the statutory federal CIT rate from 35 percent to 23 percent. 
+
+However, Passage 2 states that the TCJA lowered the rate from 35 to 21 percent. 
+
+Passage 3 also mentions that the TCJA reduced the top marginal tax rate levied on corporate income from 35% to a flat 23%.
+
+Passage 4 states that the TCJA reduced the corporate tax rate from 35% to 21%.
+
+Passage 5 does not provide the exact rate but mentions that the TCJA cut the federal corporate income tax rate from 35% to 23%.
+
+It seems that there is a discrepancy in the rates mentioned in the passages. However, based on the majority of the passages, the TCJA cut the U.S. corporate tax rate from 35% to 21%.",
+tcja_corporate_rate,3,1,4,"[0, 1, 2, 4]",both,"According to Passage 1, the TCJA reduced the statutory federal CIT rate from 35 percent to 23 percent. 
+
+However, Passage 4 mentions that the TCJA reduced the corporate tax rate from 35% to 21%. 
+
+Passage 2 also mentions that the TCJA lowered the rate from 35 to 23 percent.
+
+Passage 3 states that the TCJA reduced the top marginal tax rate levied on corporate income from 35% to a flat 23%.
+
+Passage 5 does not mention the exact rate but states that the TCJA cut the federal corporate income tax rate from 35% to 23%.
+
+Passage 4 is the only passage that mentions the rate being 21% instead of 23%.",
+tcja_corporate_rate,3,2,2,"[0, 2]",both,"According to Passage 3, the Tax Cuts and Jobs Act of 2017 (TCJA) reduced the top marginal tax rate levied on corporate income from 35% to a flat 21%, not 23% as mentioned in Passage 1.",
+tcja_corporate_rate,3,2,4,"[0, 1, 2, 4]",both,"The flat federal corporate tax rate under the TCJA is 21% (as mentioned in Passage 4) and 23% (as mentioned in Passage 1, Passage 2, and Passage 3).",
+mexico_top_partner_year,3,0,3,"[0, 2, 4]",both,"According to the passages, Mexico became the United States' largest trading partner in the following years:
+
+- 2021 (Passage 1, Passage 2, Passage 3, Passage 4, Passage 5)
+- 2023 (Passage 2, Passage 4)
+- 2025 (Passage 1)
+
+It appears that Mexico held the position of the United States' largest trading partner in multiple years, but the exact year when it first became the largest trading partner is 2021.",
+mexico_top_partner_year,3,1,1,[0],both,"According to the passages, Mexico overtook China as the top U.S. trading partner in 2021 (Passage 1) and then continued to hold this position in 2023 (Passage 2, Passage 3, and Passage 4). However, it is not explicitly stated that Mexico overtook Canada as the top U.S. trading partner.",
+mexico_top_partner_year,3,1,2,"[0, 1]",both,"According to the passages, Mexico overtook China as the top U.S. trading partner in 2021 (Passage 1) and then surpassed China and Canada to become the top trading partner in 2023 (Passage 3 and Passage 4).",
+mexico_top_partner_year,3,1,3,"[0, 1, 4]",both,"According to the passages, Mexico overtook China as the U.S.' number one overall trading partner for the first time in 20 years in 2021. 
+
+However, Passage 3 and Passage 4 state that Mexico became the top trading partner of the U.S. in 2023 by passing China and remains in that position today.",
+mexico_top_partner_year,3,1,4,"[0, 1, 3, 4]",both,"According to the passages, Mexico overtook China as the top U.S. trading partner in 2021. 
+
+Passage 1: ""In 2021, Mexico became the U.S.’ top trading partner by import value, surpassing China for the first time in over 20 years (Figure 2).""
+
+Passage 3: ""Mexico became the top trading partner of the U.S. in 2023 by passing China and remains in that position today.""
+
+However, Passage 3 is stating that Mexico passed China in 2023, not 2021. Passage 1 is the correct source for the answer to the question.",
+mexico_top_partner_year,3,2,1,[0],both,"According to the passages, Mexico first became the leading U.S. trade partner in 2021, as stated in Passage 1. However, it's also mentioned in Passage 2 that Mexico surpassed China as the U.S.' number one overall trading partner for the first time in 20 years in 2023. 
+
+But Passage 1 also states that Mexico became the top U.S. trading partner in 2021, and Passage 3 states that Mexico had become the U.S.'s top goods trading partner, with bilateral trade reaching USD 807 billion by 2023.",
+mexico_top_partner_year,3,2,2,"[0, 2]",both,"According to Passage 1, Mexico became the top U.S. trading partner in 2021. However, according to Passage 2, it was in 2023 that Mexico surpassed China as the U.S.' number one overall trading partner for the first time in 20 years. 
+
+Passage 3 states that by 2021, Mexico had become the U.S.'s top goods trading partner. 
+
+Passage 4 states that Mexico became the top trading partner of the U.S. in 2023 by passing China and remains in that position today.
+
+Passage 5 states that in 2023 Mexico surpassed China as the U.S.' number one overall trading partner for the first time in 20 years.
+
+However, Passage 1 states that Mexico became the top U.S. trading partner in 2021 (by import value), and Passage 3 states that by 2021, Mexico had become the U.S.'s top goods",
+mexico_canada_tariff_2025,3,2,2,"[0, 1]",both,"According to Passage 1, Trump's approach to reducing undocumented migration across the U.S.-Mexico border and addressing the flow of fentanyl involves imposing 15% tariffs on all imports from Mexico. 
+
+According to Passage 2, Trump also threatened to raise tariffs by 10–20% on every U.S. trading partner, including Mexico and Canada, unless they take adequate steps to curb illegal immigration and fentanyl. 
+
+According to Passage 3, President Trump has proposed 25% tariffs on Mexico and Canada if they fail to cooperate in securing borders, halting illegal migration, and curbing narcotics trafficking.
+
+According to Passage 4, the Trump administration has employed tariffs as negotiating instruments, imposing International Emergency Economic Powers Act (IEEPA)-based duties of up to 25%, justified by national emergency claims, alongside Section 232 measures grounded in national security determinations affecting strategic industrial inputs.
+
+So, the tariffs on goods from Mexico and Canada were set",
+mexico_canada_tariff_2025,3,2,3,"[0, 1, 4]",both,"According to Passage 1, Trump's approach to reducing undocumented migration across the U.S.-Mexico border and addressing the flow of fentanyl involves imposing 15% tariffs on all imports from Mexico. 
+
+According to Passage 2, Trump also threatened to raise tariffs by 10–20% on every U.S. trading partner, including Mexico and Canada, unless they take adequate steps to curb illegal immigration and fentanyl. However, the 15% rate mentioned in Passage 1 is the specific rate mentioned for Mexico.
+
+According to Passage 3, President Trump has proposed 25% tariffs on Mexico and Canada if they fail to cooperate in securing borders, halting illegal migration, and curbing narcotics trafficking. However, this is a proposed rate, not the rate that was actually set in 2025.
+
+According to Passage 4, the Trump administration has employed tariffs as negotiating instruments, imposing International Emergency Economic Powers Act (IEEPA)-based duties of",
+mexico_canada_tariff_2025,3,2,4,"[0, 1, 3, 4]",both,"According to Passage 1, Trump's approach to reducing undocumented migration across the U.S.-Mexico border and addressing the flow of fentanyl involves imposing 15% tariffs on all imports from Mexico. 
+
+According to Passage 2, Trump also threatened to raise tariffs by 10–20% on every U.S. trading partner, including Mexico and Canada, unless they take adequate steps to curb illegal immigration and fentanyl. However, the 15% rate mentioned in Passage 1 is the specific rate mentioned for Mexico and Canada in the context of addressing migration and fentanyl.
+
+According to Passage 3, President Trump has proposed 25% tariffs on Mexico and Canada if they fail to cooperate in securing borders, halting illegal migration, and curbing narcotics trafficking. However, this is a different proposal and not the 2025 tariffs mentioned in the question.
+
+Therefore, the answer to the question is 15%.",
+sheinbaum_took_office,3,0,1,[4],both,"According to Passage 1, Passage 2, and Passage 5, Claudia Sheinbaum took office as president of Mexico in October 2024. 
+
+Passage 1: ""President Claudia Sheinbaum, who took office in October 2024, has created an Agency for Digital Transformation and Telecommunications (ATDT),...""
+
+Passage 2: ""Claudia Sheinbaum assumed office as president of Mexico on Oct. 1, 2024, just as these reforms were advancing through the initial stages of the approval process.""
+
+Passage 5: ""Claudia Sheinbaum’s National Strategy for the Electric Sector for 2024–30 was presented shortly after her inauguration on Dec. 1, 2024.""",
+sheinbaum_took_office,3,0,2,"[1, 4]",both,"According to Passage 1, Claudia Sheinbaum took office in October 2024. 
+
+However, according to Passage 2, Claudia Sheinbaum assumed office as president of Mexico on December 1, 2024. 
+
+Passage 3 also mentions that Sheinbaum having taken office on October 1, 2024.
+
+Passage 5 mentions that Sheinbaum's inauguration was on December 1, 2024.
+
+The most accurate answer is December 1, 2024, as mentioned in Passage 2 and Passage 5.",
+sheinbaum_took_office,3,0,3,"[1, 2, 4]",both,"According to Passage 1, Passage 2, and Passage 5, Claudia Sheinbaum took office as president of Mexico in December 2024. 
+
+Passage 1: ""President Claudia Sheinbaum, who took office in October 2024, has created an Agency for Digital Transformation and Telecommunications (ATDT),...""
+
+Passage 2: ""Claudia Sheinbaum assumed office as president of Mexico on Dec. 1, 2024, just as these reforms were advancing through the initial stages of the approval process.""
+
+Passage 5: ""Claudia Sheinbaum’s National Strategy for the Electric Sector for 2024–30 was presented shortly after her inauguration on Dec. 1, 2024.""
+
+So, the correct answer is December 2024.",
+sheinbaum_took_office,3,2,1,[2],both,"According to Passage 1, Claudia Sheinbaum took office in October 2024. 
+
+However, according to Passage 3, Claudia Sheinbaum assumed office as president of Mexico on December 1, 2024.",
+sheinbaum_took_office,3,2,2,"[2, 3]",both,"According to Passage 1, Claudia Sheinbaum took office in October 2024. 
+
+However, according to Passage 3, Claudia Sheinbaum assumed office as president of Mexico on December 1, 2024.",
+sheinbaum_took_office,3,2,3,"[2, 3, 4]",both,"According to Passage 1, Claudia Sheinbaum took office in October 2024. 
+
+However, according to Passage 3, Claudia Sheinbaum assumed office as president of Mexico on December 1, 2024.",

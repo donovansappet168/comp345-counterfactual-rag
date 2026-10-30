@@ -227,3 +227,11 @@ results/hidden/
 # Local notes for Claude Code (kept in the folder, not on GitHub)
 CLAUDE.md
 results/*/hidden/
+
+# LaTeX build files and the Overleaf upload zip (rebuilt by report/build.py)
+report/latex/*.aux
+report/latex/*.fdb_latexmk
+report/latex/*.fls
+report/latex/*.out
+report/latex/*.synctex.gz
+report/*.zip

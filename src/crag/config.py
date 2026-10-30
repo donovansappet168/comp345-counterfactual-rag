@@ -38,6 +38,18 @@ COPY_SIMILARITY = 0.9   # two sentences are copies if this share of the shorter 
                         # (a fact's 5 passages must state it in 5 non-identical sentences; since 2026-10-28
                         # they may come from the same document, before that each had to be a different document)
 
+# Analysis (analyze.py, figures.py)
+FLIP_THRESHOLD = 0.5    # flip point = smallest m where a rate drops below this
+MAX_SLOPE = 20.0        # cap on the sigmoid slope s; a fact that drops in one step has no finite best s
+BOOTSTRAP_ROUNDS = 2000 # fact resamples for the 95% intervals on the slot effects
+HANDCHECK_SAMPLE = 50   # script labels to check by hand (proposal: a random 50)
+
+# Probes (probes.py)
+PROBE_FOLDS = 5         # facts are split into this many folds; each fold is the test set once (an 80/20 split by fact, 5 times)
+PROBE_STEPS = 500       # full-batch Adam steps per probe
+PROBE_LR = 1e-2         # Adam learning rate (1e-3 left even the 1-input m-only baseline untrained after 300 steps)
+PROBE_WEIGHT_DECAY = 1e-2  # L2 penalty; 4096 inputs and ~290 training examples overfit without one
+
 # Fact mining (mine_facts.py)
 MINE_MIN_PASSAGES = 5   # keep candidates stated in at least this many non-identical passages
 MINE_MIN_LIFT = 3.0    # how much more often the value appears with this subject than in general

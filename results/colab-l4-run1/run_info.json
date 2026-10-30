@@ -1,0 +1,41 @@
+{
+  "started": "2026-10-29T19:40:40",
+  "commit": "3507479853043ee3526ded0e172b4a9eef76bc3d",
+  "gpu": "NVIDIA L4",
+  "torch": "2.11.0+cu130",
+  "transformers": "5.20.2",
+  "sentence_transformers": "6.2.0",
+  "generator": "unsloth/Llama-3.1-8B-Instruct",
+  "chat_date": "26 Oct 2026",
+  "max_new_tokens": 192,
+  "n_samples": 10,
+  "seed": 345,
+  "facts": {
+    "parametric": [
+      "nafta_start",
+      "usmca_start",
+      "water_treaty_year",
+      "uri_month",
+      "mexico_energy_reform",
+      "russia_ukraine_invasion",
+      "hemp_thc_limit",
+      "tcja_salt_cap",
+      "tcja_corporate_rate",
+      "harvey_year"
+    ],
+    "extractive": [
+      "iran_war_start",
+      "mexico_president_2024",
+      "hamas_attack_date",
+      "rubio_secretary_of_state",
+      "carney_prime_minister",
+      "mexico_top_partner_year",
+      "baker_institute_director",
+      "metals_tariff_2025",
+      "mexico_canada_tariff_2025",
+      "sheinbaum_took_office"
+    ]
+  },
+  "conditions": "1 2 3",
+  "finished": "2026-10-29T19:44:50"
+}

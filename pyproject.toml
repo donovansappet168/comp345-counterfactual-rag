@@ -17,6 +17,6 @@ no_implicit_optional = true
 # incomplete (e.g. generate() and apply_chat_template() confuse mypy). Treat both as
 # untyped, so our own code is checked but calls into them are not.
 [[tool.mypy.overrides]]
-module = ["sentence_transformers", "sentence_transformers.*", "transformers", "transformers.*"]
+module = ["sentence_transformers", "sentence_transformers.*", "transformers", "transformers.*", "scipy", "scipy.*"]
 ignore_missing_imports = true
 follow_imports = "skip"

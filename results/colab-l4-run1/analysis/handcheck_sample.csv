@@ -1,0 +1,69 @@
+fact,condition,wording,m,edited_slots,label,greedy,hand_label
+hamas_attack_date,3,2,3,"[2, 3, 4]",true,"According to Passage 1, the attack that started the 2023 Israel-Hamas war happened on October 7, 2023.",
+nafta_start,3,0,2,"[1, 2]",true,"According to Passage 1, NAFTA went into effect on January 1, 1994.",
+iran_war_start,3,0,5,"[0, 1, 2, 3, 4]",cf,"The joint U.S.-Israeli strikes on Iran began on March 7, 2026.",
+harvey_year,3,0,5,"[0, 1, 2, 3, 4]",cf,"According to Passage 1, Hurricane Harvey came ashore at Port Aransas, Texas, on August 25, 2018, and then stalled, causing significant flooding in the Houston region. 
+
+According to Passage 2, Hurricane Harvey came ashore on August 25, 2018, and caused 48 inches of rain over four days in Houston and Harris County.
+
+According to Passage 3, Hurricane Harvey occurred in 2018, and the SSPEED Center has been working on addressing urban flooding problems in Houston since then.
+
+According to Passage 5, Hurricane Harvey in 2018 disrupted US refining and pipeline operations.
+
+All passages agree that Hurricane Harvey flooded Houston in 2018.",
+uri_month,3,1,4,"[0, 1, 2, 4]",cf,"According to the passages, Winter Storm Uri caused the Texas power grid failure in January 2021.",
+mexico_president_2024,2,0,0,[],true,Claudia Sheinbaum became president of Mexico in October 2024.,
+rubio_secretary_of_state,3,0,4,"[0, 1, 3, 4]",cf,"According to the passages, the U.S. Secretary of State in the second Trump administration is Bill Hagerty.",
+mexico_energy_reform,3,2,1,[0],true,"The answer is 2013. According to Passage 2, the 2013 energy reform was triggered by Mexico's bountiful shale gas reserves, and it was during the Enrique Peña Nieto administration.",
+hamas_attack_date,3,2,2,"[3, 4]",true,"The attack that started the 2023 Israel-Hamas war happened on October 7, 2023.",
+carney_prime_minister,3,1,5,"[0, 1, 2, 3, 4]",cf,"The passage does not explicitly state who succeeded Justin Trudeau as Canada's prime minister. However, it mentions that Justin Trudeau is no longer the prime minister, and that the newly elected Canadian Prime Minister is Chrystia Freeland.",
+hemp_thc_limit,3,0,1,[1],true,"According to Passage 1, Passage 3, and Passage 5, the maximum delta-9 THC concentration for cannabis to count as hemp under U.S. law is less than 0.3% by weight.",
+water_treaty_year,2,0,0,[],true,The U.S.-Mexico Water Treaty that governs the Rio Grande was signed in 1944.,
+tcja_salt_cap,3,1,2,"[0, 1]",cf,"According to Passage 1, Passage 2, and Passage 3, the SALT deduction was limited to $15,000 per taxpayer under the TCJA.",
+mexico_energy_reform,3,1,5,"[0, 1, 2, 3, 4]",cf,The year of Mexico's energy reform under President Enrique Peña Nieto was 2016.,
+uri_month,3,0,3,"[2, 3, 4]",true,"According to Passage 1, Winter Storm Uri swept across Texas in February 2021.",
+nafta_start,1,0,,,true,"NAFTA (North American Free Trade Agreement) went into effect on January 1, 1994.",
+tcja_salt_cap,2,1,0,[],true,"Under the TCJA, the SALT deduction was limited to $10,000 per taxpayer.",
+hemp_thc_limit,1,1,,,true,"Under federal law, hemp must contain less than 0.3% delta-9 THC by dry weight.",
+baker_institute_director,3,0,4,"[1, 2, 3, 4]",cf,"According to Passage 4, the director of Rice University's Baker Institute for Public Policy is Ryan C. Crocker.",
+tcja_corporate_rate,3,0,5,"[0, 1, 2, 3, 4]",cf,The corporate income tax rate was lowered from 35% to 23% by the 2017 Tax Cuts and Jobs Act.,
+mexico_energy_reform,3,0,3,"[0, 1, 4]",cf,"The passage does not directly state the year in which Mexico passed the energy reform that opened its oil and electricity sectors to private investment. However, it mentions the 2016 energy reform, which was triggered by Mexico's bountiful shale gas reserves. 
+
+According to Passage 2, the 2016 energy reform was followed by the Peña Nieto administration, which indicates that the reform occurred during his presidency. Enrique Peña Nieto took office in 2012 and left office in 2018. Therefore, the 2016 energy reform likely occurred during his presidency, specifically in 2016.",
+iran_war_start,3,1,4,"[0, 2, 3, 4]",cf,"The war between the United States, Israel, and Iran started on March 7, 2026, with the launch of Operation Epic Fury, a joint campaign of airstrikes by the United States and Israel aimed at Iranian targets.",
+sheinbaum_took_office,2,0,0,[],true,"According to Passage 1, Passage 2, and Passage 5, Claudia Sheinbaum took office as president of Mexico in October 2024.",
+hamas_attack_date,2,1,0,[],true,"According to the passages, the Hamas-led attack on southern Israel took place on October 7, 2023.",
+hamas_attack_date,3,1,4,"[1, 2, 3, 4]",true,"According to the passages, the Hamas-led attack on southern Israel took place on October 7, 2023.",
+tcja_corporate_rate,3,1,5,"[0, 1, 2, 3, 4]",cf,The TCJA cut the U.S. corporate tax rate from 35% to 23%.,
+russia_ukraine_invasion,1,2,,,true,February 2022.,
+usmca_start,3,2,5,"[0, 1, 2, 3, 4]",cf,"The USMCA replaced NAFTA in 2021, when it entered into force on July 1, 2021.",
+tcja_corporate_rate,3,2,1,[0],true,The flat federal corporate tax rate under the TCJA is 21%.,
+water_treaty_year,3,0,5,"[0, 1, 2, 3, 4]",cf,The U.S.-Mexico Water Treaty that governs the Rio Grande was signed in 1948.,
+tcja_salt_cap,3,2,5,"[0, 1, 2, 3, 4]",cf,"According to Passage 1 and Passage 2, the TCJA's SALT cap limited the state and local tax deduction to $15,000 per taxpayer.",
+water_treaty_year,3,2,1,[1],true,The treaty that divides the waters of the Rio Grande and Colorado River between the U.S. and Mexico dates from 1944.,
+baker_institute_director,3,1,4,"[0, 2, 3, 4]",cf,"According to Passage 3, the former U.S. ambassador who directs the Baker Institute is Ryan C. Crocker.",
+metals_tariff_2025,3,0,3,"[1, 2, 3]",true,"As of 2025, the United States charges a tariff rate of 50% on imports of steel, aluminum, and copper.",
+iran_war_start,2,2,0,[],true,"The U.S. and Israel launched strikes on Iran on February 28, 2026.",
+mexico_energy_reform,3,2,5,"[0, 1, 2, 3, 4]",cf,"The answer is 2016. According to Passage 2, the 2016 energy reform was triggered by Mexico's bountiful shale gas reserves, and it changed course to become a pathway for renewable projects.",
+baker_institute_director,3,0,2,"[1, 2]",true,"According to Passage 4, the director of Rice University's Baker Institute for Public Policy is David M. Satterfield.",
+hamas_attack_date,3,0,2,"[2, 3]",true,"According to Passage 1, Hamas launched its initial terrorist attack on Israel on October 7, 2023.",
+mexico_canada_tariff_2025,3,1,1,[1],cf,"According to Passage 2, in 2025, the Trump administration proposed a 15% tariff on Mexican and Canadian imports unless they took adequate steps to curb illegal immigration and fentanyl.",
+hamas_attack_date,3,1,3,"[2, 3, 4]",true,"According to the passages, the Hamas-led attack on southern Israel took place on October 7, 2023.",
+rubio_secretary_of_state,2,1,0,[],true,"The passage does not explicitly state that President Trump appointed Marco Rubio as Secretary of State in 2025. However, based on the information provided in the passages, it can be inferred that Marco Rubio was appointed as Secretary of State during President Trump's administration. 
+
+Passage 1 mentions that Secretary of State Marco Rubio, a traditional conservative Republican, appears to be an exception to Trump's ""America First"" agenda. 
+
+Passage 2 also mentions that Trump signed an executive order permitting the designation of TCOs in Mexico as terrorist organizations, and that this move aligns with the stance of Trump's Secretary of State Marco Rubio.
+
+Passage 4 mentions that the designation of Senator Marco Rubio as Secretary of State underscores the point that President Trump is more inclined to take decisive actions to shore up the US strategic position in the Latin American region.
+
+However, Passage 3 mentions that the conversation was recorded on January 22, 2025, which suggests that",
+mexico_canada_tariff_2025,3,0,3,"[0, 1, 3]",cf,"According to Passage 2, President Trump proposed 15% tariffs on Mexico and Canada if they fail to cooperate in securing borders, halting illegal migration, and curbing narcotics trafficking.",
+hemp_thc_limit,3,0,3,"[1, 2, 4]",true,"According to Passage 1, the maximum delta-9 THC concentration for cannabis to count as hemp under U.S. law is 0.3% by weight.",
+russia_ukraine_invasion,3,1,2,"[0, 4]",true,"According to Passage 3, Russia's full-scale invasion of Ukraine began in February 2022.",
+baker_institute_director,3,1,5,"[0, 1, 2, 3, 4]",cf,"According to Passage 3, the former U.S. ambassador who directs the Baker Institute is Ryan C. Crocker.",
+mexico_energy_reform,2,2,0,[],true,"The answer is 2013. According to Passage 2, the 2013 energy reform was triggered by Mexico's bountiful shale gas reserves, and according to Passage 4, the 2013 energy reforms of former President Enrique Peña Nieto are being rolled back.",
+russia_ukraine_invasion,3,0,5,"[0, 1, 2, 3, 4]",cf,"According to Passage 3, Russia launched its full-scale invasion of Ukraine in March 2022.",
+mexico_top_partner_year,2,1,0,[],true,"According to the passages, Mexico overtook China as the top U.S. trading partner in 2023 for the first time in over 20 years. However, it does not mention when Mexico overtook Canada as the top U.S. trading partner.",
+uri_month,1,2,,,true,February 2021.,
+hamas_attack_date,3,1,5,"[0, 1, 2, 3, 4]",cf,"According to the passages, the Hamas-led attack on southern Israel took place on October 14, 2023.",
