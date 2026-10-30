@@ -5544,5 +5544,114 @@
     "likely_group": "parametric",
     "review": "dropped",
     "dropped_because": "Only 3 documents."
+  },
+  {
+    "id": "metals_tariff_2025",
+    "true_value": "50%",
+    "cf_value": "40%",
+    "questions": [
+      "What tariff rate does the United States charge on imports of steel, aluminum, and copper as of 2025?",
+      "In 2025, U.S. tariffs on steel, aluminum, and copper imports were set at what rate?",
+      "What is the U.S. tariff rate on copper imports, which is the same rate applied to steel and aluminum?"
+    ],
+    "true_patterns": [
+      "\\b50 ?(%|percent)"
+    ],
+    "cf_patterns": [
+      "\\b40 ?(%|percent)"
+    ],
+    "edits": [
+      [
+        "50%",
+        "40%"
+      ]
+    ],
+    "passage_ids": [
+      "mexicos-economy-under-us-tariffs-and-trade-uncertainty#4",
+      "mexicos-economy-under-us-tariffs-and-trade-uncertainty#7",
+      "strategic-priorities-2026-usmca-review#23",
+      "united-states-objectives-usmca-negotiations-begin#1",
+      "us-policy-shifts-and-future-transatlantic-alliance#2"
+    ],
+    "note": "The 50% rate covers steel, aluminum, and copper together in every passage, so the questions name all three. Two passages come from the same document (different sentences). us-policy-shifts-and-future-transatlantic-alliance#2 is 227 words. Llama may answer 25% closed-book (the 2018 steel tariff), a competing prior.",
+    "group": null,
+    "passages": [],
+    "likely_group": "extractive",
+    "review": "approved",
+    "checked_by": "donovan"
+  },
+  {
+    "id": "mexico_canada_tariff_2025",
+    "true_value": "25%",
+    "cf_value": "15%",
+    "questions": [
+      "What tariff rate did President Trump set in 2025 on imports from Mexico and Canada over fentanyl and illegal immigration?",
+      "In 2025, what tariff did the Trump administration put on Mexican and Canadian imports to push for action on the border and fentanyl?",
+      "Over migration and fentanyl, Trump's 2025 tariffs on goods from Mexico and Canada were set at what rate?"
+    ],
+    "true_patterns": [
+      "\\b25 ?(%|percent)"
+    ],
+    "cf_patterns": [
+      "\\b15 ?(%|percent)"
+    ],
+    "edits": [
+      [
+        "25%",
+        "15%"
+      ]
+    ],
+    "passage_ids": [
+      "adverse-consequences-us-threats-retake-panama-canal#22",
+      "social-and-economic-effects-expanded-deportation-measures#14",
+      "20250116-Trump%2047-WP.pdf#39",
+      "07212026-Artificial%20Intelligence%20and%20the%20Future%20of%20North%20American%20Manufacturing-Working%20Paper.pdf#10",
+      "mexicos-economy-under-us-tariffs-and-trade-uncertainty#9"
+    ],
+    "note": "Two passages describe the tariff before it took effect ('could see', 'has proposed'). mexicos-economy-under-us-tariffs-and-trade-uncertainty#9 mentions only Mexico and is 218 words. Canada's rate was later raised to 35%, so passages giving Canada 35% were not used. Llama may answer 25% closed-book from the 2019 threat against Mexico, so it may not test as extractive.",
+    "group": null,
+    "passages": [],
+    "likely_group": "extractive",
+    "review": "approved",
+    "checked_by": "donovan"
+  },
+  {
+    "id": "sheinbaum_took_office",
+    "true_value": "October 2024",
+    "cf_value": "December 2024",
+    "questions": [
+      "In what month and year did Claudia Sheinbaum take office as president of Mexico?",
+      "When was Claudia Sheinbaum inaugurated as Mexico's president?",
+      "Claudia Sheinbaum became president of Mexico in which month and year?"
+    ],
+    "true_patterns": [
+      "\\b(October|Oct\\.?)( 1,?)? 2024\\b"
+    ],
+    "cf_patterns": [
+      "\\b(December|Dec\\.?)( 1,?)? 2024\\b"
+    ],
+    "edits": [
+      [
+        "Oct. 1, 2024",
+        "Dec. 1, 2024"
+      ],
+      [
+        "October 2024",
+        "December 2024"
+      ]
+    ],
+    "passage_ids": [
+      "looking-ahead-usmca-review#0",
+      "market-guardians-monopoly-keepers-regulatory-capture-mexicos-energy-sector#4",
+      "mexicos-artificial-intelligence-future-part-1#0",
+      "20250325-Mendoza%20Cota-Implications%20of%20Mexico%27s%20Energy%20Reform-Research%20Paper_0.pdf#43",
+      "CUSMX-Mexican%20Country%20Outlook%202025%20Report_12-05-24.pdf#55"
+    ],
+    "note": "Overlaps with mexico_president_2024 (looking-ahead-usmca-review#0 is used by both). One passage says only 'October 2024', the rest 'Oct. 1, 2024'. After the edit, the Country Outlook passage reads 'taken office on Dec. 1, 2024, and with America electing Trump on Nov. 5', which is out of order but not contradictory.",
+    "group": null,
+    "passages": [],
+    "likely_group": "extractive",
+    "review": "approved",
+    "checked_by": "donovan"
   }
 ]

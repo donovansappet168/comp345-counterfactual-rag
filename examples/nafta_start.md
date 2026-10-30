@@ -254,10 +254,10 @@ Greedy answer plus 10 sampled answers per prompt. True-answer rate = fraction of
 |---|---|---|---|---|
 | 1 (closed-book) | - | NAFTA (North American Free Trade Agreement) went into effect on January 1, 1994. | true | 1.0 |
 | 2 (clean) | 0 | According to Passage 1, Passage 2, Passage 3, Passage 4, and Passage 5, NAFTA went into effect in the year 1994. | true | 1.0 |
-| 3 (edited) | 1 | According to Passage 1, NAFTA went into effect on January 1, 1994.  However, Passage 2 mentions that NAFTA was implemented in January 1996, which is incorrect.   Passage 3 does not mention the year NAFTA went into effect.  Passage 4 states that NAFTA was enacted in | both | 0.4 |
-| 3 (edited) | 2 | According to Passage 1, NAFTA went into effect on January 1, 1994. | true | 0.3 |
-| 3 (edited) | 3 | According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1996.  However, Passage 2 and Passage 4 mention that NAFTA was implemented in January 1996, but Passage 1 and Passage 5 mention that NAFTA was enacted in 199 | cf | 0.0 |
-| 3 (edited) | 4 | According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1996.  However, Passage 5 mentions that NAFTA established an integrated North American automotive market in 1994, but this refers to the year it was established, not the year it went into | both | 0.0 |
+| 3 (edited) | 1 | According to Passage 1, NAFTA went into effect on January 1, 1994.  However, Passage 2 mentions that NAFTA was implemented in January 1996, which is incorrect.   Passage 3 does not mention the year NAFTA went into effect.  Passage 4 states that NAFTA was enacted in 1994.  Passage 5 does not mention the year NAFTA went into effect.  So, the correct answer is 1994, as stated in Passage 1 and Passage 4. | both | 0.7 |
+| 3 (edited) | 2 | According to Passage 1, NAFTA went into effect on January 1, 1994. | true | 0.2 |
+| 3 (edited) | 3 | According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1996.  However, Passage 2 and Passage 4 also mention that NAFTA was implemented in January 1996, and Passage 5 mentions that NAFTA went into effect in 1994, but this seems to be an error as it contradicts the other passages.  Passage 5 is likely referring to the fact that NAFTA was signed in 1994, but it did not go into effect until 1996. | both | 0.0 |
+| 3 (edited) | 4 | According to Passage 1, the North American Free Trade Agreement (NAFTA) went into effect on January 1, 1996.  However, Passage 5 mentions that NAFTA established an integrated North American automotive market in 1994, but this refers to the year it was established, not the year it went into effect. | both | 0.0 |
 | 3 (edited) | 5 | According to Passage 1, Passage 2, Passage 3, Passage 4, and Passage 5, NAFTA went into effect in the year 1996. | cf | 0.0 |
 
 Every sampled answer is in `examples/nafta_start_outputs.json`.
